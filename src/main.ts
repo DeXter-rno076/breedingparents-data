@@ -1,3 +1,5 @@
+import fs from 'fs';
+
 import createPkmnDataSets from './pkmn-data/createPkmndata';
 import handleUnpairables from './pkmn-data/handleUnpairables';
 import handleUnbreedables from './pkmn-data/handleUnbreedables';
@@ -9,10 +11,12 @@ import createEggGroupData from './eggGroup-data/eggGroup-data';
 import PkmnObjChecker from './PkmnObjChecker';
 import Logger from './LogHandler';
 import { replaceOldMoveNames } from './pkmn-data/replaceOldMoveNames';
+import { DATA_OUTPUT_DIR, LOG_DIR, SEP_DATA_OUTPUT_DIR } from './constants';
 
 main();
 
 async function main() {
+    setupFileStructure();
     Logger.resetLogs();
 
     console.log(
@@ -47,4 +51,16 @@ async function main() {
         console.log('no problems occured, all clear');
     }
     console.log('data files are in data/separatedoutput')
+}
+
+function setupFileStructure () {
+    if (!fs.existsSync(DATA_OUTPUT_DIR)) {
+        fs.mkdirSync(DATA_OUTPUT_DIR);
+    }
+    if (!fs.existsSync(SEP_DATA_OUTPUT_DIR)) {
+        fs.mkdirSync(SEP_DATA_OUTPUT_DIR);
+    }
+    if (!fs.existsSync(LOG_DIR)) {
+        fs.mkdirSync(LOG_DIR);
+    }
 }

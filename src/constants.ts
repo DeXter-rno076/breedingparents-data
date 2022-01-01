@@ -8,10 +8,10 @@
 export const MAX_FILE_LENGTH = 600_000;
 
 const DATA_DIR = 'data';
-const LOG_PATH = DATA_DIR + '/logs';
-export const E_LOG_PATH = LOG_PATH + '/errorlog.txt';
-export const WARNING_LOG_PATH = LOG_PATH + '/warninglog.txt';
-export const STATUS_LOG_PATH = LOG_PATH + '/statuslog.txt';
+export const LOG_DIR = DATA_DIR + '/logs';
+export const E_LOG_PATH = LOG_DIR + '/errorlog.txt';
+export const WARNING_LOG_PATH = LOG_DIR + '/warninglog.txt';
+export const STATUS_LOG_PATH = LOG_DIR + '/statuslog.txt';
 
 export const DATA_OUTPUT_DIR = DATA_DIR + '/output';
 export const SEP_DATA_OUTPUT_DIR = DATA_DIR + '/separatedoutput';
