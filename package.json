@@ -1,0 +1,17 @@
+{
+  "name": "breedingparents-data",
+  "version": "1.0.0",
+  "description": "Programs for creating the data sets for the specialpage BreedingParents.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "create_datasets": "node built/src/main.js"
+  },
+  "author": "DeXter",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^16.10.2",
+    "mediawiki-bot": "^1.1.2"
+  }
+}

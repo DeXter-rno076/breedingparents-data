@@ -1,0 +1,62 @@
+[
+    {
+        "oldNames": [
+            "Pfund"
+        ],
+        "currentName": "Klaps"
+    },
+    {
+        "oldNames": [
+            "Schnabel"
+        ],
+        "currentName": "Pikser"
+    },
+    {
+        "oldNames": [
+            "Konfustrahl"
+        ],
+        "currentName": "Konfusstrahl"
+    },
+    {
+        "oldNames": [
+            "Giftblick"
+        ],
+        "currentName": "Schlangenblick"
+    },
+    {
+        "oldNames": [
+            "Gesichte"
+        ],
+        "currentName": "Scharfblick"
+    },
+    {
+        "oldNames": [
+            "Rollentausch"
+        ],
+        "currentName": "Rollenspiel"
+    },
+    {
+        "oldNames": [
+            "Wertewechsel"
+        ],
+        "currentName": "Fähigkeitstausch"
+    },
+    {
+        "oldNames": [
+            "Fauna-Statue"
+        ],
+        "currentName": "Flora-Statue"
+    },
+    {
+        "oldNames": [
+            "Pflanzsäulen"
+        ],
+        "currentName": "Pflanzensäulen"
+    },
+    {
+        "oldNames": [
+            "Staffette"
+        ],
+        "currentName": "Stafette"
+    }
+]

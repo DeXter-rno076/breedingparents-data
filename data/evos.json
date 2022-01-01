@@ -1,0 +1,4737 @@
+{
+    "Bisasam": {
+        "pre": "",
+        "name": "Bisasam",
+        "post": "Bisaknosp"
+    },
+    "Bisaknosp": {
+        "pre": "Bisasam",
+        "name": "Bisaknosp",
+        "post": "Bisaflor"
+    },
+    "Bisaflor": {
+        "pre": "Bisaknosp",
+        "name": "Bisaflor",
+        "post": ""
+    },
+    "Glumanda": {
+        "pre": "",
+        "name": "Glumanda",
+        "post": "Glutexo"
+    },
+    "Glutexo": {
+        "pre": "Glumanda",
+        "name": "Glutexo",
+        "post": "Glurak"
+    },
+    "Glurak": {
+        "pre": "Glutexo",
+        "name": "Glurak",
+        "post": ""
+    },
+    "Schiggy": {
+        "pre": "",
+        "name": "Schiggy",
+        "post": "Schillok"
+    },
+    "Schillok": {
+        "pre": "Schiggy",
+        "name": "Schillok",
+        "post": "Turtok"
+    },
+    "Turtok": {
+        "pre": "Schillok",
+        "name": "Turtok",
+        "post": ""
+    },
+    "Raupy": {
+        "pre": "",
+        "name": "Raupy",
+        "post": "Safcon"
+    },
+    "Safcon": {
+        "pre": "Raupy",
+        "name": "Safcon",
+        "post": "Smettbo"
+    },
+    "Smettbo": {
+        "pre": "Safcon",
+        "name": "Smettbo",
+        "post": ""
+    },
+    "Hornliu": {
+        "pre": "",
+        "name": "Hornliu",
+        "post": "Kokuna"
+    },
+    "Kokuna": {
+        "pre": "Hornliu",
+        "name": "Kokuna",
+        "post": "Bibor"
+    },
+    "Bibor": {
+        "pre": "Kokuna",
+        "name": "Bibor",
+        "post": ""
+    },
+    "Taubsi": {
+        "pre": "",
+        "name": "Taubsi",
+        "post": "Tauboga"
+    },
+    "Tauboga": {
+        "pre": "Taubsi",
+        "name": "Tauboga",
+        "post": "Tauboss"
+    },
+    "Tauboss": {
+        "pre": "Tauboga",
+        "name": "Tauboss",
+        "post": ""
+    },
+    "Rattfratz": {
+        "pre": "",
+        "name": "Rattfratz",
+        "post": "Rattikarl"
+    },
+    "Rattikarl": {
+        "pre": "Rattfratz",
+        "name": "Rattikarl",
+        "post": ""
+    },
+    "Alola-Rattfratz": {
+        "pre": "",
+        "name": "Alola-Rattfratz",
+        "post": "Alola-Rattikarl"
+    },
+    "Alola-Rattikarl": {
+        "pre": "Alola-Rattfratz",
+        "name": "Alola-Rattikarl",
+        "post": ""
+    },
+    "Habitak": {
+        "pre": "",
+        "name": "Habitak",
+        "post": "Ibitak"
+    },
+    "Ibitak": {
+        "pre": "Habitak",
+        "name": "Ibitak",
+        "post": ""
+    },
+    "Rettan": {
+        "pre": "",
+        "name": "Rettan",
+        "post": "Arbok"
+    },
+    "Arbok": {
+        "pre": "Rettan",
+        "name": "Arbok",
+        "post": ""
+    },
+    "Pichu": {
+        "pre": "",
+        "name": "Pichu",
+        "post": "Pikachu"
+    },
+    "Pikachu": {
+        "pre": "Pichu",
+        "name": "Pikachu",
+        "post": "Raichu"
+    },
+    "Raichu": {
+        "pre": "Pikachu",
+        "name": "Raichu",
+        "post": ""
+    },
+    "Alola-Raichu": {
+        "pre": "Pikachu",
+        "name": "Alola-Raichu",
+        "post": ""
+    },
+    "Sandan": {
+        "pre": "",
+        "name": "Sandan",
+        "post": "Sandamer"
+    },
+    "Sandamer": {
+        "pre": "Sandan",
+        "name": "Sandamer",
+        "post": ""
+    },
+    "Alola-Sandan": {
+        "pre": "",
+        "name": "Alola-Sandan",
+        "post": "Alola-Sandamer"
+    },
+    "Alola-Sandamer": {
+        "pre": "Alola-Sandan",
+        "name": "Alola-Sandamer",
+        "post": ""
+    },
+    "Nidoran♀": {
+        "pre": "",
+        "name": "Nidoran♀",
+        "post": "Nidorina"
+    },
+    "Nidorina": {
+        "pre": "Nidoran♀",
+        "name": "Nidorina",
+        "post": "Nidoqueen"
+    },
+    "Nidoqueen": {
+        "pre": "Nidorina",
+        "name": "Nidoqueen",
+        "post": ""
+    },
+    "Nidoran♂": {
+        "pre": "",
+        "name": "Nidoran♂",
+        "post": "Nidorino"
+    },
+    "Nidorino": {
+        "pre": "Nidoran♂",
+        "name": "Nidorino",
+        "post": "Nidoking"
+    },
+    "Nidoking": {
+        "pre": "Nidorino",
+        "name": "Nidoking",
+        "post": ""
+    },
+    "Pii": {
+        "pre": "",
+        "name": "Pii",
+        "post": "Piepi"
+    },
+    "Piepi": {
+        "pre": "Pii",
+        "name": "Piepi",
+        "post": "Pixi"
+    },
+    "Pixi": {
+        "pre": "Piepi",
+        "name": "Pixi",
+        "post": ""
+    },
+    "Vulpix": {
+        "pre": "",
+        "name": "Vulpix",
+        "post": "Vulnona"
+    },
+    "Vulnona": {
+        "pre": "Vulpix",
+        "name": "Vulnona",
+        "post": ""
+    },
+    "Alola-Vulpix": {
+        "pre": "",
+        "name": "Alola-Vulpix",
+        "post": "Alola-Vulnona"
+    },
+    "Alola-Vulnona": {
+        "pre": "Alola-Vulpix",
+        "name": "Alola-Vulnona",
+        "post": ""
+    },
+    "Fluffeluff": {
+        "pre": "",
+        "name": "Fluffeluff",
+        "post": "Pummeluff"
+    },
+    "Pummeluff": {
+        "pre": "Fluffeluff",
+        "name": "Pummeluff",
+        "post": "Knuddeluff"
+    },
+    "Knuddeluff": {
+        "pre": "Pummeluff",
+        "name": "Knuddeluff",
+        "post": ""
+    },
+    "Zubat": {
+        "pre": "",
+        "name": "Zubat",
+        "post": "Golbat"
+    },
+    "Golbat": {
+        "pre": "Zubat",
+        "name": "Golbat",
+        "post": "Iksbat"
+    },
+    "Iksbat": {
+        "pre": "Golbat",
+        "name": "Iksbat",
+        "post": ""
+    },
+    "Myrapla": {
+        "pre": "",
+        "name": "Myrapla",
+        "post": "Duflor"
+    },
+    "Duflor": {
+        "pre": "Myrapla",
+        "name": "Duflor",
+        "post": "Giflor"
+    },
+    "Giflor": {
+        "pre": "Duflor",
+        "name": "Giflor",
+        "post": ""
+    },
+    "Blubella": {
+        "pre": "Duflor",
+        "name": "Blubella",
+        "post": ""
+    },
+    "Paras": {
+        "pre": "",
+        "name": "Paras",
+        "post": "Parasek"
+    },
+    "Parasek": {
+        "pre": "Paras",
+        "name": "Parasek",
+        "post": ""
+    },
+    "Bluzuk": {
+        "pre": "",
+        "name": "Bluzuk",
+        "post": "Omot"
+    },
+    "Omot": {
+        "pre": "Bluzuk",
+        "name": "Omot",
+        "post": ""
+    },
+    "Digda": {
+        "pre": "",
+        "name": "Digda",
+        "post": "Digdri"
+    },
+    "Digdri": {
+        "pre": "Digda",
+        "name": "Digdri",
+        "post": ""
+    },
+    "Alola-Digda": {
+        "pre": "",
+        "name": "Alola-Digda",
+        "post": "Alola-Digdri"
+    },
+    "Alola-Digdri": {
+        "pre": "Alola-Digda",
+        "name": "Alola-Digdri",
+        "post": ""
+    },
+    "Mauzi": {
+        "pre": "",
+        "name": "Mauzi",
+        "post": "Snobilikat"
+    },
+    "Snobilikat": {
+        "pre": "Mauzi",
+        "name": "Snobilikat",
+        "post": ""
+    },
+    "Alola-Mauzi": {
+        "pre": "",
+        "name": "Alola-Mauzi",
+        "post": "Alola-Snobilikat"
+    },
+    "Alola-Snobilikat": {
+        "pre": "Alola-Mauzi",
+        "name": "Alola-Snobilikat",
+        "post": ""
+    },
+    "Galar-Mauzi": {
+        "pre": "",
+        "name": "Galar-Mauzi",
+        "post": "Mauzinger"
+    },
+    "Mauzinger": {
+        "pre": "Galar-Mauzi",
+        "name": "Mauzinger",
+        "post": ""
+    },
+    "Enton": {
+        "pre": "",
+        "name": "Enton",
+        "post": "Entoron"
+    },
+    "Entoron": {
+        "pre": "Enton",
+        "name": "Entoron",
+        "post": ""
+    },
+    "Menki": {
+        "pre": "",
+        "name": "Menki",
+        "post": "Rasaff"
+    },
+    "Rasaff": {
+        "pre": "Menki",
+        "name": "Rasaff",
+        "post": ""
+    },
+    "Fukano": {
+        "pre": "",
+        "name": "Fukano",
+        "post": "Arkani"
+    },
+    "Arkani": {
+        "pre": "Fukano",
+        "name": "Arkani",
+        "post": ""
+    },
+    "Hisui-Fukano": {
+        "pre": "",
+        "name": "Hisui-Fukano",
+        "post": ""
+    },
+    "Quapsel": {
+        "pre": "",
+        "name": "Quapsel",
+        "post": "Quaputzi"
+    },
+    "Quaputzi": {
+        "pre": "Quapsel",
+        "name": "Quaputzi",
+        "post": "Quappo"
+    },
+    "Quappo": {
+        "pre": "Quaputzi",
+        "name": "Quappo",
+        "post": ""
+    },
+    "Quaxo": {
+        "pre": "Quaputzi",
+        "name": "Quaxo",
+        "post": ""
+    },
+    "Abra": {
+        "pre": "",
+        "name": "Abra",
+        "post": "Kadabra"
+    },
+    "Kadabra": {
+        "pre": "Abra",
+        "name": "Kadabra",
+        "post": "Simsala"
+    },
+    "Simsala": {
+        "pre": "Kadabra",
+        "name": "Simsala",
+        "post": ""
+    },
+    "Machollo": {
+        "pre": "",
+        "name": "Machollo",
+        "post": "Maschock"
+    },
+    "Maschock": {
+        "pre": "Machollo",
+        "name": "Maschock",
+        "post": "Machomei"
+    },
+    "Machomei": {
+        "pre": "Maschock",
+        "name": "Machomei",
+        "post": ""
+    },
+    "Knofensa": {
+        "pre": "",
+        "name": "Knofensa",
+        "post": "Ultrigaria"
+    },
+    "Ultrigaria": {
+        "pre": "Knofensa",
+        "name": "Ultrigaria",
+        "post": "Sarzenia"
+    },
+    "Sarzenia": {
+        "pre": "Ultrigaria",
+        "name": "Sarzenia",
+        "post": ""
+    },
+    "Tentacha": {
+        "pre": "",
+        "name": "Tentacha",
+        "post": "Tentoxa"
+    },
+    "Tentoxa": {
+        "pre": "Tentacha",
+        "name": "Tentoxa",
+        "post": ""
+    },
+    "Kleinstein": {
+        "pre": "",
+        "name": "Kleinstein",
+        "post": "Georok"
+    },
+    "Georok": {
+        "pre": "Kleinstein",
+        "name": "Georok",
+        "post": "Geowaz"
+    },
+    "Geowaz": {
+        "pre": "Georok",
+        "name": "Geowaz",
+        "post": ""
+    },
+    "Alola-Kleinstein": {
+        "pre": "",
+        "name": "Alola-Kleinstein",
+        "post": "Alola-Georok"
+    },
+    "Alola-Georok": {
+        "pre": "Alola-Kleinstein",
+        "name": "Alola-Georok",
+        "post": "Alola-Geowaz"
+    },
+    "Alola-Geowaz": {
+        "pre": "Alola-Georok",
+        "name": "Alola-Geowaz",
+        "post": ""
+    },
+    "Ponita": {
+        "pre": "",
+        "name": "Ponita",
+        "post": "Gallopa"
+    },
+    "Gallopa": {
+        "pre": "Ponita",
+        "name": "Gallopa",
+        "post": ""
+    },
+    "Galar-Ponita": {
+        "pre": "",
+        "name": "Galar-Ponita",
+        "post": "Galar-Gallopa"
+    },
+    "Galar-Gallopa": {
+        "pre": "Galar-Ponita",
+        "name": "Galar-Gallopa",
+        "post": ""
+    },
+    "Flegmon": {
+        "pre": "",
+        "name": "Flegmon",
+        "post": "Lahmus"
+    },
+    "Lahmus": {
+        "pre": "Flegmon",
+        "name": "Lahmus",
+        "post": ""
+    },
+    "Laschoking": {
+        "pre": "",
+        "name": "Laschoking",
+        "post": ""
+    },
+    "Galar-Flegmon": {
+        "pre": "",
+        "name": "Galar-Flegmon",
+        "post": "Galar-Lahmus"
+    },
+    "Galar-Lahmus": {
+        "pre": "Galar-Flegmon",
+        "name": "Galar-Lahmus",
+        "post": ""
+    },
+    "Galar-Laschoking": {
+        "pre": "Galar-Flegmon",
+        "name": "Galar-Laschoking",
+        "post": ""
+    },
+    "Magnetilo": {
+        "pre": "",
+        "name": "Magnetilo",
+        "post": "Magneton"
+    },
+    "Magneton": {
+        "pre": "Magnetilo",
+        "name": "Magneton",
+        "post": "Magnezone"
+    },
+    "Magnezone": {
+        "pre": "Magneton",
+        "name": "Magnezone",
+        "post": ""
+    },
+    "Porenta": {
+        "pre": "",
+        "name": "Porenta",
+        "post": ""
+    },
+    "Galar-Porenta": {
+        "pre": "",
+        "name": "Galar-Porenta",
+        "post": "Lauchzelot"
+    },
+    "Lauchzelot": {
+        "pre": "Galar-Porenta",
+        "name": "Lauchzelot",
+        "post": ""
+    },
+    "Dodu": {
+        "pre": "",
+        "name": "Dodu",
+        "post": "Dodri"
+    },
+    "Dodri": {
+        "pre": "Dodu",
+        "name": "Dodri",
+        "post": ""
+    },
+    "Jurob": {
+        "pre": "",
+        "name": "Jurob",
+        "post": "Jugong"
+    },
+    "Jugong": {
+        "pre": "Jurob",
+        "name": "Jugong",
+        "post": ""
+    },
+    "Sleima": {
+        "pre": "",
+        "name": "Sleima",
+        "post": "Sleimok"
+    },
+    "Sleimok": {
+        "pre": "Sleima",
+        "name": "Sleimok",
+        "post": ""
+    },
+    "Alola-Sleima": {
+        "pre": "",
+        "name": "Alola-Sleima",
+        "post": "Alola-Sleimok"
+    },
+    "Alola-Sleimok": {
+        "pre": "Alola-Sleima",
+        "name": "Alola-Sleimok",
+        "post": ""
+    },
+    "Muschas": {
+        "pre": "",
+        "name": "Muschas",
+        "post": "Austos"
+    },
+    "Austos": {
+        "pre": "Muschas",
+        "name": "Austos",
+        "post": ""
+    },
+    "Nebulak": {
+        "pre": "",
+        "name": "Nebulak",
+        "post": "Alpollo"
+    },
+    "Alpollo": {
+        "pre": "Nebulak",
+        "name": "Alpollo",
+        "post": "Gengar"
+    },
+    "Gengar": {
+        "pre": "Alpollo",
+        "name": "Gengar",
+        "post": ""
+    },
+    "Onix": {
+        "pre": "",
+        "name": "Onix",
+        "post": "Stahlos"
+    },
+    "Stahlos": {
+        "pre": "Onix",
+        "name": "Stahlos",
+        "post": ""
+    },
+    "Traumato": {
+        "pre": "",
+        "name": "Traumato",
+        "post": "Hypno"
+    },
+    "Hypno": {
+        "pre": "Traumato",
+        "name": "Hypno",
+        "post": ""
+    },
+    "Krabby": {
+        "pre": "",
+        "name": "Krabby",
+        "post": "Kingler"
+    },
+    "Kingler": {
+        "pre": "Krabby",
+        "name": "Kingler",
+        "post": ""
+    },
+    "Voltobal": {
+        "pre": "",
+        "name": "Voltobal",
+        "post": "Lektrobal"
+    },
+    "Lektrobal": {
+        "pre": "Voltobal",
+        "name": "Lektrobal",
+        "post": ""
+    },
+    "Owei": {
+        "pre": "",
+        "name": "Owei",
+        "post": "Kokowei"
+    },
+    "Kokowei": {
+        "pre": "Owei",
+        "name": "Kokowei",
+        "post": ""
+    },
+    "Alola-Kokowei": {
+        "pre": "Owei",
+        "name": "Alola-Kokowei",
+        "post": ""
+    },
+    "Tragosso": {
+        "pre": "",
+        "name": "Tragosso",
+        "post": "Knogga"
+    },
+    "Knogga": {
+        "pre": "Tragosso",
+        "name": "Knogga",
+        "post": ""
+    },
+    "Alola-Knogga": {
+        "pre": "Tragosso",
+        "name": "Alola-Knogga",
+        "post": ""
+    },
+    "Rabauz": {
+        "pre": "",
+        "name": "Rabauz",
+        "post": "Kicklee"
+    },
+    "Kicklee": {
+        "pre": "Rabauz",
+        "name": "Kicklee",
+        "post": ""
+    },
+    "Nockchan": {
+        "pre": "Rabauz",
+        "name": "Nockchan",
+        "post": ""
+    },
+    "Kapoera": {
+        "pre": "Rabauz",
+        "name": "Kapoera",
+        "post": ""
+    },
+    "Schlurp": {
+        "pre": "",
+        "name": "Schlurp",
+        "post": "Schlurplek"
+    },
+    "Schlurplek": {
+        "pre": "Schlurp",
+        "name": "Schlurplek",
+        "post": ""
+    },
+    "Smogon": {
+        "pre": "",
+        "name": "Smogon",
+        "post": "Smogmog"
+    },
+    "Smogmog": {
+        "pre": "Smogon",
+        "name": "Smogmog",
+        "post": ""
+    },
+    "Galar-Smogmog": {
+        "pre": "Smogon",
+        "name": "Galar-Smogmog",
+        "post": ""
+    },
+    "Rihorn": {
+        "pre": "",
+        "name": "Rihorn",
+        "post": "Rizeros"
+    },
+    "Rizeros": {
+        "pre": "Rihorn",
+        "name": "Rizeros",
+        "post": "Rihornior"
+    },
+    "Rihornior": {
+        "pre": "Rizeros",
+        "name": "Rihornior",
+        "post": ""
+    },
+    "Wonneira": {
+        "pre": "",
+        "name": "Wonneira",
+        "post": "Chaneira"
+    },
+    "Chaneira": {
+        "pre": "Wonneira",
+        "name": "Chaneira",
+        "post": "Heiteira"
+    },
+    "Heiteira": {
+        "pre": "Chaneira",
+        "name": "Heiteira",
+        "post": ""
+    },
+    "Tangela": {
+        "pre": "",
+        "name": "Tangela",
+        "post": "Tangoloss"
+    },
+    "Tangoloss": {
+        "pre": "Tangela",
+        "name": "Tangoloss",
+        "post": ""
+    },
+    "Kangama": {
+        "pre": "",
+        "name": "Kangama",
+        "post": ""
+    },
+    "Seeper": {
+        "pre": "",
+        "name": "Seeper",
+        "post": "Seemon"
+    },
+    "Seemon": {
+        "pre": "Seeper",
+        "name": "Seemon",
+        "post": "Seedraking"
+    },
+    "Seedraking": {
+        "pre": "Seemon",
+        "name": "Seedraking",
+        "post": ""
+    },
+    "Goldini": {
+        "pre": "",
+        "name": "Goldini",
+        "post": "Golking"
+    },
+    "Golking": {
+        "pre": "Goldini",
+        "name": "Golking",
+        "post": ""
+    },
+    "Sterndu": {
+        "pre": "",
+        "name": "Sterndu",
+        "post": "Starmie"
+    },
+    "Starmie": {
+        "pre": "Sterndu",
+        "name": "Starmie",
+        "post": ""
+    },
+    "Pantimimi": {
+        "pre": "",
+        "name": "Pantimimi",
+        "post": "Pantimos"
+    },
+    "Pantimos": {
+        "pre": "Pantimimi",
+        "name": "Pantimos",
+        "post": ""
+    },
+    "Galar-Pantimos": {
+        "pre": "Pantimimi",
+        "name": "Galar-Pantimos",
+        "post": "Pantifrost"
+    },
+    "Pantifrost": {
+        "pre": "Galar-Pantimos",
+        "name": "Pantifrost",
+        "post": ""
+    },
+    "Sichlor": {
+        "pre": "",
+        "name": "Sichlor",
+        "post": "Scherox"
+    },
+    "Scherox": {
+        "pre": "Sichlor",
+        "name": "Scherox",
+        "post": ""
+    },
+    "Kussilla": {
+        "pre": "",
+        "name": "Kussilla",
+        "post": "Rossana"
+    },
+    "Rossana": {
+        "pre": "Kussilla",
+        "name": "Rossana",
+        "post": ""
+    },
+    "Elekid": {
+        "pre": "",
+        "name": "Elekid",
+        "post": "Elektek"
+    },
+    "Elektek": {
+        "pre": "Elekid",
+        "name": "Elektek",
+        "post": "Elevoltek"
+    },
+    "Elevoltek": {
+        "pre": "Elektek",
+        "name": "Elevoltek",
+        "post": ""
+    },
+    "Magby": {
+        "pre": "",
+        "name": "Magby",
+        "post": "Magmar"
+    },
+    "Magmar": {
+        "pre": "Magby",
+        "name": "Magmar",
+        "post": "Magbrant"
+    },
+    "Magbrant": {
+        "pre": "Magmar",
+        "name": "Magbrant",
+        "post": ""
+    },
+    "Pinsir": {
+        "pre": "",
+        "name": "Pinsir",
+        "post": ""
+    },
+    "Tauros": {
+        "pre": "",
+        "name": "Tauros",
+        "post": ""
+    },
+    "Karpador": {
+        "pre": "",
+        "name": "Karpador",
+        "post": "Garados"
+    },
+    "Garados": {
+        "pre": "Karpador",
+        "name": "Garados",
+        "post": ""
+    },
+    "Lapras": {
+        "pre": "",
+        "name": "Lapras",
+        "post": ""
+    },
+    "Ditto": {
+        "pre": "",
+        "name": "Ditto",
+        "post": ""
+    },
+    "Evoli": {
+        "pre": "",
+        "name": "Evoli",
+        "post": "Aquana"
+    },
+    "Aquana": {
+        "pre": "Evoli",
+        "name": "Aquana",
+        "post": ""
+    },
+    "Blitza": {
+        "pre": "Evoli",
+        "name": "Blitza",
+        "post": ""
+    },
+    "Flamara": {
+        "pre": "Evoli",
+        "name": "Flamara",
+        "post": ""
+    },
+    "Psiana": {
+        "pre": "Evoli",
+        "name": "Psiana",
+        "post": ""
+    },
+    "Nachtara": {
+        "pre": "Evoli",
+        "name": "Nachtara",
+        "post": ""
+    },
+    "Folipurba": {
+        "pre": "Evoli",
+        "name": "Folipurba",
+        "post": ""
+    },
+    "Glaziola": {
+        "pre": "Evoli",
+        "name": "Glaziola",
+        "post": ""
+    },
+    "Feelinara": {
+        "pre": "Evoli",
+        "name": "Feelinara",
+        "post": ""
+    },
+    "Porygon": {
+        "pre": "",
+        "name": "Porygon",
+        "post": "Porygon2"
+    },
+    "Porygon2": {
+        "pre": "Porygon",
+        "name": "Porygon2",
+        "post": "Porygon-Z"
+    },
+    "Porygon-Z": {
+        "pre": "Porygon2",
+        "name": "Porygon-Z",
+        "post": ""
+    },
+    "Amonitas": {
+        "pre": "",
+        "name": "Amonitas",
+        "post": "Amoroso"
+    },
+    "Amoroso": {
+        "pre": "Amonitas",
+        "name": "Amoroso",
+        "post": ""
+    },
+    "Kabuto": {
+        "pre": "",
+        "name": "Kabuto",
+        "post": "Kabutops"
+    },
+    "Kabutops": {
+        "pre": "Kabuto",
+        "name": "Kabutops",
+        "post": ""
+    },
+    "Aerodactyl": {
+        "pre": "",
+        "name": "Aerodactyl",
+        "post": ""
+    },
+    "Mampfaxo": {
+        "pre": "",
+        "name": "Mampfaxo",
+        "post": "Relaxo"
+    },
+    "Relaxo": {
+        "pre": "Mampfaxo",
+        "name": "Relaxo",
+        "post": ""
+    },
+    "Arktos": {
+        "pre": "",
+        "name": "Arktos",
+        "post": ""
+    },
+    "Galar-Arktos": {
+        "pre": "",
+        "name": "Galar-Arktos",
+        "post": ""
+    },
+    "Zapdos": {
+        "pre": "",
+        "name": "Zapdos",
+        "post": ""
+    },
+    "Galar-Zapdos": {
+        "pre": "",
+        "name": "Galar-Zapdos",
+        "post": ""
+    },
+    "Lavados": {
+        "pre": "",
+        "name": "Lavados",
+        "post": ""
+    },
+    "Galar-Lavados": {
+        "pre": "",
+        "name": "Galar-Lavados",
+        "post": ""
+    },
+    "Dratini": {
+        "pre": "",
+        "name": "Dratini",
+        "post": "Dragonir"
+    },
+    "Dragonir": {
+        "pre": "Dratini",
+        "name": "Dragonir",
+        "post": "Dragoran"
+    },
+    "Dragoran": {
+        "pre": "Dragonir",
+        "name": "Dragoran",
+        "post": ""
+    },
+    "Mewtu": {
+        "pre": "",
+        "name": "Mewtu",
+        "post": ""
+    },
+    "Mew": {
+        "pre": "",
+        "name": "Mew",
+        "post": ""
+    },
+    "Endivie": {
+        "pre": "",
+        "name": "Endivie",
+        "post": "Lorblatt"
+    },
+    "Lorblatt": {
+        "pre": "Endivie",
+        "name": "Lorblatt",
+        "post": "Meganie"
+    },
+    "Meganie": {
+        "pre": "Lorblatt",
+        "name": "Meganie",
+        "post": ""
+    },
+    "Feurigel": {
+        "pre": "",
+        "name": "Feurigel",
+        "post": "Igelavar"
+    },
+    "Igelavar": {
+        "pre": "Feurigel",
+        "name": "Igelavar",
+        "post": "Tornupto"
+    },
+    "Tornupto": {
+        "pre": "Igelavar",
+        "name": "Tornupto",
+        "post": ""
+    },
+    "Karnimani": {
+        "pre": "",
+        "name": "Karnimani",
+        "post": "Tyracroc"
+    },
+    "Tyracroc": {
+        "pre": "Karnimani",
+        "name": "Tyracroc",
+        "post": "Impergator"
+    },
+    "Impergator": {
+        "pre": "Tyracroc",
+        "name": "Impergator",
+        "post": ""
+    },
+    "Wiesor": {
+        "pre": "",
+        "name": "Wiesor",
+        "post": "Wiesenior"
+    },
+    "Wiesenior": {
+        "pre": "Wiesor",
+        "name": "Wiesenior",
+        "post": ""
+    },
+    "Hoothoot": {
+        "pre": "",
+        "name": "Hoothoot",
+        "post": "Noctuh"
+    },
+    "Noctuh": {
+        "pre": "Hoothoot",
+        "name": "Noctuh",
+        "post": ""
+    },
+    "Ledyba": {
+        "pre": "",
+        "name": "Ledyba",
+        "post": "Ledian"
+    },
+    "Ledian": {
+        "pre": "Ledyba",
+        "name": "Ledian",
+        "post": ""
+    },
+    "Webarak": {
+        "pre": "",
+        "name": "Webarak",
+        "post": "Ariados"
+    },
+    "Ariados": {
+        "pre": "Webarak",
+        "name": "Ariados",
+        "post": ""
+    },
+    "Lampi": {
+        "pre": "",
+        "name": "Lampi",
+        "post": "Lanturn"
+    },
+    "Lanturn": {
+        "pre": "Lampi",
+        "name": "Lanturn",
+        "post": ""
+    },
+    "Togepi": {
+        "pre": "",
+        "name": "Togepi",
+        "post": "Togetic"
+    },
+    "Togetic": {
+        "pre": "Togepi",
+        "name": "Togetic",
+        "post": "Togekiss"
+    },
+    "Togekiss": {
+        "pre": "Togetic",
+        "name": "Togekiss",
+        "post": ""
+    },
+    "Natu": {
+        "pre": "",
+        "name": "Natu",
+        "post": "Xatu"
+    },
+    "Xatu": {
+        "pre": "Natu",
+        "name": "Xatu",
+        "post": ""
+    },
+    "Voltilamm": {
+        "pre": "",
+        "name": "Voltilamm",
+        "post": "Waaty"
+    },
+    "Waaty": {
+        "pre": "Voltilamm",
+        "name": "Waaty",
+        "post": "Ampharos"
+    },
+    "Ampharos": {
+        "pre": "Waaty",
+        "name": "Ampharos",
+        "post": ""
+    },
+    "Azurill": {
+        "pre": "",
+        "name": "Azurill",
+        "post": "Marill"
+    },
+    "Marill": {
+        "pre": "Azurill",
+        "name": "Marill",
+        "post": "Azumarill"
+    },
+    "Azumarill": {
+        "pre": "Marill",
+        "name": "Azumarill",
+        "post": ""
+    },
+    "Mobai": {
+        "pre": "",
+        "name": "Mobai",
+        "post": "Mogelbaum"
+    },
+    "Mogelbaum": {
+        "pre": "Mobai",
+        "name": "Mogelbaum",
+        "post": ""
+    },
+    "Hoppspross": {
+        "pre": "",
+        "name": "Hoppspross",
+        "post": "Hubelupf"
+    },
+    "Hubelupf": {
+        "pre": "Hoppspross",
+        "name": "Hubelupf",
+        "post": "Papungha"
+    },
+    "Papungha": {
+        "pre": "Hubelupf",
+        "name": "Papungha",
+        "post": ""
+    },
+    "Griffel": {
+        "pre": "",
+        "name": "Griffel",
+        "post": "Ambidiffel"
+    },
+    "Ambidiffel": {
+        "pre": "Griffel",
+        "name": "Ambidiffel",
+        "post": ""
+    },
+    "Sonnkern": {
+        "pre": "",
+        "name": "Sonnkern",
+        "post": "Sonnflora"
+    },
+    "Sonnflora": {
+        "pre": "Sonnkern",
+        "name": "Sonnflora",
+        "post": ""
+    },
+    "Yanma": {
+        "pre": "",
+        "name": "Yanma",
+        "post": "Yanmega"
+    },
+    "Yanmega": {
+        "pre": "Yanma",
+        "name": "Yanmega",
+        "post": ""
+    },
+    "Felino": {
+        "pre": "",
+        "name": "Felino",
+        "post": "Morlord"
+    },
+    "Morlord": {
+        "pre": "Felino",
+        "name": "Morlord",
+        "post": ""
+    },
+    "Kramurx": {
+        "pre": "",
+        "name": "Kramurx",
+        "post": "Kramshef"
+    },
+    "Kramshef": {
+        "pre": "Kramurx",
+        "name": "Kramshef",
+        "post": ""
+    },
+    "Traunfugil": {
+        "pre": "",
+        "name": "Traunfugil",
+        "post": "Traunmagil"
+    },
+    "Traunmagil": {
+        "pre": "Traunfugil",
+        "name": "Traunmagil",
+        "post": ""
+    },
+    "Icognito": {
+        "pre": "",
+        "name": "Icognito",
+        "post": ""
+    },
+    "Isso": {
+        "pre": "",
+        "name": "Isso",
+        "post": "Woingenau"
+    },
+    "Woingenau": {
+        "pre": "Isso",
+        "name": "Woingenau",
+        "post": ""
+    },
+    "Girafarig": {
+        "pre": "",
+        "name": "Girafarig",
+        "post": ""
+    },
+    "Tannza": {
+        "pre": "",
+        "name": "Tannza",
+        "post": "Forstellka"
+    },
+    "Forstellka": {
+        "pre": "Tannza",
+        "name": "Forstellka",
+        "post": ""
+    },
+    "Dummisel": {
+        "pre": "",
+        "name": "Dummisel",
+        "post": ""
+    },
+    "Skorgla": {
+        "pre": "",
+        "name": "Skorgla",
+        "post": "Skorgro"
+    },
+    "Skorgro": {
+        "pre": "Skorgla",
+        "name": "Skorgro",
+        "post": ""
+    },
+    "Snubbull": {
+        "pre": "",
+        "name": "Snubbull",
+        "post": "Granbull"
+    },
+    "Granbull": {
+        "pre": "Snubbull",
+        "name": "Granbull",
+        "post": ""
+    },
+    "Baldorfish": {
+        "pre": "",
+        "name": "Baldorfish",
+        "post": ""
+    },
+    "Pottrott": {
+        "pre": "",
+        "name": "Pottrott",
+        "post": ""
+    },
+    "Skaraborn": {
+        "pre": "",
+        "name": "Skaraborn",
+        "post": ""
+    },
+    "Sniebel": {
+        "pre": "",
+        "name": "Sniebel",
+        "post": "Snibunna"
+    },
+    "Snibunna": {
+        "pre": "Sniebel",
+        "name": "Snibunna",
+        "post": ""
+    },
+    "Teddiursa": {
+        "pre": "",
+        "name": "Teddiursa",
+        "post": "Ursaring"
+    },
+    "Ursaring": {
+        "pre": "Teddiursa",
+        "name": "Ursaring",
+        "post": ""
+    },
+    "Schneckmag": {
+        "pre": "",
+        "name": "Schneckmag",
+        "post": "Magcargo"
+    },
+    "Magcargo": {
+        "pre": "Schneckmag",
+        "name": "Magcargo",
+        "post": ""
+    },
+    "Quiekel": {
+        "pre": "",
+        "name": "Quiekel",
+        "post": "Keifel"
+    },
+    "Keifel": {
+        "pre": "Quiekel",
+        "name": "Keifel",
+        "post": "Mamutel"
+    },
+    "Mamutel": {
+        "pre": "Keifel",
+        "name": "Mamutel",
+        "post": ""
+    },
+    "Corasonn": {
+        "pre": "",
+        "name": "Corasonn",
+        "post": ""
+    },
+    "Galar-Corasonn": {
+        "pre": "",
+        "name": "Galar-Corasonn",
+        "post": "Gorgasonn"
+    },
+    "Gorgasonn": {
+        "pre": "Galar-Corasonn",
+        "name": "Gorgasonn",
+        "post": ""
+    },
+    "Remoraid": {
+        "pre": "",
+        "name": "Remoraid",
+        "post": "Octillery"
+    },
+    "Octillery": {
+        "pre": "Remoraid",
+        "name": "Octillery",
+        "post": ""
+    },
+    "Botogel": {
+        "pre": "",
+        "name": "Botogel",
+        "post": ""
+    },
+    "Mantirps": {
+        "pre": "",
+        "name": "Mantirps",
+        "post": "Mantax"
+    },
+    "Mantax": {
+        "pre": "Mantirps",
+        "name": "Mantax",
+        "post": ""
+    },
+    "Panzaeron": {
+        "pre": "",
+        "name": "Panzaeron",
+        "post": ""
+    },
+    "Hunduster": {
+        "pre": "",
+        "name": "Hunduster",
+        "post": "Hundemon"
+    },
+    "Hundemon": {
+        "pre": "Hunduster",
+        "name": "Hundemon",
+        "post": ""
+    },
+    "Phanpy": {
+        "pre": "",
+        "name": "Phanpy",
+        "post": "Donphan"
+    },
+    "Donphan": {
+        "pre": "Phanpy",
+        "name": "Donphan",
+        "post": ""
+    },
+    "Damhirplex": {
+        "pre": "",
+        "name": "Damhirplex",
+        "post": ""
+    },
+    "Farbeagle": {
+        "pre": "",
+        "name": "Farbeagle",
+        "post": ""
+    },
+    "Miltank": {
+        "pre": "",
+        "name": "Miltank",
+        "post": ""
+    },
+    "Raikou": {
+        "pre": "",
+        "name": "Raikou",
+        "post": ""
+    },
+    "Entei": {
+        "pre": "",
+        "name": "Entei",
+        "post": ""
+    },
+    "Suicune": {
+        "pre": "",
+        "name": "Suicune",
+        "post": ""
+    },
+    "Larvitar": {
+        "pre": "",
+        "name": "Larvitar",
+        "post": "Pupitar"
+    },
+    "Pupitar": {
+        "pre": "Larvitar",
+        "name": "Pupitar",
+        "post": "Despotar"
+    },
+    "Despotar": {
+        "pre": "Pupitar",
+        "name": "Despotar",
+        "post": ""
+    },
+    "Lugia": {
+        "pre": "",
+        "name": "Lugia",
+        "post": ""
+    },
+    "Ho-Oh": {
+        "pre": "",
+        "name": "Ho-Oh",
+        "post": ""
+    },
+    "Celebi": {
+        "pre": "",
+        "name": "Celebi",
+        "post": ""
+    },
+    "Geckarbor": {
+        "pre": "",
+        "name": "Geckarbor",
+        "post": "Reptain"
+    },
+    "Reptain": {
+        "pre": "Geckarbor",
+        "name": "Reptain",
+        "post": "Gewaldro"
+    },
+    "Gewaldro": {
+        "pre": "Reptain",
+        "name": "Gewaldro",
+        "post": ""
+    },
+    "Flemmli": {
+        "pre": "",
+        "name": "Flemmli",
+        "post": "Jungglut"
+    },
+    "Jungglut": {
+        "pre": "Flemmli",
+        "name": "Jungglut",
+        "post": "Lohgock"
+    },
+    "Lohgock": {
+        "pre": "Jungglut",
+        "name": "Lohgock",
+        "post": ""
+    },
+    "Hydropi": {
+        "pre": "",
+        "name": "Hydropi",
+        "post": "Moorabbel"
+    },
+    "Moorabbel": {
+        "pre": "Hydropi",
+        "name": "Moorabbel",
+        "post": "Sumpex"
+    },
+    "Sumpex": {
+        "pre": "Moorabbel",
+        "name": "Sumpex",
+        "post": ""
+    },
+    "Fiffyen": {
+        "pre": "",
+        "name": "Fiffyen",
+        "post": "Magnayen"
+    },
+    "Magnayen": {
+        "pre": "Fiffyen",
+        "name": "Magnayen",
+        "post": ""
+    },
+    "Zigzachs": {
+        "pre": "",
+        "name": "Zigzachs",
+        "post": "Geradaks"
+    },
+    "Geradaks": {
+        "pre": "Zigzachs",
+        "name": "Geradaks",
+        "post": ""
+    },
+    "Galar-Zigzachs": {
+        "pre": "",
+        "name": "Galar-Zigzachs",
+        "post": "Galar-Geradaks"
+    },
+    "Galar-Geradaks": {
+        "pre": "Galar-Zigzachs",
+        "name": "Galar-Geradaks",
+        "post": "Barrikadax"
+    },
+    "Barrikadax": {
+        "pre": "Galar-Geradaks",
+        "name": "Barrikadax",
+        "post": ""
+    },
+    "Waumpel": {
+        "pre": "",
+        "name": "Waumpel",
+        "post": "Schaloko"
+    },
+    "Schaloko": {
+        "pre": "Waumpel",
+        "name": "Schaloko",
+        "post": "Papinella"
+    },
+    "Papinella": {
+        "pre": "Schaloko",
+        "name": "Papinella",
+        "post": ""
+    },
+    "Panekon": {
+        "pre": "Waumpel",
+        "name": "Panekon",
+        "post": "Pudox"
+    },
+    "Pudox": {
+        "pre": "Panekon",
+        "name": "Pudox",
+        "post": ""
+    },
+    "Loturzel": {
+        "pre": "",
+        "name": "Loturzel",
+        "post": "Lombrero"
+    },
+    "Lombrero": {
+        "pre": "Loturzel",
+        "name": "Lombrero",
+        "post": "Kappalores"
+    },
+    "Kappalores": {
+        "pre": "Lombrero",
+        "name": "Kappalores",
+        "post": ""
+    },
+    "Samurzel": {
+        "pre": "",
+        "name": "Samurzel",
+        "post": "Blanas"
+    },
+    "Blanas": {
+        "pre": "Samurzel",
+        "name": "Blanas",
+        "post": "Tengulist"
+    },
+    "Tengulist": {
+        "pre": "Blanas",
+        "name": "Tengulist",
+        "post": ""
+    },
+    "Schwalbini": {
+        "pre": "",
+        "name": "Schwalbini",
+        "post": "Schwalboss"
+    },
+    "Schwalboss": {
+        "pre": "Schwalbini",
+        "name": "Schwalboss",
+        "post": ""
+    },
+    "Wingull": {
+        "pre": "",
+        "name": "Wingull",
+        "post": "Pelipper"
+    },
+    "Pelipper": {
+        "pre": "Wingull",
+        "name": "Pelipper",
+        "post": ""
+    },
+    "Trasla": {
+        "pre": "",
+        "name": "Trasla",
+        "post": "Kirlia"
+    },
+    "Kirlia": {
+        "pre": "Trasla",
+        "name": "Kirlia",
+        "post": "Guardevoir"
+    },
+    "Guardevoir": {
+        "pre": "Kirlia",
+        "name": "Guardevoir",
+        "post": ""
+    },
+    "Galagladi": {
+        "pre": "Kirlia",
+        "name": "Galagladi",
+        "post": ""
+    },
+    "Gehweiher": {
+        "pre": "",
+        "name": "Gehweiher",
+        "post": "Maskeregen"
+    },
+    "Maskeregen": {
+        "pre": "Gehweiher",
+        "name": "Maskeregen",
+        "post": ""
+    },
+    "Knilz": {
+        "pre": "",
+        "name": "Knilz",
+        "post": "Kapilz"
+    },
+    "Kapilz": {
+        "pre": "Knilz",
+        "name": "Kapilz",
+        "post": ""
+    },
+    "Bummelz": {
+        "pre": "",
+        "name": "Bummelz",
+        "post": "Muntier"
+    },
+    "Muntier": {
+        "pre": "Bummelz",
+        "name": "Muntier",
+        "post": "Letarking"
+    },
+    "Letarking": {
+        "pre": "Muntier",
+        "name": "Letarking",
+        "post": ""
+    },
+    "Nincada": {
+        "pre": "",
+        "name": "Nincada",
+        "post": "Ninjask"
+    },
+    "Ninjask": {
+        "pre": "Nincada",
+        "name": "Ninjask",
+        "post": ""
+    },
+    "Ninjatom": {
+        "pre": "Nincada",
+        "name": "Ninjatom",
+        "post": ""
+    },
+    "Flurmel": {
+        "pre": "",
+        "name": "Flurmel",
+        "post": "Krakeelo"
+    },
+    "Krakeelo": {
+        "pre": "Flurmel",
+        "name": "Krakeelo",
+        "post": "Krawumms"
+    },
+    "Krawumms": {
+        "pre": "Krakeelo",
+        "name": "Krawumms",
+        "post": ""
+    },
+    "Makuhita": {
+        "pre": "",
+        "name": "Makuhita",
+        "post": "Hariyama"
+    },
+    "Hariyama": {
+        "pre": "Makuhita",
+        "name": "Hariyama",
+        "post": ""
+    },
+    "Nasgnet": {
+        "pre": "",
+        "name": "Nasgnet",
+        "post": "Voluminas"
+    },
+    "Voluminas": {
+        "pre": "Nasgnet",
+        "name": "Voluminas",
+        "post": ""
+    },
+    "Eneco": {
+        "pre": "",
+        "name": "Eneco",
+        "post": "Enekoro"
+    },
+    "Enekoro": {
+        "pre": "Eneco",
+        "name": "Enekoro",
+        "post": ""
+    },
+    "Zobiris": {
+        "pre": "",
+        "name": "Zobiris",
+        "post": ""
+    },
+    "Flunkifer": {
+        "pre": "",
+        "name": "Flunkifer",
+        "post": ""
+    },
+    "Stollunior": {
+        "pre": "",
+        "name": "Stollunior",
+        "post": "Stollrak"
+    },
+    "Stollrak": {
+        "pre": "Stollunior",
+        "name": "Stollrak",
+        "post": "Stolloss"
+    },
+    "Stolloss": {
+        "pre": "Stollrak",
+        "name": "Stolloss",
+        "post": ""
+    },
+    "Meditie": {
+        "pre": "",
+        "name": "Meditie",
+        "post": "Meditalis"
+    },
+    "Meditalis": {
+        "pre": "Meditie",
+        "name": "Meditalis",
+        "post": ""
+    },
+    "Frizelbliz": {
+        "pre": "",
+        "name": "Frizelbliz",
+        "post": "Voltenso"
+    },
+    "Voltenso": {
+        "pre": "Frizelbliz",
+        "name": "Voltenso",
+        "post": ""
+    },
+    "Plusle": {
+        "pre": "",
+        "name": "Plusle",
+        "post": ""
+    },
+    "Minun": {
+        "pre": "",
+        "name": "Minun",
+        "post": ""
+    },
+    "Volbeat": {
+        "pre": "",
+        "name": "Volbeat",
+        "post": ""
+    },
+    "Illumise": {
+        "pre": "",
+        "name": "Illumise",
+        "post": ""
+    },
+    "Knospi": {
+        "pre": "",
+        "name": "Knospi",
+        "post": "Roselia"
+    },
+    "Roselia": {
+        "pre": "Knospi",
+        "name": "Roselia",
+        "post": "Roserade"
+    },
+    "Roserade": {
+        "pre": "Roselia",
+        "name": "Roserade",
+        "post": ""
+    },
+    "Schluppuck": {
+        "pre": "",
+        "name": "Schluppuck",
+        "post": "Schlukwech"
+    },
+    "Schlukwech": {
+        "pre": "Schluppuck",
+        "name": "Schlukwech",
+        "post": ""
+    },
+    "Kanivanha": {
+        "pre": "",
+        "name": "Kanivanha",
+        "post": "Tohaido"
+    },
+    "Tohaido": {
+        "pre": "Kanivanha",
+        "name": "Tohaido",
+        "post": ""
+    },
+    "Wailmer": {
+        "pre": "",
+        "name": "Wailmer",
+        "post": "Wailord"
+    },
+    "Wailord": {
+        "pre": "Wailmer",
+        "name": "Wailord",
+        "post": ""
+    },
+    "Camaub": {
+        "pre": "",
+        "name": "Camaub",
+        "post": "Camerupt"
+    },
+    "Camerupt": {
+        "pre": "Camaub",
+        "name": "Camerupt",
+        "post": ""
+    },
+    "Qurtel": {
+        "pre": "",
+        "name": "Qurtel",
+        "post": ""
+    },
+    "Spoink": {
+        "pre": "",
+        "name": "Spoink",
+        "post": "Groink"
+    },
+    "Groink": {
+        "pre": "Spoink",
+        "name": "Groink",
+        "post": ""
+    },
+    "Pandir": {
+        "pre": "",
+        "name": "Pandir",
+        "post": ""
+    },
+    "Knacklion": {
+        "pre": "",
+        "name": "Knacklion",
+        "post": "Vibrava"
+    },
+    "Vibrava": {
+        "pre": "Knacklion",
+        "name": "Vibrava",
+        "post": "Libelldra"
+    },
+    "Libelldra": {
+        "pre": "Vibrava",
+        "name": "Libelldra",
+        "post": ""
+    },
+    "Tuska": {
+        "pre": "",
+        "name": "Tuska",
+        "post": "Noktuska"
+    },
+    "Noktuska": {
+        "pre": "Tuska",
+        "name": "Noktuska",
+        "post": ""
+    },
+    "Wablu": {
+        "pre": "",
+        "name": "Wablu",
+        "post": "Altaria"
+    },
+    "Altaria": {
+        "pre": "Wablu",
+        "name": "Altaria",
+        "post": ""
+    },
+    "Sengo": {
+        "pre": "",
+        "name": "Sengo",
+        "post": ""
+    },
+    "Vipitis": {
+        "pre": "",
+        "name": "Vipitis",
+        "post": ""
+    },
+    "Lunastein": {
+        "pre": "",
+        "name": "Lunastein",
+        "post": ""
+    },
+    "Sonnfel": {
+        "pre": "",
+        "name": "Sonnfel",
+        "post": ""
+    },
+    "Schmerbe": {
+        "pre": "",
+        "name": "Schmerbe",
+        "post": "Welsar"
+    },
+    "Welsar": {
+        "pre": "Schmerbe",
+        "name": "Welsar",
+        "post": ""
+    },
+    "Krebscorps": {
+        "pre": "",
+        "name": "Krebscorps",
+        "post": "Krebutack"
+    },
+    "Krebutack": {
+        "pre": "Krebscorps",
+        "name": "Krebutack",
+        "post": ""
+    },
+    "Puppance": {
+        "pre": "",
+        "name": "Puppance",
+        "post": "Lepumentas"
+    },
+    "Lepumentas": {
+        "pre": "Puppance",
+        "name": "Lepumentas",
+        "post": ""
+    },
+    "Liliep": {
+        "pre": "",
+        "name": "Liliep",
+        "post": "Wielie"
+    },
+    "Wielie": {
+        "pre": "Liliep",
+        "name": "Wielie",
+        "post": ""
+    },
+    "Anorith": {
+        "pre": "",
+        "name": "Anorith",
+        "post": "Armaldo"
+    },
+    "Armaldo": {
+        "pre": "Anorith",
+        "name": "Armaldo",
+        "post": ""
+    },
+    "Barschwa": {
+        "pre": "",
+        "name": "Barschwa",
+        "post": "Milotic"
+    },
+    "Milotic": {
+        "pre": "Barschwa",
+        "name": "Milotic",
+        "post": ""
+    },
+    "Formeo": {
+        "pre": "",
+        "name": "Formeo",
+        "post": ""
+    },
+    "Kecleon": {
+        "pre": "",
+        "name": "Kecleon",
+        "post": ""
+    },
+    "Shuppet": {
+        "pre": "",
+        "name": "Shuppet",
+        "post": "Banette"
+    },
+    "Banette": {
+        "pre": "Shuppet",
+        "name": "Banette",
+        "post": ""
+    },
+    "Zwirrlicht": {
+        "pre": "",
+        "name": "Zwirrlicht",
+        "post": "Zwirrklop"
+    },
+    "Zwirrklop": {
+        "pre": "Zwirrlicht",
+        "name": "Zwirrklop",
+        "post": "Zwirrfinst"
+    },
+    "Zwirrfinst": {
+        "pre": "Zwirrklop",
+        "name": "Zwirrfinst",
+        "post": ""
+    },
+    "Tropius": {
+        "pre": "",
+        "name": "Tropius",
+        "post": ""
+    },
+    "Klingplim": {
+        "pre": "",
+        "name": "Klingplim",
+        "post": "Palimpalim"
+    },
+    "Palimpalim": {
+        "pre": "Klingplim",
+        "name": "Palimpalim",
+        "post": ""
+    },
+    "Absol": {
+        "pre": "",
+        "name": "Absol",
+        "post": ""
+    },
+    "Schneppke": {
+        "pre": "",
+        "name": "Schneppke",
+        "post": "Firnontor"
+    },
+    "Firnontor": {
+        "pre": "Schneppke",
+        "name": "Firnontor",
+        "post": ""
+    },
+    "Frosdedje": {
+        "pre": "Schneppke",
+        "name": "Frosdedje",
+        "post": ""
+    },
+    "Seemops": {
+        "pre": "",
+        "name": "Seemops",
+        "post": "Seejong"
+    },
+    "Seejong": {
+        "pre": "Seemops",
+        "name": "Seejong",
+        "post": "Walraisa"
+    },
+    "Walraisa": {
+        "pre": "Seejong",
+        "name": "Walraisa",
+        "post": ""
+    },
+    "Perlu": {
+        "pre": "",
+        "name": "Perlu",
+        "post": "Aalabyss"
+    },
+    "Aalabyss": {
+        "pre": "Perlu",
+        "name": "Aalabyss",
+        "post": ""
+    },
+    "Saganabyss": {
+        "pre": "Perlu",
+        "name": "Saganabyss",
+        "post": ""
+    },
+    "Relicanth": {
+        "pre": "",
+        "name": "Relicanth",
+        "post": ""
+    },
+    "Liebiskus": {
+        "pre": "",
+        "name": "Liebiskus",
+        "post": ""
+    },
+    "Kindwurm": {
+        "pre": "",
+        "name": "Kindwurm",
+        "post": "Draschel"
+    },
+    "Draschel": {
+        "pre": "Kindwurm",
+        "name": "Draschel",
+        "post": "Brutalanda"
+    },
+    "Brutalanda": {
+        "pre": "Draschel",
+        "name": "Brutalanda",
+        "post": ""
+    },
+    "Tanhel": {
+        "pre": "",
+        "name": "Tanhel",
+        "post": "Metang"
+    },
+    "Metang": {
+        "pre": "Tanhel",
+        "name": "Metang",
+        "post": "Metagross"
+    },
+    "Metagross": {
+        "pre": "Metang",
+        "name": "Metagross",
+        "post": ""
+    },
+    "Regirock": {
+        "pre": "",
+        "name": "Regirock",
+        "post": ""
+    },
+    "Regice": {
+        "pre": "",
+        "name": "Regice",
+        "post": ""
+    },
+    "Registeel": {
+        "pre": "",
+        "name": "Registeel",
+        "post": ""
+    },
+    "Latias": {
+        "pre": "",
+        "name": "Latias",
+        "post": ""
+    },
+    "Latios": {
+        "pre": "",
+        "name": "Latios",
+        "post": ""
+    },
+    "Kyogre": {
+        "pre": "",
+        "name": "Kyogre",
+        "post": ""
+    },
+    "Groudon": {
+        "pre": "",
+        "name": "Groudon",
+        "post": ""
+    },
+    "Rayquaza": {
+        "pre": "",
+        "name": "Rayquaza",
+        "post": ""
+    },
+    "Jirachi": {
+        "pre": "",
+        "name": "Jirachi",
+        "post": ""
+    },
+    "Deoxys": {
+        "pre": "",
+        "name": "Deoxys",
+        "post": ""
+    },
+    "Chelast": {
+        "pre": "",
+        "name": "Chelast",
+        "post": "Chelcarain"
+    },
+    "Chelcarain": {
+        "pre": "Chelast",
+        "name": "Chelcarain",
+        "post": "Chelterrar"
+    },
+    "Chelterrar": {
+        "pre": "Chelcarain",
+        "name": "Chelterrar",
+        "post": ""
+    },
+    "Panflam": {
+        "pre": "",
+        "name": "Panflam",
+        "post": "Panpyro"
+    },
+    "Panpyro": {
+        "pre": "Panflam",
+        "name": "Panpyro",
+        "post": "Panferno"
+    },
+    "Panferno": {
+        "pre": "Panpyro",
+        "name": "Panferno",
+        "post": ""
+    },
+    "Plinfa": {
+        "pre": "",
+        "name": "Plinfa",
+        "post": "Pliprin"
+    },
+    "Pliprin": {
+        "pre": "Plinfa",
+        "name": "Pliprin",
+        "post": "Impoleon"
+    },
+    "Impoleon": {
+        "pre": "Pliprin",
+        "name": "Impoleon",
+        "post": ""
+    },
+    "Staralili": {
+        "pre": "",
+        "name": "Staralili",
+        "post": "Staravia"
+    },
+    "Staravia": {
+        "pre": "Staralili",
+        "name": "Staravia",
+        "post": "Staraptor"
+    },
+    "Staraptor": {
+        "pre": "Staravia",
+        "name": "Staraptor",
+        "post": ""
+    },
+    "Bidiza": {
+        "pre": "",
+        "name": "Bidiza",
+        "post": "Bidifas"
+    },
+    "Bidifas": {
+        "pre": "Bidiza",
+        "name": "Bidifas",
+        "post": ""
+    },
+    "Zirpurze": {
+        "pre": "",
+        "name": "Zirpurze",
+        "post": "Zirpeise"
+    },
+    "Zirpeise": {
+        "pre": "Zirpurze",
+        "name": "Zirpeise",
+        "post": ""
+    },
+    "Sheinux": {
+        "pre": "",
+        "name": "Sheinux",
+        "post": "Luxio"
+    },
+    "Luxio": {
+        "pre": "Sheinux",
+        "name": "Luxio",
+        "post": "Luxtra"
+    },
+    "Luxtra": {
+        "pre": "Luxio",
+        "name": "Luxtra",
+        "post": ""
+    },
+    "Koknodon": {
+        "pre": "",
+        "name": "Koknodon",
+        "post": "Rameidon"
+    },
+    "Rameidon": {
+        "pre": "Koknodon",
+        "name": "Rameidon",
+        "post": ""
+    },
+    "Schilterus": {
+        "pre": "",
+        "name": "Schilterus",
+        "post": "Bollterus"
+    },
+    "Bollterus": {
+        "pre": "Schilterus",
+        "name": "Bollterus",
+        "post": ""
+    },
+    "Burmy": {
+        "pre": "",
+        "name": "Burmy",
+        "post": "Burmadame"
+    },
+    "Burmadame": {
+        "pre": "Burmy",
+        "name": "Burmadame",
+        "post": ""
+    },
+    "Moterpel": {
+        "pre": "Burmy",
+        "name": "Moterpel",
+        "post": ""
+    },
+    "Wadribie": {
+        "pre": "",
+        "name": "Wadribie",
+        "post": "Honweisel"
+    },
+    "Honweisel": {
+        "pre": "Wadribie",
+        "name": "Honweisel",
+        "post": ""
+    },
+    "Pachirisu": {
+        "pre": "",
+        "name": "Pachirisu",
+        "post": ""
+    },
+    "Bamelin": {
+        "pre": "",
+        "name": "Bamelin",
+        "post": "Bojelin"
+    },
+    "Bojelin": {
+        "pre": "Bamelin",
+        "name": "Bojelin",
+        "post": ""
+    },
+    "Kikugi": {
+        "pre": "",
+        "name": "Kikugi",
+        "post": "Kinoso"
+    },
+    "Kinoso": {
+        "pre": "Kikugi",
+        "name": "Kinoso",
+        "post": ""
+    },
+    "Schalellos": {
+        "pre": "",
+        "name": "Schalellos",
+        "post": "Gastrodon"
+    },
+    "Gastrodon": {
+        "pre": "Schalellos",
+        "name": "Gastrodon",
+        "post": ""
+    },
+    "Driftlon": {
+        "pre": "",
+        "name": "Driftlon",
+        "post": "Drifzepeli"
+    },
+    "Drifzepeli": {
+        "pre": "Driftlon",
+        "name": "Drifzepeli",
+        "post": ""
+    },
+    "Haspiror": {
+        "pre": "",
+        "name": "Haspiror",
+        "post": "Schlapor"
+    },
+    "Schlapor": {
+        "pre": "Haspiror",
+        "name": "Schlapor",
+        "post": ""
+    },
+    "Charmian": {
+        "pre": "",
+        "name": "Charmian",
+        "post": "Shnurgarst"
+    },
+    "Shnurgarst": {
+        "pre": "Charmian",
+        "name": "Shnurgarst",
+        "post": ""
+    },
+    "Skunkapuh": {
+        "pre": "",
+        "name": "Skunkapuh",
+        "post": "Skuntank"
+    },
+    "Skuntank": {
+        "pre": "Skunkapuh",
+        "name": "Skuntank",
+        "post": ""
+    },
+    "Bronzel": {
+        "pre": "",
+        "name": "Bronzel",
+        "post": "Bronzong"
+    },
+    "Bronzong": {
+        "pre": "Bronzel",
+        "name": "Bronzong",
+        "post": ""
+    },
+    "Plaudagei": {
+        "pre": "",
+        "name": "Plaudagei",
+        "post": ""
+    },
+    "Kryppuk": {
+        "pre": "",
+        "name": "Kryppuk",
+        "post": ""
+    },
+    "Kaumalat": {
+        "pre": "",
+        "name": "Kaumalat",
+        "post": "Knarksel"
+    },
+    "Knarksel": {
+        "pre": "Kaumalat",
+        "name": "Knarksel",
+        "post": "Knakrack"
+    },
+    "Knakrack": {
+        "pre": "Knarksel",
+        "name": "Knakrack",
+        "post": ""
+    },
+    "Riolu": {
+        "pre": "",
+        "name": "Riolu",
+        "post": "Lucario"
+    },
+    "Lucario": {
+        "pre": "Riolu",
+        "name": "Lucario",
+        "post": ""
+    },
+    "Hippopotas": {
+        "pre": "",
+        "name": "Hippopotas",
+        "post": "Hippoterus"
+    },
+    "Hippoterus": {
+        "pre": "Hippopotas",
+        "name": "Hippoterus",
+        "post": ""
+    },
+    "Pionskora": {
+        "pre": "",
+        "name": "Pionskora",
+        "post": "Piondragi"
+    },
+    "Piondragi": {
+        "pre": "Pionskora",
+        "name": "Piondragi",
+        "post": ""
+    },
+    "Glibunkel": {
+        "pre": "",
+        "name": "Glibunkel",
+        "post": "Toxiquak"
+    },
+    "Toxiquak": {
+        "pre": "Glibunkel",
+        "name": "Toxiquak",
+        "post": ""
+    },
+    "Venuflibis": {
+        "pre": "",
+        "name": "Venuflibis",
+        "post": ""
+    },
+    "Finneon": {
+        "pre": "",
+        "name": "Finneon",
+        "post": "Lumineon"
+    },
+    "Lumineon": {
+        "pre": "Finneon",
+        "name": "Lumineon",
+        "post": ""
+    },
+    "Shnebedeck": {
+        "pre": "",
+        "name": "Shnebedeck",
+        "post": "Rexblisar"
+    },
+    "Rexblisar": {
+        "pre": "Shnebedeck",
+        "name": "Rexblisar",
+        "post": ""
+    },
+    "Rotom": {
+        "pre": "",
+        "name": "Rotom",
+        "post": ""
+    },
+    "Selfe": {
+        "pre": "",
+        "name": "Selfe",
+        "post": ""
+    },
+    "Vesprit": {
+        "pre": "",
+        "name": "Vesprit",
+        "post": ""
+    },
+    "Tobutz": {
+        "pre": "",
+        "name": "Tobutz",
+        "post": ""
+    },
+    "Dialga": {
+        "pre": "",
+        "name": "Dialga",
+        "post": ""
+    },
+    "Palkia": {
+        "pre": "",
+        "name": "Palkia",
+        "post": ""
+    },
+    "Heatran": {
+        "pre": "",
+        "name": "Heatran",
+        "post": ""
+    },
+    "Regigigas": {
+        "pre": "",
+        "name": "Regigigas",
+        "post": ""
+    },
+    "Giratina": {
+        "pre": "",
+        "name": "Giratina",
+        "post": ""
+    },
+    "Cresselia": {
+        "pre": "",
+        "name": "Cresselia",
+        "post": ""
+    },
+    "Phione": {
+        "pre": "",
+        "name": "Phione",
+        "post": ""
+    },
+    "Manaphy": {
+        "pre": "",
+        "name": "Manaphy",
+        "post": ""
+    },
+    "Darkrai": {
+        "pre": "",
+        "name": "Darkrai",
+        "post": ""
+    },
+    "Shaymin": {
+        "pre": "",
+        "name": "Shaymin",
+        "post": ""
+    },
+    "Arceus": {
+        "pre": "",
+        "name": "Arceus",
+        "post": ""
+    },
+    "Victini": {
+        "pre": "",
+        "name": "Victini",
+        "post": ""
+    },
+    "Serpifeu": {
+        "pre": "",
+        "name": "Serpifeu",
+        "post": "Efoserp"
+    },
+    "Efoserp": {
+        "pre": "Serpifeu",
+        "name": "Efoserp",
+        "post": "Serpiroyal"
+    },
+    "Serpiroyal": {
+        "pre": "Efoserp",
+        "name": "Serpiroyal",
+        "post": ""
+    },
+    "Floink": {
+        "pre": "",
+        "name": "Floink",
+        "post": "Ferkokel"
+    },
+    "Ferkokel": {
+        "pre": "Floink",
+        "name": "Ferkokel",
+        "post": "Flambirex"
+    },
+    "Flambirex": {
+        "pre": "Ferkokel",
+        "name": "Flambirex",
+        "post": ""
+    },
+    "Ottaro": {
+        "pre": "",
+        "name": "Ottaro",
+        "post": "Zwottronin"
+    },
+    "Zwottronin": {
+        "pre": "Ottaro",
+        "name": "Zwottronin",
+        "post": "Admurai"
+    },
+    "Admurai": {
+        "pre": "Zwottronin",
+        "name": "Admurai",
+        "post": ""
+    },
+    "Nagelotz": {
+        "pre": "",
+        "name": "Nagelotz",
+        "post": "Kukmarda"
+    },
+    "Kukmarda": {
+        "pre": "Nagelotz",
+        "name": "Kukmarda",
+        "post": ""
+    },
+    "Yorkleff": {
+        "pre": "",
+        "name": "Yorkleff",
+        "post": "Terribark"
+    },
+    "Terribark": {
+        "pre": "Yorkleff",
+        "name": "Terribark",
+        "post": "Bissbark"
+    },
+    "Bissbark": {
+        "pre": "Terribark",
+        "name": "Bissbark",
+        "post": ""
+    },
+    "Felilou": {
+        "pre": "",
+        "name": "Felilou",
+        "post": "Kleoparda"
+    },
+    "Kleoparda": {
+        "pre": "Felilou",
+        "name": "Kleoparda",
+        "post": ""
+    },
+    "Vegimak": {
+        "pre": "",
+        "name": "Vegimak",
+        "post": "Vegichita"
+    },
+    "Vegichita": {
+        "pre": "Vegimak",
+        "name": "Vegichita",
+        "post": ""
+    },
+    "Grillmak": {
+        "pre": "",
+        "name": "Grillmak",
+        "post": "Grillchita"
+    },
+    "Grillchita": {
+        "pre": "Grillmak",
+        "name": "Grillchita",
+        "post": ""
+    },
+    "Sodamak": {
+        "pre": "",
+        "name": "Sodamak",
+        "post": "Sodachita"
+    },
+    "Sodachita": {
+        "pre": "Sodamak",
+        "name": "Sodachita",
+        "post": ""
+    },
+    "Somniam": {
+        "pre": "",
+        "name": "Somniam",
+        "post": "Somnivora"
+    },
+    "Somnivora": {
+        "pre": "Somniam",
+        "name": "Somnivora",
+        "post": ""
+    },
+    "Dusselgurr": {
+        "pre": "",
+        "name": "Dusselgurr",
+        "post": "Navitaub"
+    },
+    "Navitaub": {
+        "pre": "Dusselgurr",
+        "name": "Navitaub",
+        "post": "Fasasnob"
+    },
+    "Fasasnob": {
+        "pre": "Navitaub",
+        "name": "Fasasnob",
+        "post": ""
+    },
+    "Elezeba": {
+        "pre": "",
+        "name": "Elezeba",
+        "post": "Zebritz"
+    },
+    "Zebritz": {
+        "pre": "Elezeba",
+        "name": "Zebritz",
+        "post": ""
+    },
+    "Kiesling": {
+        "pre": "",
+        "name": "Kiesling",
+        "post": "Sedimantur"
+    },
+    "Sedimantur": {
+        "pre": "Kiesling",
+        "name": "Sedimantur",
+        "post": "Brockoloss"
+    },
+    "Brockoloss": {
+        "pre": "Sedimantur",
+        "name": "Brockoloss",
+        "post": ""
+    },
+    "Fleknoil": {
+        "pre": "",
+        "name": "Fleknoil",
+        "post": "Fletiamo"
+    },
+    "Fletiamo": {
+        "pre": "Fleknoil",
+        "name": "Fletiamo",
+        "post": ""
+    },
+    "Rotomurf": {
+        "pre": "",
+        "name": "Rotomurf",
+        "post": "Stalobor"
+    },
+    "Stalobor": {
+        "pre": "Rotomurf",
+        "name": "Stalobor",
+        "post": ""
+    },
+    "Ohrdoch": {
+        "pre": "",
+        "name": "Ohrdoch",
+        "post": ""
+    },
+    "Praktibalk": {
+        "pre": "",
+        "name": "Praktibalk",
+        "post": "Strepoli"
+    },
+    "Strepoli": {
+        "pre": "Praktibalk",
+        "name": "Strepoli",
+        "post": "Meistagrif"
+    },
+    "Meistagrif": {
+        "pre": "Strepoli",
+        "name": "Meistagrif",
+        "post": ""
+    },
+    "Schallquap": {
+        "pre": "",
+        "name": "Schallquap",
+        "post": "Mebrana"
+    },
+    "Mebrana": {
+        "pre": "Schallquap",
+        "name": "Mebrana",
+        "post": "Branawarz"
+    },
+    "Branawarz": {
+        "pre": "Mebrana",
+        "name": "Branawarz",
+        "post": ""
+    },
+    "Jiutesto": {
+        "pre": "",
+        "name": "Jiutesto",
+        "post": ""
+    },
+    "Karadonis": {
+        "pre": "",
+        "name": "Karadonis",
+        "post": ""
+    },
+    "Strawickl": {
+        "pre": "",
+        "name": "Strawickl",
+        "post": "Folikon"
+    },
+    "Folikon": {
+        "pre": "Strawickl",
+        "name": "Folikon",
+        "post": "Matrifol"
+    },
+    "Matrifol": {
+        "pre": "Folikon",
+        "name": "Matrifol",
+        "post": ""
+    },
+    "Toxiped": {
+        "pre": "",
+        "name": "Toxiped",
+        "post": "Rollum"
+    },
+    "Rollum": {
+        "pre": "Toxiped",
+        "name": "Rollum",
+        "post": "Cerapendra"
+    },
+    "Cerapendra": {
+        "pre": "Rollum",
+        "name": "Cerapendra",
+        "post": ""
+    },
+    "Waumboll": {
+        "pre": "",
+        "name": "Waumboll",
+        "post": "Elfun"
+    },
+    "Elfun": {
+        "pre": "Waumboll",
+        "name": "Elfun",
+        "post": ""
+    },
+    "Lilminip": {
+        "pre": "",
+        "name": "Lilminip",
+        "post": "Dressella"
+    },
+    "Dressella": {
+        "pre": "Lilminip",
+        "name": "Dressella",
+        "post": ""
+    },
+    "Barschuft": {
+        "pre": "",
+        "name": "Barschuft",
+        "post": ""
+    },
+    "Ganovil": {
+        "pre": "",
+        "name": "Ganovil",
+        "post": "Rokkaiman"
+    },
+    "Rokkaiman": {
+        "pre": "Ganovil",
+        "name": "Rokkaiman",
+        "post": "Rabigator"
+    },
+    "Rabigator": {
+        "pre": "Rokkaiman",
+        "name": "Rabigator",
+        "post": ""
+    },
+    "Flampion": {
+        "pre": "",
+        "name": "Flampion",
+        "post": "Flampivian"
+    },
+    "Flampivian": {
+        "pre": "Flampion",
+        "name": "Flampivian",
+        "post": ""
+    },
+    "Galar-Flampion": {
+        "pre": "",
+        "name": "Galar-Flampion",
+        "post": "Galar-Flampivian"
+    },
+    "Galar-Flampivian": {
+        "pre": "Galar-Flampion",
+        "name": "Galar-Flampivian",
+        "post": ""
+    },
+    "Maracamba": {
+        "pre": "",
+        "name": "Maracamba",
+        "post": ""
+    },
+    "Lithomith": {
+        "pre": "",
+        "name": "Lithomith",
+        "post": "Castellith"
+    },
+    "Castellith": {
+        "pre": "Lithomith",
+        "name": "Castellith",
+        "post": ""
+    },
+    "Zurrokex": {
+        "pre": "",
+        "name": "Zurrokex",
+        "post": "Irokex"
+    },
+    "Irokex": {
+        "pre": "Zurrokex",
+        "name": "Irokex",
+        "post": ""
+    },
+    "Symvolara": {
+        "pre": "",
+        "name": "Symvolara",
+        "post": ""
+    },
+    "Makabaja": {
+        "pre": "",
+        "name": "Makabaja",
+        "post": "Echnatoll"
+    },
+    "Echnatoll": {
+        "pre": "Makabaja",
+        "name": "Echnatoll",
+        "post": ""
+    },
+    "Galar-Makabaja": {
+        "pre": "",
+        "name": "Galar-Makabaja",
+        "post": "Oghnatoll"
+    },
+    "Oghnatoll": {
+        "pre": "Galar-Makabaja",
+        "name": "Oghnatoll",
+        "post": ""
+    },
+    "Galapaflos": {
+        "pre": "",
+        "name": "Galapaflos",
+        "post": "Karippas"
+    },
+    "Karippas": {
+        "pre": "Galapaflos",
+        "name": "Karippas",
+        "post": ""
+    },
+    "Flapteryx": {
+        "pre": "",
+        "name": "Flapteryx",
+        "post": "Aeropteryx"
+    },
+    "Aeropteryx": {
+        "pre": "Flapteryx",
+        "name": "Aeropteryx",
+        "post": ""
+    },
+    "Unratütox": {
+        "pre": "",
+        "name": "Unratütox",
+        "post": "Deponitox"
+    },
+    "Deponitox": {
+        "pre": "Unratütox",
+        "name": "Deponitox",
+        "post": ""
+    },
+    "Zorua": {
+        "pre": "",
+        "name": "Zorua",
+        "post": "Zoroark"
+    },
+    "Zoroark": {
+        "pre": "Zorua",
+        "name": "Zoroark",
+        "post": ""
+    },
+    "Hisui-Zorua": {
+        "pre": "",
+        "name": "Hisui-Zorua",
+        "post": "Hisui-Zoroark"
+    },
+    "Hisui-Zoroark": {
+        "pre": "Hisui-Zorua",
+        "name": "Hisui-Zoroark",
+        "post": ""
+    },
+    "Picochilla": {
+        "pre": "",
+        "name": "Picochilla",
+        "post": "Chillabell"
+    },
+    "Chillabell": {
+        "pre": "Picochilla",
+        "name": "Chillabell",
+        "post": ""
+    },
+    "Mollimorba": {
+        "pre": "",
+        "name": "Mollimorba",
+        "post": "Hypnomorba"
+    },
+    "Hypnomorba": {
+        "pre": "Mollimorba",
+        "name": "Hypnomorba",
+        "post": "Morbitesse"
+    },
+    "Morbitesse": {
+        "pre": "Hypnomorba",
+        "name": "Morbitesse",
+        "post": ""
+    },
+    "Monozyto": {
+        "pre": "",
+        "name": "Monozyto",
+        "post": "Mitodos"
+    },
+    "Mitodos": {
+        "pre": "Monozyto",
+        "name": "Mitodos",
+        "post": "Zytomega"
+    },
+    "Zytomega": {
+        "pre": "Mitodos",
+        "name": "Zytomega",
+        "post": ""
+    },
+    "Piccolente": {
+        "pre": "",
+        "name": "Piccolente",
+        "post": "Swaroness"
+    },
+    "Swaroness": {
+        "pre": "Piccolente",
+        "name": "Swaroness",
+        "post": ""
+    },
+    "Gelatini": {
+        "pre": "",
+        "name": "Gelatini",
+        "post": "Gelatroppo"
+    },
+    "Gelatroppo": {
+        "pre": "Gelatini",
+        "name": "Gelatroppo",
+        "post": "Gelatwino"
+    },
+    "Gelatwino": {
+        "pre": "Gelatroppo",
+        "name": "Gelatwino",
+        "post": ""
+    },
+    "Sesokitz": {
+        "pre": "",
+        "name": "Sesokitz",
+        "post": "Kronjuwild"
+    },
+    "Kronjuwild": {
+        "pre": "Sesokitz",
+        "name": "Kronjuwild",
+        "post": ""
+    },
+    "Emolga": {
+        "pre": "",
+        "name": "Emolga",
+        "post": ""
+    },
+    "Laukaps": {
+        "pre": "",
+        "name": "Laukaps",
+        "post": "Cavalanzas"
+    },
+    "Cavalanzas": {
+        "pre": "Laukaps",
+        "name": "Cavalanzas",
+        "post": ""
+    },
+    "Tarnpignon": {
+        "pre": "",
+        "name": "Tarnpignon",
+        "post": "Hutsassa"
+    },
+    "Hutsassa": {
+        "pre": "Tarnpignon",
+        "name": "Hutsassa",
+        "post": ""
+    },
+    "Quabbel": {
+        "pre": "",
+        "name": "Quabbel",
+        "post": "Apoquallyp"
+    },
+    "Apoquallyp": {
+        "pre": "Quabbel",
+        "name": "Apoquallyp",
+        "post": ""
+    },
+    "Mamolida": {
+        "pre": "",
+        "name": "Mamolida",
+        "post": ""
+    },
+    "Wattzapf": {
+        "pre": "",
+        "name": "Wattzapf",
+        "post": "Voltula"
+    },
+    "Voltula": {
+        "pre": "Wattzapf",
+        "name": "Voltula",
+        "post": ""
+    },
+    "Kastadur": {
+        "pre": "",
+        "name": "Kastadur",
+        "post": "Tentantel"
+    },
+    "Tentantel": {
+        "pre": "Kastadur",
+        "name": "Tentantel",
+        "post": ""
+    },
+    "Klikk": {
+        "pre": "",
+        "name": "Klikk",
+        "post": "Kliklak"
+    },
+    "Kliklak": {
+        "pre": "Klikk",
+        "name": "Kliklak",
+        "post": "Klikdiklak"
+    },
+    "Klikdiklak": {
+        "pre": "Kliklak",
+        "name": "Klikdiklak",
+        "post": ""
+    },
+    "Zapplardin": {
+        "pre": "",
+        "name": "Zapplardin",
+        "post": "Zapplalek"
+    },
+    "Zapplalek": {
+        "pre": "Zapplardin",
+        "name": "Zapplalek",
+        "post": "Zapplarang"
+    },
+    "Zapplarang": {
+        "pre": "Zapplalek",
+        "name": "Zapplarang",
+        "post": ""
+    },
+    "Pygraulon": {
+        "pre": "",
+        "name": "Pygraulon",
+        "post": "Megalon"
+    },
+    "Megalon": {
+        "pre": "Pygraulon",
+        "name": "Megalon",
+        "post": ""
+    },
+    "Lichtel": {
+        "pre": "",
+        "name": "Lichtel",
+        "post": "Laternecto"
+    },
+    "Laternecto": {
+        "pre": "Lichtel",
+        "name": "Laternecto",
+        "post": "Skelabra"
+    },
+    "Skelabra": {
+        "pre": "Laternecto",
+        "name": "Skelabra",
+        "post": ""
+    },
+    "Milza": {
+        "pre": "",
+        "name": "Milza",
+        "post": "Sharfax"
+    },
+    "Sharfax": {
+        "pre": "Milza",
+        "name": "Sharfax",
+        "post": "Maxax"
+    },
+    "Maxax": {
+        "pre": "Sharfax",
+        "name": "Maxax",
+        "post": ""
+    },
+    "Petznief": {
+        "pre": "",
+        "name": "Petznief",
+        "post": "Siberio"
+    },
+    "Siberio": {
+        "pre": "Petznief",
+        "name": "Siberio",
+        "post": ""
+    },
+    "Frigometri": {
+        "pre": "",
+        "name": "Frigometri",
+        "post": ""
+    },
+    "Schnuthelm": {
+        "pre": "",
+        "name": "Schnuthelm",
+        "post": "Hydragil"
+    },
+    "Hydragil": {
+        "pre": "Schnuthelm",
+        "name": "Hydragil",
+        "post": ""
+    },
+    "Flunschlik": {
+        "pre": "",
+        "name": "Flunschlik",
+        "post": ""
+    },
+    "Galar-Flunschlik": {
+        "pre": "",
+        "name": "Galar-Flunschlik",
+        "post": ""
+    },
+    "Lin-Fu": {
+        "pre": "",
+        "name": "Lin-Fu",
+        "post": "Wie-Shu"
+    },
+    "Wie-Shu": {
+        "pre": "Lin-Fu",
+        "name": "Wie-Shu",
+        "post": ""
+    },
+    "Shardrago": {
+        "pre": "",
+        "name": "Shardrago",
+        "post": ""
+    },
+    "Golbit": {
+        "pre": "",
+        "name": "Golbit",
+        "post": "Golgantes"
+    },
+    "Golgantes": {
+        "pre": "Golbit",
+        "name": "Golgantes",
+        "post": ""
+    },
+    "Gladiantri": {
+        "pre": "",
+        "name": "Gladiantri",
+        "post": "Caesurio"
+    },
+    "Caesurio": {
+        "pre": "Gladiantri",
+        "name": "Caesurio",
+        "post": ""
+    },
+    "Bisofank": {
+        "pre": "",
+        "name": "Bisofank",
+        "post": ""
+    },
+    "Geronimatz": {
+        "pre": "",
+        "name": "Geronimatz",
+        "post": "Washakwil"
+    },
+    "Washakwil": {
+        "pre": "Geronimatz",
+        "name": "Washakwil",
+        "post": ""
+    },
+    "Hisui-Washakwil": {
+        "pre": "",
+        "name": "Hisui-Washakwil",
+        "post": ""
+    },
+    "Skallyk": {
+        "pre": "",
+        "name": "Skallyk",
+        "post": "Grypheldis"
+    },
+    "Grypheldis": {
+        "pre": "Skallyk",
+        "name": "Grypheldis",
+        "post": ""
+    },
+    "Furnifraß": {
+        "pre": "",
+        "name": "Furnifraß",
+        "post": ""
+    },
+    "Fermicula": {
+        "pre": "",
+        "name": "Fermicula",
+        "post": ""
+    },
+    "Kapuno": {
+        "pre": "",
+        "name": "Kapuno",
+        "post": "Duodino"
+    },
+    "Duodino": {
+        "pre": "Kapuno",
+        "name": "Duodino",
+        "post": "Trikephalo"
+    },
+    "Trikephalo": {
+        "pre": "Duodino",
+        "name": "Trikephalo",
+        "post": ""
+    },
+    "Ignivor": {
+        "pre": "",
+        "name": "Ignivor",
+        "post": "Ramoth"
+    },
+    "Ramoth": {
+        "pre": "Ignivor",
+        "name": "Ramoth",
+        "post": ""
+    },
+    "Kobalium": {
+        "pre": "",
+        "name": "Kobalium",
+        "post": ""
+    },
+    "Terrakium": {
+        "pre": "",
+        "name": "Terrakium",
+        "post": ""
+    },
+    "Viridium": {
+        "pre": "",
+        "name": "Viridium",
+        "post": ""
+    },
+    "Boreos": {
+        "pre": "",
+        "name": "Boreos",
+        "post": ""
+    },
+    "Voltolos": {
+        "pre": "",
+        "name": "Voltolos",
+        "post": ""
+    },
+    "Reshiram": {
+        "pre": "",
+        "name": "Reshiram",
+        "post": ""
+    },
+    "Zekrom": {
+        "pre": "",
+        "name": "Zekrom",
+        "post": ""
+    },
+    "Demeteros": {
+        "pre": "",
+        "name": "Demeteros",
+        "post": ""
+    },
+    "Kyurem": {
+        "pre": "",
+        "name": "Kyurem",
+        "post": ""
+    },
+    "Keldeo": {
+        "pre": "",
+        "name": "Keldeo",
+        "post": ""
+    },
+    "Meloetta": {
+        "pre": "",
+        "name": "Meloetta",
+        "post": ""
+    },
+    "Genesect": {
+        "pre": "",
+        "name": "Genesect",
+        "post": ""
+    },
+    "Igamaro": {
+        "pre": "",
+        "name": "Igamaro",
+        "post": "Igastarnish"
+    },
+    "Igastarnish": {
+        "pre": "Igamaro",
+        "name": "Igastarnish",
+        "post": "Brigaron"
+    },
+    "Brigaron": {
+        "pre": "Igastarnish",
+        "name": "Brigaron",
+        "post": ""
+    },
+    "Fynx": {
+        "pre": "",
+        "name": "Fynx",
+        "post": "Rutena"
+    },
+    "Rutena": {
+        "pre": "Fynx",
+        "name": "Rutena",
+        "post": "Fennexis"
+    },
+    "Fennexis": {
+        "pre": "Rutena",
+        "name": "Fennexis",
+        "post": ""
+    },
+    "Froxy": {
+        "pre": "",
+        "name": "Froxy",
+        "post": "Amphizel"
+    },
+    "Amphizel": {
+        "pre": "Froxy",
+        "name": "Amphizel",
+        "post": "Quajutsu"
+    },
+    "Quajutsu": {
+        "pre": "Amphizel",
+        "name": "Quajutsu",
+        "post": ""
+    },
+    "Scoppel": {
+        "pre": "",
+        "name": "Scoppel",
+        "post": "Grebbit"
+    },
+    "Grebbit": {
+        "pre": "Scoppel",
+        "name": "Grebbit",
+        "post": ""
+    },
+    "Dartiri": {
+        "pre": "",
+        "name": "Dartiri",
+        "post": "Dartignis"
+    },
+    "Dartignis": {
+        "pre": "Dartiri",
+        "name": "Dartignis",
+        "post": "Fiaro"
+    },
+    "Fiaro": {
+        "pre": "Dartignis",
+        "name": "Fiaro",
+        "post": ""
+    },
+    "Purmel": {
+        "pre": "",
+        "name": "Purmel",
+        "post": "Puponcho"
+    },
+    "Puponcho": {
+        "pre": "Purmel",
+        "name": "Puponcho",
+        "post": "Vivillon"
+    },
+    "Vivillon": {
+        "pre": "Puponcho",
+        "name": "Vivillon",
+        "post": ""
+    },
+    "Leufeo": {
+        "pre": "",
+        "name": "Leufeo",
+        "post": "Pyroleo"
+    },
+    "Pyroleo": {
+        "pre": "Leufeo",
+        "name": "Pyroleo",
+        "post": ""
+    },
+    "Flabébé": {
+        "pre": "",
+        "name": "Flabébé",
+        "post": "Floette"
+    },
+    "Floette": {
+        "pre": "Flabébé",
+        "name": "Floette",
+        "post": "Florges"
+    },
+    "Florges": {
+        "pre": "Floette",
+        "name": "Florges",
+        "post": ""
+    },
+    "Mähikel": {
+        "pre": "",
+        "name": "Mähikel",
+        "post": "Chevrumm"
+    },
+    "Chevrumm": {
+        "pre": "Mähikel",
+        "name": "Chevrumm",
+        "post": ""
+    },
+    "Pam-Pam": {
+        "pre": "",
+        "name": "Pam-Pam",
+        "post": "Pandagro"
+    },
+    "Pandagro": {
+        "pre": "Pam-Pam",
+        "name": "Pandagro",
+        "post": ""
+    },
+    "Coiffwaff": {
+        "pre": "",
+        "name": "Coiffwaff",
+        "post": ""
+    },
+    "Psiau": {
+        "pre": "",
+        "name": "Psiau",
+        "post": "Psiaugon"
+    },
+    "Psiaugon": {
+        "pre": "",
+        "name": "Psiaugon",
+        "post": ""
+    },
+    "Gramokles": {
+        "pre": "",
+        "name": "Gramokles",
+        "post": "Duokles"
+    },
+    "Duokles": {
+        "pre": "Gramokles",
+        "name": "Duokles",
+        "post": "Durengard"
+    },
+    "Durengard": {
+        "pre": "Duokles",
+        "name": "Durengard",
+        "post": ""
+    },
+    "Parfi": {
+        "pre": "",
+        "name": "Parfi",
+        "post": "Parfinesse"
+    },
+    "Parfinesse": {
+        "pre": "Parfi",
+        "name": "Parfinesse",
+        "post": ""
+    },
+    "Flauschling": {
+        "pre": "",
+        "name": "Flauschling",
+        "post": "Sabbaione"
+    },
+    "Sabbaione": {
+        "pre": "Flauschling",
+        "name": "Sabbaione",
+        "post": ""
+    },
+    "Iscalar": {
+        "pre": "",
+        "name": "Iscalar",
+        "post": "Calamanero"
+    },
+    "Calamanero": {
+        "pre": "Iscalar",
+        "name": "Calamanero",
+        "post": ""
+    },
+    "Bithora": {
+        "pre": "",
+        "name": "Bithora",
+        "post": "Thanathora"
+    },
+    "Thanathora": {
+        "pre": "Bithora",
+        "name": "Thanathora",
+        "post": ""
+    },
+    "Algitt": {
+        "pre": "",
+        "name": "Algitt",
+        "post": "Tandrak"
+    },
+    "Tandrak": {
+        "pre": "Algitt",
+        "name": "Tandrak",
+        "post": ""
+    },
+    "Scampisto": {
+        "pre": "",
+        "name": "Scampisto",
+        "post": "Wummer"
+    },
+    "Wummer": {
+        "pre": "Scampisto",
+        "name": "Wummer",
+        "post": ""
+    },
+    "Eguana": {
+        "pre": "",
+        "name": "Eguana",
+        "post": "Elezard"
+    },
+    "Elezard": {
+        "pre": "Eguana",
+        "name": "Elezard",
+        "post": ""
+    },
+    "Balgoras": {
+        "pre": "",
+        "name": "Balgoras",
+        "post": "Monargoras"
+    },
+    "Monargoras": {
+        "pre": "Balgoras",
+        "name": "Monargoras",
+        "post": ""
+    },
+    "Amarino": {
+        "pre": "",
+        "name": "Amarino",
+        "post": "Amagarga"
+    },
+    "Amagarga": {
+        "pre": "Amarino",
+        "name": "Amagarga",
+        "post": ""
+    },
+    "Resladero": {
+        "pre": "",
+        "name": "Resladero",
+        "post": ""
+    },
+    "Dedenne": {
+        "pre": "",
+        "name": "Dedenne",
+        "post": ""
+    },
+    "Rocara": {
+        "pre": "",
+        "name": "Rocara",
+        "post": ""
+    },
+    "Viscora": {
+        "pre": "",
+        "name": "Viscora",
+        "post": "Viscargot"
+    },
+    "Viscargot": {
+        "pre": "Viscora",
+        "name": "Viscargot",
+        "post": "Viscogon"
+    },
+    "Viscogon": {
+        "pre": "Viscargot",
+        "name": "Viscogon",
+        "post": ""
+    },
+    "Clavion": {
+        "pre": "",
+        "name": "Clavion",
+        "post": ""
+    },
+    "Paragoni": {
+        "pre": "",
+        "name": "Paragoni",
+        "post": "Trombork"
+    },
+    "Trombork": {
+        "pre": "Paragoni",
+        "name": "Trombork",
+        "post": ""
+    },
+    "Irrbis": {
+        "pre": "",
+        "name": "Irrbis",
+        "post": "Pumpdjinn"
+    },
+    "Pumpdjinn": {
+        "pre": "Irrbis",
+        "name": "Pumpdjinn",
+        "post": ""
+    },
+    "Arktip": {
+        "pre": "",
+        "name": "Arktip",
+        "post": "Arktilas"
+    },
+    "Arktilas": {
+        "pre": "Arktip",
+        "name": "Arktilas",
+        "post": ""
+    },
+    "eF-eM": {
+        "pre": "",
+        "name": "eF-eM",
+        "post": "UHaFnir"
+    },
+    "UHaFnir": {
+        "pre": "eF-eM",
+        "name": "UHaFnir",
+        "post": ""
+    },
+    "Xerneas": {
+        "pre": "",
+        "name": "Xerneas",
+        "post": ""
+    },
+    "Yveltal": {
+        "pre": "",
+        "name": "Yveltal",
+        "post": ""
+    },
+    "Zygarde": {
+        "pre": "",
+        "name": "Zygarde",
+        "post": ""
+    },
+    "Diancie": {
+        "pre": "",
+        "name": "Diancie",
+        "post": ""
+    },
+    "Hoopa": {
+        "pre": "",
+        "name": "Hoopa",
+        "post": ""
+    },
+    "Volcanion": {
+        "pre": "",
+        "name": "Volcanion",
+        "post": ""
+    },
+    "Bauz": {
+        "pre": "",
+        "name": "Bauz",
+        "post": "Arboretoss"
+    },
+    "Arboretoss": {
+        "pre": "Bauz",
+        "name": "Arboretoss",
+        "post": "Silvarro"
+    },
+    "Silvarro": {
+        "pre": "Arboretoss",
+        "name": "Silvarro",
+        "post": ""
+    },
+    "Flamiau": {
+        "pre": "",
+        "name": "Flamiau",
+        "post": "Miezunder"
+    },
+    "Miezunder": {
+        "pre": "Flamiau",
+        "name": "Miezunder",
+        "post": "Fuegro"
+    },
+    "Fuegro": {
+        "pre": "Miezunder",
+        "name": "Fuegro",
+        "post": ""
+    },
+    "Robball": {
+        "pre": "",
+        "name": "Robball",
+        "post": "Marikeck"
+    },
+    "Marikeck": {
+        "pre": "Robball",
+        "name": "Marikeck",
+        "post": "Primarene"
+    },
+    "Primarene": {
+        "pre": "Marikeck",
+        "name": "Primarene",
+        "post": ""
+    },
+    "Peppeck": {
+        "pre": "",
+        "name": "Peppeck",
+        "post": "Trompeck"
+    },
+    "Trompeck": {
+        "pre": "Peppeck",
+        "name": "Trompeck",
+        "post": "Tukanon"
+    },
+    "Tukanon": {
+        "pre": "Trompeck",
+        "name": "Tukanon",
+        "post": ""
+    },
+    "Mangunior": {
+        "pre": "",
+        "name": "Mangunior",
+        "post": "Manguspektor"
+    },
+    "Manguspektor": {
+        "pre": "Mangunior",
+        "name": "Manguspektor",
+        "post": ""
+    },
+    "Mabula": {
+        "pre": "",
+        "name": "Mabula",
+        "post": "Akkup"
+    },
+    "Akkup": {
+        "pre": "Mabula",
+        "name": "Akkup",
+        "post": "Donarion"
+    },
+    "Donarion": {
+        "pre": "Akkup",
+        "name": "Donarion",
+        "post": ""
+    },
+    "Krabbox": {
+        "pre": "",
+        "name": "Krabbox",
+        "post": "Krawell"
+    },
+    "Krawell": {
+        "pre": "Krabbox",
+        "name": "Krawell",
+        "post": ""
+    },
+    "Choreogel": {
+        "pre": "",
+        "name": "Choreogel",
+        "post": ""
+    },
+    "Wommel": {
+        "pre": "",
+        "name": "Wommel",
+        "post": "Bandelby"
+    },
+    "Bandelby": {
+        "pre": "Wommel",
+        "name": "Bandelby",
+        "post": ""
+    },
+    "Wuffels": {
+        "pre": "",
+        "name": "Wuffels",
+        "post": "Wolwerock (Tagform)"
+    },
+    "Wolwerock (Tagform)": {
+        "pre": "Wuffels",
+        "name": "Wolwerock (Tagform)",
+        "post": ""
+    },
+    "Wolwerock (Nachtform)": {
+        "pre": "Wuffels",
+        "name": "Wolwerock (Nachtform)",
+        "post": ""
+    },
+    "Wolwerock (Zwielichtform)": {
+        "pre": "Wuffels",
+        "name": "Wolwerock (Zwielichtform)",
+        "post": ""
+    },
+    "Lusardin": {
+        "pre": "",
+        "name": "Lusardin",
+        "post": ""
+    },
+    "Garstella": {
+        "pre": "",
+        "name": "Garstella",
+        "post": "Aggrostella"
+    },
+    "Aggrostella": {
+        "pre": "Garstella",
+        "name": "Aggrostella",
+        "post": ""
+    },
+    "Pampuli": {
+        "pre": "",
+        "name": "Pampuli",
+        "post": "Pampross"
+    },
+    "Pampross": {
+        "pre": "Pampuli",
+        "name": "Pampross",
+        "post": ""
+    },
+    "Araqua": {
+        "pre": "",
+        "name": "Araqua",
+        "post": "Aranestro"
+    },
+    "Aranestro": {
+        "pre": "Araqua",
+        "name": "Aranestro",
+        "post": ""
+    },
+    "Imantis": {
+        "pre": "",
+        "name": "Imantis",
+        "post": "Mantidea"
+    },
+    "Mantidea": {
+        "pre": "Imantis",
+        "name": "Mantidea",
+        "post": ""
+    },
+    "Bubungus": {
+        "pre": "",
+        "name": "Bubungus",
+        "post": "Lamellux"
+    },
+    "Lamellux": {
+        "pre": "Bubungus",
+        "name": "Lamellux",
+        "post": ""
+    },
+    "Molunk": {
+        "pre": "",
+        "name": "Molunk",
+        "post": "Amfira"
+    },
+    "Amfira": {
+        "pre": "Molunk",
+        "name": "Amfira",
+        "post": ""
+    },
+    "Velursi": {
+        "pre": "",
+        "name": "Velursi",
+        "post": "Kosturso"
+    },
+    "Kosturso": {
+        "pre": "Velursi",
+        "name": "Kosturso",
+        "post": ""
+    },
+    "Frubberl": {
+        "pre": "",
+        "name": "Frubberl",
+        "post": "Frubaila"
+    },
+    "Frubaila": {
+        "pre": "Frubberl",
+        "name": "Frubaila",
+        "post": "Fruyal"
+    },
+    "Fruyal": {
+        "pre": "Frubaila",
+        "name": "Fruyal",
+        "post": ""
+    },
+    "Curelei": {
+        "pre": "",
+        "name": "Curelei",
+        "post": ""
+    },
+    "Kommandutan": {
+        "pre": "",
+        "name": "Kommandutan",
+        "post": ""
+    },
+    "Quartermak": {
+        "pre": "",
+        "name": "Quartermak",
+        "post": ""
+    },
+    "Reißlaus": {
+        "pre": "",
+        "name": "Reißlaus",
+        "post": "Tectass"
+    },
+    "Tectass": {
+        "pre": "Reißlaus",
+        "name": "Tectass",
+        "post": ""
+    },
+    "Sankabuh": {
+        "pre": "",
+        "name": "Sankabuh",
+        "post": "Colossand"
+    },
+    "Colossand": {
+        "pre": "Sankabuh",
+        "name": "Colossand",
+        "post": ""
+    },
+    "Gufa": {
+        "pre": "",
+        "name": "Gufa",
+        "post": ""
+    },
+    "Typ:Null": {
+        "pre": "",
+        "name": "Typ:Null",
+        "post": "Amigento"
+    },
+    "Amigento": {
+        "pre": "Typ:Null",
+        "name": "Amigento",
+        "post": ""
+    },
+    "Meteno": {
+        "pre": "",
+        "name": "Meteno",
+        "post": ""
+    },
+    "Koalelu": {
+        "pre": "",
+        "name": "Koalelu",
+        "post": ""
+    },
+    "Tortunator": {
+        "pre": "",
+        "name": "Tortunator",
+        "post": ""
+    },
+    "Togedemaru": {
+        "pre": "",
+        "name": "Togedemaru",
+        "post": ""
+    },
+    "Mimigma": {
+        "pre": "",
+        "name": "Mimigma",
+        "post": ""
+    },
+    "Knirfish": {
+        "pre": "",
+        "name": "Knirfish",
+        "post": ""
+    },
+    "Sen-Long": {
+        "pre": "",
+        "name": "Sen-Long",
+        "post": ""
+    },
+    "Moruda": {
+        "pre": "",
+        "name": "Moruda",
+        "post": ""
+    },
+    "Miniras": {
+        "pre": "",
+        "name": "Miniras",
+        "post": "Mediras"
+    },
+    "Mediras": {
+        "pre": "Miniras",
+        "name": "Mediras",
+        "post": "Grandiras"
+    },
+    "Grandiras": {
+        "pre": "Mediras",
+        "name": "Grandiras",
+        "post": ""
+    },
+    "Kapu-Riki": {
+        "pre": "",
+        "name": "Kapu-Riki",
+        "post": ""
+    },
+    "Kapu-Fala": {
+        "pre": "",
+        "name": "Kapu-Fala",
+        "post": ""
+    },
+    "Kapu-Toro": {
+        "pre": "",
+        "name": "Kapu-Toro",
+        "post": ""
+    },
+    "Kapu-Kime": {
+        "pre": "",
+        "name": "Kapu-Kime",
+        "post": ""
+    },
+    "Cosmog": {
+        "pre": "",
+        "name": "Cosmog",
+        "post": "Cosmovum"
+    },
+    "Cosmovum": {
+        "pre": "Cosmog",
+        "name": "Cosmovum",
+        "post": "Solgaleo"
+    },
+    "Solgaleo": {
+        "pre": "Cosmovum",
+        "name": "Solgaleo",
+        "post": ""
+    },
+    "Lunala": {
+        "pre": "Cosmovum",
+        "name": "Lunala",
+        "post": ""
+    },
+    "Anego": {
+        "pre": "",
+        "name": "Anego",
+        "post": ""
+    },
+    "Masskito": {
+        "pre": "",
+        "name": "Masskito",
+        "post": ""
+    },
+    "Schabelle": {
+        "pre": "",
+        "name": "Schabelle",
+        "post": ""
+    },
+    "Voltriant": {
+        "pre": "",
+        "name": "Voltriant",
+        "post": ""
+    },
+    "Kaguron": {
+        "pre": "",
+        "name": "Kaguron",
+        "post": ""
+    },
+    "Katagami": {
+        "pre": "",
+        "name": "Katagami",
+        "post": ""
+    },
+    "Schlingking": {
+        "pre": "",
+        "name": "Schlingking",
+        "post": ""
+    },
+    "Necrozma": {
+        "pre": "",
+        "name": "Necrozma",
+        "post": ""
+    },
+    "Magearna": {
+        "pre": "",
+        "name": "Magearna",
+        "post": ""
+    },
+    "Marshadow": {
+        "pre": "",
+        "name": "Marshadow",
+        "post": ""
+    },
+    "Venicro": {
+        "pre": "",
+        "name": "Venicro",
+        "post": "Agoyon"
+    },
+    "Agoyon": {
+        "pre": "Venicro",
+        "name": "Agoyon",
+        "post": ""
+    },
+    "Muramura": {
+        "pre": "",
+        "name": "Muramura",
+        "post": ""
+    },
+    "Kopplosio": {
+        "pre": "",
+        "name": "Kopplosio",
+        "post": ""
+    },
+    "Zeraora": {
+        "pre": "",
+        "name": "Zeraora",
+        "post": ""
+    },
+    "Meltan": {
+        "pre": "",
+        "name": "Meltan",
+        "post": "Melmetal"
+    },
+    "Melmetal": {
+        "pre": "Meltan",
+        "name": "Melmetal",
+        "post": ""
+    },
+    "Chimpep": {
+        "pre": "",
+        "name": "Chimpep",
+        "post": "Chimstix"
+    },
+    "Chimstix": {
+        "pre": "Chimpep",
+        "name": "Chimstix",
+        "post": "Gortrom"
+    },
+    "Gortrom": {
+        "pre": "Chimstix",
+        "name": "Gortrom",
+        "post": ""
+    },
+    "Hopplo": {
+        "pre": "",
+        "name": "Hopplo",
+        "post": "Kickerlo"
+    },
+    "Kickerlo": {
+        "pre": "Hopplo",
+        "name": "Kickerlo",
+        "post": "Liberlo"
+    },
+    "Liberlo": {
+        "pre": "Kickerlo",
+        "name": "Liberlo",
+        "post": ""
+    },
+    "Memmeon": {
+        "pre": "",
+        "name": "Memmeon",
+        "post": "Phlegleon"
+    },
+    "Phlegleon": {
+        "pre": "Memmeon",
+        "name": "Phlegleon",
+        "post": "Intelleon"
+    },
+    "Intelleon": {
+        "pre": "Phlegleon",
+        "name": "Intelleon",
+        "post": ""
+    },
+    "Raffel": {
+        "pre": "",
+        "name": "Raffel",
+        "post": "Schlaraffel"
+    },
+    "Schlaraffel": {
+        "pre": "Raffel",
+        "name": "Schlaraffel",
+        "post": ""
+    },
+    "Meikro": {
+        "pre": "",
+        "name": "Meikro",
+        "post": "Kranoviz"
+    },
+    "Kranoviz": {
+        "pre": "Meikro",
+        "name": "Kranoviz",
+        "post": "Krarmor"
+    },
+    "Krarmor": {
+        "pre": "Kranoviz",
+        "name": "Krarmor",
+        "post": ""
+    },
+    "Sensect": {
+        "pre": "",
+        "name": "Sensect",
+        "post": "Keradar"
+    },
+    "Keradar": {
+        "pre": "Sensect",
+        "name": "Keradar",
+        "post": "Maritellit"
+    },
+    "Maritellit": {
+        "pre": "Keradar",
+        "name": "Maritellit",
+        "post": ""
+    },
+    "Kleptifux": {
+        "pre": "",
+        "name": "Kleptifux",
+        "post": "Gaunux"
+    },
+    "Gaunux": {
+        "pre": "Kleptifux",
+        "name": "Gaunux",
+        "post": ""
+    },
+    "Cottini": {
+        "pre": "",
+        "name": "Cottini",
+        "post": "Cottomi"
+    },
+    "Cottomi": {
+        "pre": "Cottini",
+        "name": "Cottomi",
+        "post": ""
+    },
+    "Wolly": {
+        "pre": "",
+        "name": "Wolly",
+        "post": "Zwollock"
+    },
+    "Zwollock": {
+        "pre": "Wolly",
+        "name": "Zwollock",
+        "post": ""
+    },
+    "Kamehaps": {
+        "pre": "",
+        "name": "Kamehaps",
+        "post": "Kamalm"
+    },
+    "Kamalm": {
+        "pre": "Kamehaps",
+        "name": "Kamalm",
+        "post": ""
+    },
+    "Voldi": {
+        "pre": "",
+        "name": "Voldi",
+        "post": "Bellektro"
+    },
+    "Bellektro": {
+        "pre": "Voldi",
+        "name": "Bellektro",
+        "post": ""
+    },
+    "Klonkett": {
+        "pre": "",
+        "name": "Klonkett",
+        "post": "Wagong"
+    },
+    "Wagong": {
+        "pre": "Klonkett",
+        "name": "Wagong",
+        "post": "Montecarbo"
+    },
+    "Montecarbo": {
+        "pre": "Wagong",
+        "name": "Montecarbo",
+        "post": ""
+    },
+    "Knapfel": {
+        "pre": "",
+        "name": "Knapfel",
+        "post": "Drapfel"
+    },
+    "Drapfel": {
+        "pre": "Knapfel",
+        "name": "Drapfel",
+        "post": ""
+    },
+    "Schlapfel": {
+        "pre": "",
+        "name": "Schlapfel",
+        "post": ""
+    },
+    "Salanga": {
+        "pre": "",
+        "name": "Salanga",
+        "post": "Sanaconda"
+    },
+    "Sanaconda": {
+        "pre": "Salanga",
+        "name": "Sanaconda",
+        "post": ""
+    },
+    "Urgl": {
+        "pre": "",
+        "name": "Urgl",
+        "post": ""
+    },
+    "Pikuda": {
+        "pre": "",
+        "name": "Pikuda",
+        "post": "Barrakiefa"
+    },
+    "Barrakiefa": {
+        "pre": "Pikuda",
+        "name": "Barrakiefa",
+        "post": ""
+    },
+    "Toxel": {
+        "pre": "",
+        "name": "Toxel",
+        "post": "Riffex"
+    },
+    "Riffex": {
+        "pre": "Toxel",
+        "name": "Riffex",
+        "post": ""
+    },
+    "Thermopod": {
+        "pre": "",
+        "name": "Thermopod",
+        "post": "Infernopod"
+    },
+    "Infernopod": {
+        "pre": "Thermopod",
+        "name": "Infernopod",
+        "post": ""
+    },
+    "Klopptopus": {
+        "pre": "",
+        "name": "Klopptopus",
+        "post": "Kaocto"
+    },
+    "Kaocto": {
+        "pre": "Klopptopus",
+        "name": "Kaocto",
+        "post": ""
+    },
+    "Fatalitee": {
+        "pre": "",
+        "name": "Fatalitee",
+        "post": "Mortipot"
+    },
+    "Mortipot": {
+        "pre": "Fatalitee",
+        "name": "Mortipot",
+        "post": ""
+    },
+    "Brimova": {
+        "pre": "",
+        "name": "Brimova",
+        "post": "Brimano"
+    },
+    "Brimano": {
+        "pre": "Brimova",
+        "name": "Brimano",
+        "post": "Silembrim"
+    },
+    "Silembrim": {
+        "pre": "Brimano",
+        "name": "Silembrim",
+        "post": ""
+    },
+    "Bähmon": {
+        "pre": "",
+        "name": "Bähmon",
+        "post": "Pelzebub"
+    },
+    "Pelzebub": {
+        "pre": "Bähmon",
+        "name": "Pelzebub",
+        "post": "Olangaar"
+    },
+    "Olangaar": {
+        "pre": "Pelzebub",
+        "name": "Olangaar",
+        "post": ""
+    },
+    "Hokumil": {
+        "pre": "",
+        "name": "Hokumil",
+        "post": "Pokusan"
+    },
+    "Pokusan": {
+        "pre": "Hokumil",
+        "name": "Pokusan",
+        "post": ""
+    },
+    "Legios": {
+        "pre": "",
+        "name": "Legios",
+        "post": ""
+    },
+    "Britzigel": {
+        "pre": "",
+        "name": "Britzigel",
+        "post": ""
+    },
+    "Snomnom": {
+        "pre": "",
+        "name": "Snomnom",
+        "post": "Mottineva"
+    },
+    "Mottineva": {
+        "pre": "Snomnom",
+        "name": "Mottineva",
+        "post": ""
+    },
+    "Humanolith": {
+        "pre": "",
+        "name": "Humanolith",
+        "post": ""
+    },
+    "Kubuin": {
+        "pre": "",
+        "name": "Kubuin",
+        "post": ""
+    },
+    "Servol": {
+        "pre": "",
+        "name": "Servol",
+        "post": ""
+    },
+    "Morpeko": {
+        "pre": "",
+        "name": "Morpeko",
+        "post": ""
+    },
+    "Kupfanti": {
+        "pre": "",
+        "name": "Kupfanti",
+        "post": "Patinaraja"
+    },
+    "Patinaraja": {
+        "pre": "Kupfanti",
+        "name": "Patinaraja",
+        "post": ""
+    },
+    "Lectragon": {
+        "pre": "",
+        "name": "Lectragon",
+        "post": ""
+    },
+    "Lecryodon": {
+        "pre": "",
+        "name": "Lecryodon",
+        "post": ""
+    },
+    "Pescragon": {
+        "pre": "",
+        "name": "Pescragon",
+        "post": ""
+    },
+    "Pescryodon": {
+        "pre": "",
+        "name": "Pescryodon",
+        "post": ""
+    },
+    "Duraludon": {
+        "pre": "",
+        "name": "Duraludon",
+        "post": ""
+    },
+    "Grolldra": {
+        "pre": "",
+        "name": "Grolldra",
+        "post": "Phandra"
+    },
+    "Phandra": {
+        "pre": "Grolldra",
+        "name": "Phandra",
+        "post": "Katapuldra"
+    },
+    "Katapuldra": {
+        "pre": "Phandra",
+        "name": "Katapuldra",
+        "post": ""
+    },
+    "Zacian": {
+        "pre": "",
+        "name": "Zacian",
+        "post": ""
+    },
+    "Zamazenta": {
+        "pre": "",
+        "name": "Zamazenta",
+        "post": ""
+    },
+    "Endynalos": {
+        "pre": "",
+        "name": "Endynalos",
+        "post": ""
+    },
+    "Dakuma": {
+        "pre": "",
+        "name": "Dakuma",
+        "post": "Wulaosu"
+    },
+    "Wulaosu": {
+        "pre": "",
+        "name": "Wulaosu",
+        "post": ""
+    },
+    "Zarude": {
+        "pre": "",
+        "name": "Zarude",
+        "post": ""
+    },
+    "Regieleki": {
+        "pre": "",
+        "name": "Regieleki",
+        "post": ""
+    },
+    "Regidrago": {
+        "pre": "",
+        "name": "Regidrago",
+        "post": ""
+    },
+    "Polaross": {
+        "pre": "",
+        "name": "Polaross",
+        "post": ""
+    },
+    "Phantoross": {
+        "pre": "",
+        "name": "Phantoross",
+        "post": ""
+    },
+    "Coronospa": {
+        "pre": "",
+        "name": "Coronospa",
+        "post": ""
+    },
+    "Psiaugon (♀)": {
+        "pre": "Psiau",
+        "name": "Psiaugon (♀)",
+        "post": ""
+    },
+    "Riffex (Tief-Form)": {
+        "pre": "Toxel",
+        "name": "Riffex (Tief-Form)",
+        "post": ""
+    },
+    "Servol (♀)": {
+        "pre": "",
+        "name": "Servol (♀)",
+        "post": ""
+    },
+    "Wolwerock": {
+        "pre": "Wuffels",
+        "name": "Wolwerock",
+        "post": ""
+    },
+    "Wulaosu (Fließender Stil)": {
+        "pre": "Dakuma",
+        "name": "Wulaosu (Fließender Stil)",
+        "post": ""
+    },
+    "Wulaosu (Fokussierter Stil)": {
+        "pre": "Dakuma",
+        "name": "Wulaosu (Fokussierter Stil)",
+        "post": ""
+    }
+}
