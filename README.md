@@ -27,7 +27,7 @@ If you want a custom maximum file length of the JSON files in formatted form edi
   * `data/renamedMovesData.json`
   * `data/specialAtkRowFormSelectors.json`
   * `data/specialforms.json`
-* `data/evos.json` by running `built/src/pkmn-data/createEvoData.js` (after updating `evosManuel.json`)
+* `data/evos.json` by running `built/src/pkmn-data/createEvoData.js` (after updating `evosManual.json`)
 
 # todo
 * (branch evolutions of evo data creator)
