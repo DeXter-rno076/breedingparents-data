@@ -2,8 +2,11 @@ import { NEWEST_GEN, OLDEST_GEN } from '../constants';
 import Logger from '../LogHandler';
 import { PkmnObj } from '../PkmnObj';
 import { getJSONPkmnData, savePkmnData } from '../utils';
+import fs from 'fs';
 
 const oldGenLearnsets = new Map<string, string[]>();
+
+const babys = JSON.parse(fs.readFileSync('data/babys.json', {encoding: 'utf-8'})) as string[];
 
 /* 
 todo create banned moves category for bdsp in the wiki and block 
@@ -24,7 +27,12 @@ function addLearnsetsForFile(fileName: string) {
     Logger.statusLog(`adding old gen learnsets of file ${fileName}`);
     const fileData = getJSONPkmnData(fileName);
     for (let pkmnName of Object.keys(fileData)) {
-        if (fileData[pkmnName].unpairable) {
+        if (
+            fileData[pkmnName].unpairable &&
+            fileData[pkmnName].lowestEvolution === pkmnName &&
+            !babys.includes(pkmnName)
+        ) {
+            //dont skip: babys, pkmn with lower evos (like Nidoqueen)
             //pkmn is unpairable => oldGenLearnsets are irrelevant
             continue;
         }
