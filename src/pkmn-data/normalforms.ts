@@ -9,7 +9,7 @@ import {
     getLearnsetTypeLearnsets,
     atkRowHasOnlyNonMainGameSks,
 } from './createPkmndata';
-import { LearnsetType } from '../types';
+import { LearnsetType, PkmnGender } from '../types';
 import { PkmnObj } from '../PkmnObj';
 import Logger from '../LogHandler';
 
@@ -151,12 +151,12 @@ function addLearnsetsOfLearnsettable(
 
 /**
  * creates instance of PkmnObj and sets all data except for learnsets
- * @param pkmn pkmn name
+ * @param pkmnName pkmn name
  * @returns pkmn obj or null if something went wrong
  */
-export async function createPkmnObj(pkmn: string): Promise<PkmnObj | null> {
+export async function createPkmnObj(pkmnName: string): Promise<PkmnObj | null> {
     //Logger.statusLog(`creating a PkmnObj instance for ${pkmn}`);
-    const pkmnInfobox = await getPkmnInfobox(pkmn);
+    const pkmnInfobox = await getPkmnInfobox(pkmnName);
     if (pkmnInfobox === null) {
         /* Logger.statusLog(
             `skipping, couldn\'t find an infobox template for ${pkmn}`
@@ -164,21 +164,13 @@ export async function createPkmnObj(pkmn: string): Promise<PkmnObj | null> {
         return null;
     }
 
-    const pkmnObj = instantiatePkmnObj(pkmn, pkmnInfobox);
+    const pkmnObj = instantiatePkmnObj(pkmnName, pkmnInfobox);
     if (pkmnObj === null) {
         /* Logger.statusLog(
             `instantiating PkmnObj instance for ${pkmn} failed, skipping`
         ); */
         return null;
     }
-
-    const setGenderResult = setGender(pkmnObj, pkmnInfobox);
-    if (setGenderResult === 'failed') {
-        //Logger.statusLog(`setting gender info for ${pkmn} failed, skipping`);
-        return null;
-    }
-
-    setEggGroups(pkmnObj, pkmnInfobox);
 
     /* Logger.statusLog(
         `returning successfully created PkmnObj instance for ${pkmn}`
@@ -227,11 +219,11 @@ async function getPkmnInfobox(pkmnName: string): Promise<Template | null> {
 
 /**
  * creates instance of PkmnObj (i. e. gets and sets data needed for constructor)
- * @param pkmn pkmn name
+ * @param pkmnName
  * @param infobox infobox template of pkmn
  * @returns PkmnObj or null
  */
-function instantiatePkmnObj(pkmn: string, infobox: Template): PkmnObj | null {
+function instantiatePkmnObj(pkmnName: string, infobox: Template): PkmnObj | null {
     /*  Logger.statusLog(
         `instantiating PkmnObj instance for ${pkmn} with infobox data`
     ); */
@@ -239,120 +231,127 @@ function instantiatePkmnObj(pkmn: string, infobox: Template): PkmnObj | null {
     if (nrParam === null) {
         Logger.elog(
             'instantiatePkmnObj: couldnt find Nr param in pkmn infobox of ' +
-                pkmn
+                pkmnName
         );
         return null;
     }
     const pkmnId = nrParam.text;
 
+    const pkmnGender = getGender(infobox, pkmnName);
+    if (pkmnGender === '') {
+        Logger.elog('instantiatePkmnObj: something went wrong in getting pkmn gender');
+        return null;
+    }
+
+    const eggGroups = getEggGroups(infobox, pkmnName);
+
     /* Logger.statusLog(
         `returning successfully created PkmnObj instance for ${pkmn}`
     ); */
-    return new PkmnObj(pkmn, pkmnId);
+    return new PkmnObj(pkmnName, pkmnId, eggGroups[0], eggGroups[1], pkmnGender);
 }
 
 /**
  * determines and sets gender on pkmnObj
- * @param pkmnObj PkmnObj instance of the current pkmn
  * @param pkmnInfobox infobox template of the current pkmn
+ * @param pkmnName
  * @returns 'succeeded' or 'failed'
  */
-function setGender(
-    pkmnObj: PkmnObj,
-    pkmnInfobox: Template
-): 'succeeded' | 'failed' {
+function getGender(
+    pkmnInfobox: Template,
+    pkmnName: string
+): PkmnGender | '' {
     //Logger.statusLog(`setting gender data of ${pkmnObj.name}`);
     const genderParam = pkmnInfobox.getParam('Geschlecht');
     if (genderParam === null) {
-        Logger.elog('setGender: gender param not set for: ' + pkmnObj.name);
-        return 'failed';
+        Logger.elog('getGender: gender param not set for: ' + pkmnName);
+        return '';
     }
     const genderInfo = genderParam.text;
 
     if (genderInfo.includes('Unbekannt')) {
         //Logger.statusLog(`setting gender unknown for ${pkmnObj.name}`);
-        pkmnObj.setGender('unknown');
-        return 'succeeded';
+        return 'unknown';
     }
 
     if (!/100\s*%/.test(genderInfo)) {
         //Logger.statusLog(`setting gender both for ${pkmnObj.name}`);
-        pkmnObj.setGender('both');
-        return 'succeeded';
+        return 'both';
     }
 
     const onlyGenderRegexRes = /.*100\s*%\s*(\S)/.exec(genderInfo);
     if (onlyGenderRegexRes === null) {
-        Logger.elog('setGender: regex couldnt find single gender');
-        return 'failed';
+        return '';
     }
     const singleGender = onlyGenderRegexRes[1];
     if (singleGender === '♀') {
         //Logger.statusLog(`setting gender female for ${pkmnObj.name}`);
-        pkmnObj.setGender('female');
-        return 'succeeded';
+        return 'female';
     }
     if (singleGender === '♂') {
         //Logger.statusLog(`setting gender male for ${pkmnObj.name}`);
-        pkmnObj.setGender('male');
-        return 'succeeded';
+        return 'male';
     }
     Logger.elog(
-        `setGender: unknown symbol ${singleGender} in gender data of ${pkmnObj.name}`
+        `getGender: unknown symbol ${singleGender} in gender data of ${pkmnName}`
     );
-    return 'failed';
+    return '';
 }
 
-function setEggGroups(pkmnObj: PkmnObj, infobox: Template) {
+function getEggGroups(infobox: Template, pkmnName: string): string[] {
     //Logger.statusLog(`setting egg groups for ${pkmnObj.name}`);
     const eggGroup1Param = infobox.getParam('Ei-Gruppe');
     const eggGroup1ChangesParam = infobox.getParam('Ei-Gruppenänderung');
     const eggGroup2Param = infobox.getParam('Ei-Gruppe2');
     const eggGroup2ChangesParam = infobox.getParam('Ei-Gruppenänderung2');
 
+    const eggGroupArr = [];
+
     if (eggGroup1Param === null) {
-        Logger.elog(`setEggGroups: egg group 1 missing in ${pkmnObj.name}`);
-        return;
+        Logger.elog(`getEggGroups: egg group 1 missing in ${pkmnName}`);
+        return [];
     }
+
     if (eggGroup1ChangesParam !== null) {
         if (Number(eggGroup1ChangesParam.text) <= GEN) {
             /* Logger.statusLog(
                 `setting ${eggGroup1Param.text} as egg group 1 for ${pkmnObj.name} with past egg group changes`
             ); */
-            pkmnObj.setEggGroup(eggGroup1Param.text);
+            eggGroupArr.push(eggGroup1Param.text);
         }
+        Logger.elog('getEggGroups: egg group 1 of ' + pkmnName + ' appears to got added in a later gen');
     } else {
         /* Logger.statusLog(
             `setting ${eggGroup1Param.text} es egg group 1 for ${pkmnObj.name}`
         ); */
-        pkmnObj.setEggGroup(eggGroup1Param.text);
+        eggGroupArr.push(eggGroup1Param.text);
     }
 
     if (eggGroup2ChangesParam !== null) {
         if (Number(eggGroup2ChangesParam.text) <= GEN) {
             if (eggGroup2Param === null) {
                 Logger.elog(
-                    `setEggGroups: egg group 2 missing in ${pkmnObj.name}`
+                    `getEggGroups: egg group 2 missing in ${pkmnName}`
                 );
-                return;
+            } else {
+                /* Logger.statusLog(
+                    `setting ${eggGroup2Param.text} as egg group 2 for ${pkmnObj.name} with past egg group changes`
+                ); */
+                eggGroupArr.push(eggGroup2Param.text);
             }
-            /* Logger.statusLog(
-                `setting ${eggGroup2Param.text} as egg group 2 for ${pkmnObj.name} with past egg group changes`
-            ); */
-            pkmnObj.setEggGroup(eggGroup2Param.text);
         }
     } else {
         if (eggGroup2Param !== null) {
             /* Logger.statusLog(
                 `setting ${eggGroup2Param.text} as egg group 2 for ${pkmnObj.name}`
             ); */
-            pkmnObj.setEggGroup(eggGroup2Param.text);
+            eggGroupArr.push(eggGroup2Param.text);
         }
     }
 
-    if (pkmnObj.eggGroup1 === undefined && pkmnObj.eggGroup2 === undefined) {
-        Logger.elog(
-            `setEggGroups: both egg groups appear to be added in later gen(s): ${pkmnObj.name}`
-        );
+    if (eggGroupArr.length > 2) {
+        Logger.elog('getEggGroups: more than 2 egg groups found for ' + pkmnName + '; ' + eggGroupArr.join());
     }
+
+    return eggGroupArr;
 }

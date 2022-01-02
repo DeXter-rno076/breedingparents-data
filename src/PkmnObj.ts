@@ -3,10 +3,9 @@ import { PkmnGender, LearnsetType } from './types';
 export class PkmnObj {
     name: string;
     id: string;
-    //todo turn eggGroup1 (maybe even eggGroup2) and gender into non optional properties
-    eggGroup1?: string;
-    eggGroup2?: string;
-    gender?: PkmnGender;
+    eggGroup1: string;
+    eggGroup2: string;
+    gender: PkmnGender;
     lowestEvolution = '';
 
     //whether this pkmn cannot get a child with another pkmn
@@ -19,24 +18,18 @@ export class PkmnObj {
     eventLearnsets: string[] = [];
     oldGenLearnsets: string[] = [];
 
-    constructor(name: string, id: string) {
+    constructor(
+        name: string,
+        id: string,
+        eggGroup1: string,
+        eggGroup2 = '',
+        gender: PkmnGender
+    ) {
         this.name = name.trim();
         this.id = id.trim();
-    }
 
-    setEggGroup(eggGroup: string) {
-        //skip empty parameter value
-        if (eggGroup.trim() === '') {
-            return;
-        }
-        if (this.eggGroup1 === undefined) {
-            this.eggGroup1 = eggGroup.trim();
-        } else {
-            this.eggGroup2 = eggGroup.trim();
-        }
-    }
-
-    setGender(gender: PkmnGender) {
+        this.eggGroup1 = eggGroup1.trim();
+        this.eggGroup2 = eggGroup2.trim();
         this.gender = gender;
     }
 
