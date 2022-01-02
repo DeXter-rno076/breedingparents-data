@@ -54,9 +54,7 @@ function findLowestEvo(pkmnName: string): string {
             return '';
         }
     }
-    if (lookedAtPkmn.name === pkmnName) {
-        return '';
-    }
+
     //Logger.statusLog(`found ${lookedAtPkmn.name}`);
     return lookedAtPkmn.name;
 }
