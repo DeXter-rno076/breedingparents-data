@@ -26,11 +26,12 @@ export function replaceOldMoveNames() {
 }
 
 function replaceOldMoveNamesOfPkmn(pkmnObj: PkmnObj) {
+    /*oldGenLearnsets are excluded because they are added after this script
+    => old gen learnsets already use the current move names from the start*/
     const learnsetLists = [
         pkmnObj.directLearnsets,
         pkmnObj.breedingLearnsets,
         pkmnObj.eventLearnsets,
-        pkmnObj.oldGenLearnsets,
     ];
 
     for (const learnsetList of learnsetLists) {

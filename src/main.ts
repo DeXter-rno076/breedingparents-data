@@ -25,11 +25,13 @@ async function main() {
     await createPkmnDataSets();
 
     console.log('adjusting pkmn data sets........');
-    addOldGenLearnsets();
+    replaceOldMoveNames();
     handleUnpairables();
     handleUnbreedables();
     addLowestEvolution();
-    replaceOldMoveNames();
+    /*adding old gen learnsets should happen at the end because it depends
+    on the learnsets that get adjusted by the other scripts */
+    addOldGenLearnsets();
 
     console.log('checking pkmn data sets for problems.......');
     const checker = new PkmnObjChecker();
