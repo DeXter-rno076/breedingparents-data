@@ -231,11 +231,16 @@ function createSpecialFormObjs(
         const name = specialFormDataObj.name.de;
         //Logger.statusLog(`creating pkmn obj of ${name}`);
         const id = specialFormDataObj.nr;
-        const specialFormObj = new PkmnObj(name, id);
 
-        const eggGroup1 = pkmnObj.eggGroup1;
-        if (eggGroup1 !== undefined) {
-            specialFormObj.setEggGroup(eggGroup1);
+        const eggGroups = [];
+        if (pkmnObj.eggGroup1 !== undefined) {
+            eggGroups.push(pkmnObj.eggGroup1);
+        } else {
+            Logger.elog(`pkmn ${pkmnObj.name} has no first egg group set`);
+            continue;
+        }
+        if (pkmnObj.eggGroup2 !== undefined) {
+            eggGroups.push(pkmnObj.eggGroup2);
         }
 
         if (pkmnObj.gender === undefined) {
@@ -245,10 +250,15 @@ function createSpecialFormObjs(
             );
             continue;
         }
-        specialFormObj.setGender(pkmnObj.gender);
-        if (pkmnObj.eggGroup2 !== undefined) {
-            specialFormObj.setEggGroup(pkmnObj.eggGroup2);
-        }
+        const gender = pkmnObj.gender;
+
+        const specialFormObj = new PkmnObj(
+            name,
+            id,
+            eggGroups[0],
+            eggGroups[1],
+            gender
+        );
 
         returnArr.push(specialFormObj);
     }
