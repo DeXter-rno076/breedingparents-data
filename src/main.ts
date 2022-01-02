@@ -26,9 +26,10 @@ async function main() {
 
     console.log('adjusting pkmn data sets........');
     replaceOldMoveNames();
+    //lowestEvo data is needed for handleUnpairables()
+    addLowestEvolution();
     handleUnpairables();
     handleUnbreedables();
-    addLowestEvolution();
     /*adding old gen learnsets should happen at the end because it depends
     on the learnsets that get adjusted by the other scripts */
     addOldGenLearnsets();

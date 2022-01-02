@@ -53,7 +53,7 @@ function handleBabys(jsonPkmnData: PkmnDataJSONObj) {
             continue;
         }
 
-        markUnpairable(babyObj);
+        babyObj.unpairable = true;
         setBabyEggGroups(babyObj, jsonPkmnData);
     }
 }
@@ -72,16 +72,14 @@ function handleEggGroupsUnknowns(jsonPkmnData: PkmnDataJSONObj) {
         }
         if (pkmnObj.eggGroup1 === 'Unbekannt') {
             //Logger.statusLog(`found egg group Unknown pkmn ${pkmnObj.name}`);
-            markUnpairable(pkmnObj);
+            pkmnObj.unpairable = true;
+            if (pkmnObj.lowestEvolution === pkmnObj.name) {
+                /*cases like Nidoqueen still need their learnsets*/
+                pkmnObj.directLearnsets = [];
+                pkmnObj.eventLearnsets = [];
+            }
         }
     }
-}
-
-function markUnpairable(pkmnObj: PkmnObj) {
-    //Logger.statusLog(`marking ${pkmnObj.name} unpairable`);
-    pkmnObj.unpairable = true;
-    pkmnObj.directLearnsets = [];
-    pkmnObj.eventLearnsets = [];
 }
 
 /**
