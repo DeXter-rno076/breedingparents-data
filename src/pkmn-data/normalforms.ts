@@ -319,7 +319,6 @@ function getEggGroups(infobox: Template, pkmnName: string): string[] {
             ); */
             eggGroupArr.push(eggGroup1Param.text);
         }
-        Logger.elog('getEggGroups: egg group 1 of ' + pkmnName + ' appears to got added in a later gen');
     } else {
         /* Logger.statusLog(
             `setting ${eggGroup1Param.text} es egg group 1 for ${pkmnObj.name}`
