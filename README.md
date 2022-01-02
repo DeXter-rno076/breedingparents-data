@@ -1,3 +1,11 @@
+# description
+Creates the data sets needed for the specialpage breeding parents.
+These have to be saved in wiki pages with the following name scheme:
+* pkmn data: `MediaWiki:Zuchteltern/GenX/pkmn-dataN.json` (X := gen number; N := file index, starting from 1)
+* egg group data: `MediaWiki:Zuchteltern/GenX/egg-groups.json` (X := gen number)
+
+These data sets are explicitly **not** usable as a source for in game data because various values are changed in terms of consistency. These data sets have the goal to make life as easy as possible for the special page. Correctly resembling information from the games is irrelevant.
+
 # how to run
 Installing dependencies
 ```
