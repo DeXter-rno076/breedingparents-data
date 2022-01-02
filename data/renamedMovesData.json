@@ -58,5 +58,11 @@
             "Staffette"
         ],
         "currentName": "Stafette"
+    },
+    {
+        "oldNames": [
+            "Verwandler"
+        ],
+        "currentName": "Wandler"
     }
 ]
