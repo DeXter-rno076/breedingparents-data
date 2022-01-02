@@ -62,14 +62,17 @@ export default class PkmnObjChecker {
             'name',
             'id',
             'eggGroup1',
+            'eggGroup2',
             'gender',
+            'lowestEvolution',
             'unpairable',
             'unbreedable',
-            'lowestEvolution',
-        ];
-        const normallyExpectedAttributeList: (keyof PkmnObj)[] = [
             'directLearnsets',
+            'breedingLearnsets',
+            'eventLearnsets',
+            'oldGenLearnsets'
         ];
+        const normallyExpectedAttributeList: (keyof PkmnObj)[] = [];
 
         for (let attribute of mustHaveAttributeList) {
             if (pkmnObj[attribute] === undefined) {
