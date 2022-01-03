@@ -12,6 +12,7 @@ import PkmnObjChecker from './PkmnObjChecker';
 import Logger from './LogHandler';
 import { replaceOldMoveNames } from './pkmn-data/replaceOldMoveNames';
 import { DATA_OUTPUT_DIR, LOG_DIR, SEP_DATA_OUTPUT_DIR } from './constants';
+import { handleIndividualSpecialCases } from './pkmn-data/individualSpecialCases';
 
 main();
 
@@ -33,6 +34,7 @@ async function main() {
     /*adding old gen learnsets should happen at the end because it depends
     on the learnsets that get adjusted by the other scripts */
     addOldGenLearnsets();
+    handleIndividualSpecialCases();
 
     console.log('checking pkmn data sets for problems.......');
     const checker = new PkmnObjChecker();
