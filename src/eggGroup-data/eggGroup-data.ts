@@ -1,87 +1,57 @@
-import fs from 'fs';
-import { PkmnObj } from '../PkmnObj';
-import { DATA_OUTPUT_DIR, NEWEST_GEN, OLDEST_GEN } from '../constants';
-import Logger from '../LogHandler';
-
-let GEN = -1;
-let pkmnData: { [key: string]: PkmnObj };
-const eggGroupData = new Map<string, string[]>();
+import { NEWEST_GEN, OLDEST_GEN } from '../constants';
+import { FileLoader } from '../file_managing/FileLoader';
+import { FileSaver } from '../file_managing/FileSaver';
+import { GeneralUtils } from '../GeneralUtils';
+import Logger from '../Logger';
+import { TunedPkmnJSON } from '../pkmn-data_adjustements/TunedPkmnJSON';
+import { PlainPkmnDataset } from '../types';
 
 export default function createEggGroupData() {
     Logger.initLogs('eggGroup-data');
     Logger.statusLog(`creating egg group data files`);
-    for (let i = OLDEST_GEN; i <= NEWEST_GEN; i++) {
-        Logger.statusLog(`creating gen ${i} file`);
-        //yep, that's quite unclean, but originally this was built for one gen at a time
-        //and I don't have unlimited time so take it or leave it
-        GEN = i;
+    for (let gen = OLDEST_GEN; gen <= NEWEST_GEN; gen++) {
+        Logger.statusLog(`creating gen ${gen} file`);
 
-        eggGroupData.clear();
+        const pkmnDatasetFileNames = FileLoader.getPlainGenPkmnDatasetNameList(gen);
 
-        pkmnData = JSON.parse(
-            fs.readFileSync(DATA_OUTPUT_DIR + '/pkmnDataGen' + GEN + '.json', {
-                encoding: 'utf-8',
-            })
-        );
-
-        createGenEggGroupDataSet();
-        Logger.statusLog(`finished gen ${i} file`);
+        for (const pkmnDatasetFileName of pkmnDatasetFileNames) {
+            const pkmnDataset = JSON.parse(FileLoader.getPlainGenPkmnDataSetByFileName(pkmnDatasetFileName, gen));
+            const eggGroups = createGameEggGroupDataset(pkmnDataset);
+            if (pkmnDataset['pikachu'] === undefined) {
+                Logger.elog('createEggGroupData: pikachu is not set in gen ' + gen + ' file ' + pkmnDatasetFileName);
+                continue;
+            }
+            const game = pkmnDataset['pikachu'].game;
+            const eggGroupsObj = GeneralUtils.mapToObject(eggGroups);
+            const eggGroupsText = JSON.stringify(eggGroupsObj);
+            FileSaver.saveEggGroupDataset(game, eggGroupsText);
+        }
     }
     Logger.statusLog(`finished createing egg group data files`);
 }
 
-function createGenEggGroupDataSet() {
-    Logger.statusLog(`extracting egg group data`);
-    for (let pkmn in pkmnData) {
-        //Logger.statusLog(`extracting egg groups of ${pkmn}`);
-        const pkmnObj = pkmnData[pkmn];
-        const eggGroup1 = pkmnObj.eggGroup1 || null;
-        const eggGroup2 = pkmnObj.eggGroup2 || null;
-        const isUnpairable = pkmnObj.unpairable;
-
-        if (eggGroup1 === null) {
-            Logger.elog(
-                `createGenEggGroupDataSet: pkmn has no egg groups: ${pkmn}`
-            );
+function createGameEggGroupDataset(pkmnDataset: PlainPkmnDataset): Map<string, string[]> {
+    const eggGroups = new Map<string, string[]>();
+    for (const [pkmnName, pkmnData] of Object.entries(pkmnDataset)) {
+        if (pkmnData.unpairable) {
             continue;
         }
-        if (isUnpairable) {
-            //Logger.statusLog(`skipping ${pkmn} because it\'s unpairable`);
-            //egg group lists are only relevant for finding pot. parents
-            //unpairables can't be parents
-            continue;
+        const eggGroupNames = [pkmnData.eggGroup1, pkmnData.eggGroup2];
+        for (const eggGroupName of eggGroupNames) {
+            if (eggGroupName === '') {
+                continue;
+            }
+            if (!eggGroups.has(eggGroupName)) {
+                eggGroups.set(eggGroupName, []);
+            }
+            insertSorted(eggGroups.get(eggGroupName), pkmnData, pkmnDataset);
         }
-
-        handleEggGroup(eggGroup1, pkmnObj);
-        handleEggGroup(eggGroup2, pkmnObj);
     }
 
-    Logger.statusLog(`saving egg group data set`);
-    fs.writeFileSync(
-        DATA_OUTPUT_DIR + `/eggGroupDataGen${GEN}.json`,
-        JSON.stringify(Object.fromEntries(eggGroupData))
-    );
+    return eggGroups;
 }
 
-function handleEggGroup(eggGroup: string | null, pkmn: PkmnObj) {
-    //Logger.statusLog(`adding ${pkmn.name} to egg group lists`);
-    if (eggGroup === null) {
-        /* Logger.statusLog(
-            `skipping because ${pkmn.name} doesn\'t have selected egg group`
-        ); */
-        return;
-    }
-
-    if (!eggGroupData.has(eggGroup)) {
-        //Logger.statusLog(`adding new egg group ${eggGroup}`);
-        eggGroupData.set(eggGroup, []);
-    }
-
-    const targetedEggGroupArr = eggGroupData.get(eggGroup) as string[];
-    insertSorted(targetedEggGroupArr, pkmn);
-}
-
-function insertSorted(eggGroupArr: string[], newEggGroupMember: PkmnObj) {
+function insertSorted(eggGroupArr: string[], newEggGroupMember: TunedPkmnJSON, pkmnDataset: PlainPkmnDataset) {
     /* Logger.statusLog(
         `inserting ${newEggGroupMember.name} sorted into egg group array`
     ); */
@@ -89,7 +59,7 @@ function insertSorted(eggGroupArr: string[], newEggGroupMember: PkmnObj) {
 
     for (let i = 0; i < eggGroupArr.length; i++) {
         const curLookedAtPkmnName = eggGroupArr[i];
-        const curLookedAtPkmnId = pkmnData[curLookedAtPkmnName].id;
+        const curLookedAtPkmnId = pkmnDataset[curLookedAtPkmnName].id;
 
         if (newEggGroupMember.id < curLookedAtPkmnId) {
             //Logger.statusLog(`found suiting index ${i}`);

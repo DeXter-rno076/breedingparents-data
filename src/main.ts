@@ -1,71 +1,68 @@
-import fs from 'fs';
-
-import createPkmnDataSets from './pkmn-data/createPkmndata';
-import handleUnpairables from './pkmn-data/handleUnpairables';
-import handleUnbreedables from './pkmn-data/handleUnbreedables';
-import addOldGenLearnsets from './pkmn-data/oldGenLearnsets';
-import addLowestEvolution from './pkmn-data/addLowestEvolution';
-import splitDataFiles from './splitDataFiles';
+import { DATA_OUT_DIR, FINAL_DATASETS_DIR, LOG_DIR, PLAIN_DATASET_FILES_DIR } from './constants';
+import Logger from './Logger';
+import { FileSystemInitializer } from './file_managing/FileSystemInitializer';
+import { createInitialPkmnDataSets } from './initial_pkmn-data/main';
+import { addEvolutions } from './pkmn-data_adjustements/addEvolutions';
+import addLowestEvolution from './pkmn-data_adjustements/addLowestEvolution';
+import handleUnpairables from './pkmn-data_adjustements/handleUnpairables';
+import handleUnbreedables from './pkmn-data_adjustements/handleUnbreedables';
+import { handleIndividualSpecialCases } from './pkmn-data_adjustements/individualSpecialCases';
+import addOldGenLearnsets from './pkmn-data_adjustements/oldGenLearnsets';
+import { replaceOldMoveNames } from './pkmn-data_adjustements/replaceOldMoveNames';
+import { setExists } from './pkmn-data_adjustements/setExists';
+import { createAllDiffs } from './diffs_creation/main';
+import createEvoData from './pkmn-data_adjustements/createEvoData';
+import { pkmnNamesToLowerCase } from './pkmn-data_adjustements/pkmnNamesToLowerCase';
+import splitDataFiles from './file_managing/splitDataFiles';
 import createEggGroupData from './eggGroup-data/eggGroup-data';
-
-import PkmnObjChecker from './PkmnObjChecker';
-import Logger from './LogHandler';
-import { replaceOldMoveNames } from './pkmn-data/replaceOldMoveNames';
-import { DATA_OUTPUT_DIR, LOG_DIR, SEP_DATA_OUTPUT_DIR } from './constants';
-import { handleIndividualSpecialCases } from './pkmn-data/individualSpecialCases';
 
 main();
 
 async function main() {
     setupFileStructure();
-    Logger.resetLogs();
+    await createEvoData();
 
-    console.log(
-        'building pkmn data sets...... (this will take several minutes (about 8-10 min))'
-    );
-    await createPkmnDataSets();
+    await createInitialPkmnDataSets();
 
-    console.log('adjusting pkmn data sets........');
-    replaceOldMoveNames();
-    //lowestEvo data is needed for handleUnpairables()
+    setExists();
+    addEvolutions();
     addLowestEvolution();
+    //!unpairables BEFORE unbreedable
     handleUnpairables();
     handleUnbreedables();
-    /*adding old gen learnsets should happen at the end because it depends
-    on the learnsets that get adjusted by the other scripts */
-    addOldGenLearnsets();
     handleIndividualSpecialCases();
+    //!addOldGenLearnsets AFTER setExists
+    addOldGenLearnsets();
 
-    console.log('checking pkmn data sets for problems.......');
-    const checker = new PkmnObjChecker();
-    checker.testAll();
+    //!last adjustements
+    replaceOldMoveNames();
+    pkmnNamesToLowerCase();
 
-    console.log('splitting pkmn data set files.........');
-    splitDataFiles();
+    createAllDiffs();
 
-    console.log('building egg group data sets.............');
+    //checkDataFiles();
+
+    //createGlobalConfig();
+
     createEggGroupData();
-
-    console.log('finished');
-
-    if (Logger.getErrorOccured()) {
-        console.log(
-            'some problems occured. Definitely check log files in data/logs'
-        );
-    } else {
-        console.log('no problems occured, all clear');
-    }
-    console.log('data files are in data/separatedoutput')
+    splitDataFiles();
+    /**
+     * create global config file:
+     * 		{
+     * 			config: { Zeug wie voting und leader }
+     * 			pkmnNames: []
+     * 			moves: {normal:[], dyna:[], giga:[], ...}
+     * 			...
+     * 		}
+     */
 }
 
-function setupFileStructure () {
-    if (!fs.existsSync(DATA_OUTPUT_DIR)) {
-        fs.mkdirSync(DATA_OUTPUT_DIR);
-    }
-    if (!fs.existsSync(SEP_DATA_OUTPUT_DIR)) {
-        fs.mkdirSync(SEP_DATA_OUTPUT_DIR);
-    }
-    if (!fs.existsSync(LOG_DIR)) {
-        fs.mkdirSync(LOG_DIR);
-    }
+function setupFileStructure() {
+    FileSystemInitializer.createDirectoryIfNeeded(DATA_OUT_DIR);
+    FileSystemInitializer.createDirectoryIfNeeded(FINAL_DATASETS_DIR);
+    FileSystemInitializer.createDirectoryIfNeeded(PLAIN_DATASET_FILES_DIR);
+
+    FileSystemInitializer.createDirectoryIfNeeded(LOG_DIR);
+
+    Logger.resetLogs();
 }

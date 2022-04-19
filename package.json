@@ -4,7 +4,7 @@
   "description": "Programs for creating the data sets for the specialpage BreedingParents.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "build": "tsc",
     "create_datasets": "node built/src/main.js"
   },
@@ -13,5 +13,14 @@
   "dependencies": {
     "@types/node": "^16.10.2",
     "mediawiki-bot": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.1.0",
+    "mocha": "^9.2.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "directories": {
+    "test": "test"
   }
 }

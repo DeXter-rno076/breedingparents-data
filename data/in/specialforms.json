@@ -1,0 +1,2168 @@
+[
+	{
+		"name": "Rattfratz",
+		"text_identifier": {
+			"So": "normale Form",
+			"M": "normale Form",
+			"US": "normale Form",
+			"UM": "normale Form",
+			"LGP": "normale Form",
+			"LGE": "normale Form"
+		},
+		"doesnt_exist_in": [
+			"SW", "SH", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Alola-Rattfratz",
+				"nr": "019a",
+				"text_identifier": {
+					"So": "Alola-Form",
+					"M": "Alola-Form",
+					"US": "Alola-Form",
+					"UM": "Alola-Form",
+					"LGP": "Alola-Form",
+					"LGE": "Alola-Form"
+				},
+				"doesnt_exist_in": [
+					"SW", "SH", "SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Rattikarl",
+		"text_identifier": {
+			"So": "normale Form",
+			"M": "normale Form",
+			"US": "normale Form",
+			"UM": "normale Form",
+			"LGP": "normale Form",
+			"LGE": "normale Form"
+		},
+		"doesnt_exist_in": [
+			"SW", "SH", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Alola-Rattikarl",
+				"nr": "020a",
+				"text_identifier": {
+					"So": "Alola-Form",
+					"M": "Alola-Form",
+					"US": "Alola-Form",
+					"UM": "Alola-Form",
+					"LGP": "Alola-Form",
+					"LGE": "Alola-Form"
+				},
+				"doesnt_exist_in": [
+					"SW", "SH", "SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Raichu",
+		"text_identifier": {
+			"So": "normale Form",
+			"M": "normale Form",
+			"US": "normale Form",
+			"UM": "normale Form",
+			"LGP": "normale Form",
+			"LGE": "normale Form",
+			"SW": "normale Form",
+			"SH": "normale Form",
+			"SD": "normale Form",
+			"LP": "normale Form",
+			"PLA": "normale Form"
+		},
+		"doesnt_exist_in": [],
+		"forms": [
+			{
+				"name": "Alola-Raichu",
+				"nr": "026a",
+				"text_identifier": {
+					"So": "Alola-Form",
+					"M": "Alola-Form",
+					"US": "Alola-Form",
+					"UM": "Alola-Form",
+					"LGP": "Alola-Form",
+					"LGE": "Alola-Form",
+					"SW": "Alola-Form",
+					"SH": "Alola-Form",
+					"SD": "Alola-Form",
+					"LP": "Alola-Form",
+					"PLA": "Alola-Form"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Sandan",
+		"text_identifier": {
+			"So": "Sandan",
+			"M": "Sandan",
+			"US": "Sandan",
+			"UM": "Sandan",
+			"LGP": "Sandan",
+			"LGE": "Sandan",
+			"SW": "Sandan",
+			"SH": "Sandan",
+			"SD": "Sandan",
+			"LP": "Sandan",
+			"PLA": "Sandan"
+		},
+		"doesnt_exist_in": [
+			"PLA"
+		],
+		"forms": [
+			{
+				"name": "Alola-Sandan",
+				"nr": "027a",
+				"text_identifier": {
+					"So": "Alola-Sandan",
+					"M": "Alola-Sandan",
+					"US": "Alola-Sandan",
+					"UM": "Alola-Sandan",
+					"LGP": "Alola-Sandan",
+					"LGE": "Alola-Sandan",
+					"SW": "Alola-Sandan",
+					"SH": "Alola-Sandan",
+					"SD": "Alola-Sandan",
+					"LP": "Alola-Sandan",
+					"PLA": "Alola-Sandan"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Sandamer",
+		"text_identifier": {
+			"So": "Sandamer",
+			"M": "Sandamer",
+			"US": "Sandamer",
+			"UM": "Sandamer",
+			"LGP": "Sandamer",
+			"LGE": "Sandamer",
+			"SW": "Sandamer",
+			"SH": "Sandamer",
+			"SD": "Sandamer",
+			"LP": "Sandamer",
+			"PLA": "Sandamer"
+		},
+		"doesnt_exist_in": [
+			"PLA"
+		],
+		"forms": [
+			{
+				"name": "Alola-Sandamer",
+				"nr": "028a",
+				"text_identifier": {
+					"So": "Alola-Sandamer",
+					"M": "Alola-Sandamer",
+					"US": "Alola-Sandamer",
+					"UM": "Alola-Sandamer",
+					"LGP": "Alola-Sandamer",
+					"LGE": "Alola-Sandamer",
+					"SW": "Alola-Sandamer",
+					"SH": "Alola-Sandamer",
+					"SD": "Alola-Sandamer",
+					"LP": "Alola-Sandamer",
+					"PLA": "Alola-Sandamer"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Vulpix",
+		"text_identifier": {
+			"So": "Vulpix",
+			"M": "Vulpix",
+			"US": "Vulpix",
+			"UM": "Vulpix",
+			"LGP": "Vulpix",
+			"LGE": "Vulpix",
+			"SW": "Vulpix",
+			"SH": "Vulpix",
+			"SD": "Vulpix",
+			"LP": "Vulpix",
+			"PLA": "Vulpix"
+		},
+		"doesnt_exist_in": [],
+		"forms": [
+			{
+				"name": "Alola-Vulpix",
+				"nr": "037a",
+				"text_identifier": {
+					"So": "Alola-Vulpix",
+					"M": "Alola-Vulpix",
+					"US": "Alola-Vulpix",
+					"UM": "Alola-Vulpix",
+					"LGP": "Alola-Vulpix",
+					"LGE": "Alola-Vulpix",
+					"SW": "Alola-Vulpix",
+					"SH": "Alola-Vulpix",
+					"SD": "Alola-Vulpix",
+					"LP": "Alola-Vulpix",
+					"PLA": "Alola-Vulpix"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP"
+				]
+			}
+		]
+	},
+	{
+		"name": "Vulnona",
+		"text_identifier": {
+			"So": "Vulnona",
+			"M": "Vulnona",
+			"US": "Vulnona",
+			"UM": "Vulnona",
+			"LGP": "Vulnona",
+			"LGE": "Vulnona",
+			"SW": "Vulnona",
+			"SH": "Vulnona",
+			"SD": "Vulnona",
+			"LP": "Vulnona",
+			"PLA": "Vulnona"
+		},
+		"doesnt_exist_in": [],
+		"forms": [
+			{
+				"name": "Alola-Vulnona",
+				"nr": "038a",
+				"text_identifier": {
+					"So": "Alola-Vulnona",
+					"M": "Alola-Vulnona",
+					"US": "Alola-Vulnona",
+					"UM": "Alola-Vulnona",
+					"LGP": "Alola-Vulnona",
+					"LGE": "Alola-Vulnona",
+					"SW": "Alola-Vulnona",
+					"SH": "Alola-Vulnona",
+					"SD": "Alola-Vulnona",
+					"LP": "Alola-Vulnona",
+					"PLA": "Alola-Vulnona"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP"
+				]
+			}
+		]
+	},
+	{
+		"name": "Digda",
+		"text_identifier": {
+			"So": "normale Form",
+			"M": "normale Form",
+			"US": "normale Form",
+			"UM": "normale Form",
+			"LGP": "normale Form",
+			"LGE": "normale Form",
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"PLA"
+		],
+		"forms": [
+			{
+				"name": "Alola-Digda",
+				"nr": "050a",
+				"text_identifier": {
+					"So": "Alola-Form",
+					"M": "Alola-Form",
+					"US": "Alola-Form",
+					"UM": "Alola-Form",
+					"LGP": "Alola-Form",
+					"LGE": "Alola-Form",
+					"SW": "Alola-Digda",
+					"SH": "Alola-Digda",
+					"SD": "Alola-Digda",
+					"LP": "Alola-Digda",
+					"PLA": "Alola-Digda"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Digdri",
+		"text_identifier": {
+			"So": "normale Form",
+			"M": "normale Form",
+			"US": "normale Form",
+			"UM": "normale Form",
+			"LGP": "normale Form",
+			"LGE": "normale Form",
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"PLA"
+		],
+		"forms": [
+			{
+				"name": "Alola-Digdri",
+				"nr": "051a",
+				"text_identifier": {
+					"So": "Alola-Form",
+					"M": "Alola-Form",
+					"US": "Alola-Form",
+					"UM": "Alola-Form",
+					"LGP": "Alola-Form",
+					"LGE": "Alola-Form",
+					"SW": "Alola-Digdri",
+					"SH": "Alola-Digdri",
+					"SD": "Alola-Digdri",
+					"LP": "Alola-Digdri",
+					"PLA": "Alola-Digdri"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Mauzi",
+		"text_identifier": {
+			"So": "normale Form",
+			"M": "normale Form",
+			"US": "normale Form",
+			"UM": "normale Form",
+			"LGP": "normale Form",
+			"LGE": "normale Form",
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"PLA"
+		],
+		"forms": [
+			{
+				"name": "Alola-Mauzi",
+				"nr": "052a",
+				"text_identifier": {
+					"So": "Alola-Form",
+					"M": "Alola-Form",
+					"US": "Alola-Form",
+					"UM": "Alola-Form",
+					"LGP": "Alola-Form",
+					"LGE": "Alola-Form",
+					"SW": "Alola-Mauzi",
+					"SH": "Alola-Mauzi",
+					"SD": "Alola-Mauzi",
+					"LP": "Alola-Mauzi",
+					"PLA": "Alola-Mauzi"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			},
+			{
+				"name": "Galar-Mauzi",
+				"nr": "052b",
+				"text_identifier": {
+					"SW": "Galar-Mauzi",
+					"SH": "Galar-Mauzi",
+					"SD": "Galar-Mauzi",
+					"LP": "Galar-Mauzi",
+					"PLA": "Galar-Mauzi"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Snobilikat",
+		"text_identifier": {
+			"So": "normale Form",
+			"M": "normale Form",
+			"US": "normale Form",
+			"UM": "normale Form",
+			"LGP": "normale Form",
+			"LGE": "normale Form",
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"PLA"
+		],
+		"forms": [
+			{
+				"name": "Alola-Snobilikat",
+				"nr": "053a",
+				"text_identifier": {
+					"So": "Alola-Form",
+					"M": "Alola-Form",
+					"US": "Alola-Form",
+					"UM": "Alola-Form",
+					"LGP": "Alola-Form",
+					"LGE": "Alola-Form",
+					"SW": "Alola-Snobilikat",
+					"SH": "Alola-Snobilikat",
+					"SD": "Alola-Snobilikat",
+					"LP": "Alola-Snobilikat",
+					"PLA": "Alola-Snobilikat"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Kleinstein",
+		"text_identifier": {
+			"So": "Kleinstein",
+			"M": "Kleinstein",
+			"US": "Kleinstein",
+			"UM": "Kleinstein",
+			"LGP": "Kleinstein",
+			"LGE": "Kleinstein"
+		},
+		"doesnt_exist_in": [
+			"SW", "SH"
+		],
+		"forms": [
+			{
+				"name": "Alola-Kleinstein",
+				"nr": "074a",
+				"text_identifier": {
+					"So": "Alola-Kleinstein",
+					"M": "Alola-Kleinstein",
+					"US": "Alola-Kleinstein",
+					"UM": "Alola-Kleinstein",
+					"LGP": "Alola-Kleinstein",
+					"LGE": "Alola-Kleinstein"
+				},
+				"doesnt_exist_in": [
+					"SW", "SH", "SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Georok",
+		"text_identifier": {
+			"So": "Georok",
+			"M": "Georok",
+			"US": "Georok",
+			"UM": "Georok",
+			"LGP": "Georok",
+			"LGE": "Georok"
+		},
+		"doesnt_exist_in": [
+			"SW", "SH"
+		],
+		"forms": [
+			{
+				"name": "Alola-Georok",
+				"nr": "075a",
+				"text_identifier": {
+					"So": "Alola-Georok",
+					"M": "Alola-Georok",
+					"US": "Alola-Georok",
+					"UM": "Alola-Georok",
+					"LGP": "Alola-Georok",
+					"LGE": "Alola-Georok"
+				},
+				"doesnt_exist_in": [
+					"SW", "SH", "SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Geowaz",
+		"text_identifier": {
+			"So": "Geowaz",
+			"M": "Geowaz",
+			"US": "Geowaz",
+			"UM": "Geowaz",
+			"LGP": "Geowaz",
+			"LGE": "Geowaz"
+		},
+		"doesnt_exist_in": [
+			"SW", "SH"
+		],
+		"forms": [
+			{
+				"name": "Alola-Geowaz",
+				"nr": "076a",
+				"text_identifier": {
+					"So": "Alola-Geowaz",
+					"M": "Alola-Geowaz",
+					"US": "Alola-Geowaz",
+					"UM": "Alola-Geowaz",
+					"LGP": "Alola-Geowaz",
+					"LGE": "Alola-Geowaz"
+				},
+				"doesnt_exist_in": [
+					"SW", "SH", "SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Sleima",
+		"text_identifier": {
+			"So": "Sleima",
+			"M": "Sleima",
+			"US": "Sleima",
+			"UM": "Sleima",
+			"LGP": "Sleima",
+			"LGE": "Sleima"
+		},
+		"doesnt_exist_in": [
+			"SW", "SH", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Alola-Sleima",
+				"nr": "088a",
+				"text_identifier": {
+					"So": "Alola-Sleima",
+					"M": "Alola-Sleima",
+					"US": "Alola-Sleima",
+					"UM": "Alola-Sleima",
+					"LGP": "Alola-Sleima",
+					"LGE": "Alola-Sleima"
+				},
+				"doesnt_exist_in": [
+					"SW", "SH", "SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Sleimok",
+		"text_identifier": {
+			"So": "Sleimok",
+			"M": "Sleimok",
+			"US": "Sleimok",
+			"UM": "Sleimok",
+			"LGP": "Sleimok",
+			"LGE": "Sleimok"
+		},
+		"doesnt_exist_in": [
+			"SH", "SW", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Alola-Sleimok",
+				"nr": "089a",
+				"text_identifier": {
+					"So": "Alola-Sleimok",
+					"M": "Alola-Sleimok",
+					"US": "Alola-Sleimok",
+					"UM": "Alola-Sleimok",
+					"LGP": "Alola-Sleimok",
+					"LGE": "Alola-Sleimok"
+				},
+				"doesnt_exist_in": [
+					"SW", "SH", "SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Ponita",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [],
+		"forms": [
+			{
+				"name": "Galar-Ponita",
+				"nr": "077a",
+				"text_identifier": {
+					"SW": "Galar-Ponita",
+					"SH": "Galar-Ponita",
+					"SD": "Galar-Ponita",
+					"LP": "Galar-Ponita",
+					"PLA": "Galar-Ponita"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Gallopa",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [],
+		"forms": [
+			{
+				"name": "Galar-Gallopa",
+				"nr": "078a",
+				"text_identifier": {
+					"SW": "Galar-Gallopa",
+					"SH": "Galar-Gallopa",
+					"SD": "Galar-Gallopa",
+					"LP": "Galar-Gallopa",
+					"PLA": "Galar-Gallopa"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Flegmon",
+		"text_identifier": {
+			"SW": "normale Form",
+			"SH": "normale Form",
+			"SD": "normale Form",
+			"LP": "normale Form",
+			"PLA": "normale Form"
+		},
+		"doesnt_exist_in": [
+			"PLA"
+		],
+		"forms": [
+			{
+				"name": "Galar-Flegmon",
+				"nr": "079a",
+				"text_identifier": {
+					"SW": "Galar-Form",
+					"SH": "Galar-Form",
+					"SD": "Galar-Form",
+					"LP": "Galar-Form",
+					"PLA": "Galar-Form"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Lahmus",
+		"text_identifier": {
+			"SW": "Lahmus",
+			"SH": "Lahmus",
+			"SD": "Lahmus",
+			"LP": "Lahmus",
+			"PLA": "Lahmus"
+		},
+		"doesnt_exist_in": [
+			"PLA"
+		],
+		"forms": [
+			{
+				"name": "Galar-Lahmus",
+				"nr": "080a",
+				"text_identifier": {
+					"SW": "Galar-Form",
+					"SH": "Galar-Form",
+					"SD": "Galar-Form",
+					"LP": "Galar-Form",
+					"PLA": "Galar-Form"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Porenta",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"PLA"
+		],
+		"forms": [
+			{
+				"name": "Galar-Porenta",
+				"nr": "083a",
+				"text_identifier": {
+					"SW": "Galar-Porenta",
+					"SH": "Galar-Porenta",
+					"SD": "Galar-Porenta",
+					"LP": "Galar-Porenta",
+					"PLA": "Galar-Porenta"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Kokowei",
+		"text_identifier": {
+			"So": "normale Form",
+			"M": "normale Form",
+			"US": "normale Form",
+			"UM": "normale Form",
+			"LGP": "normale Form",
+			"LGE": "normale Form",
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"PLA"
+		],
+		"forms": [
+			{
+				"name": "Alola-Kokowei",
+				"nr": "103a",
+				"text_identifier": {
+					"So": "Alola-Form",
+					"M": "Alola-Form",
+					"US": "Alola-Form",
+					"UM": "Alola-Form",
+					"LGP": "Alola-Form",
+					"LGE": "Alola-Form",
+					"SW": "Alola-Kokowei",
+					"SH": "Alola-Kokowei",
+					"SD": "Alola-Kokowei",
+					"LP": "Alola-Kokowei",
+					"PLA": "Alola-Kokowei"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Knogga",
+		"text_identifier": {
+			"So": "Knogga",
+			"M": "Knogga",
+			"US": "Knogga",
+			"UM": "Knogga",
+			"LGP": "Knogga",
+			"LGE": "Knogga",
+			"SW": "Knogga",
+			"SH": "Knogga",
+			"SD": "Knogga",
+			"LP": "Knogga",
+			"PLA": "Knogga"
+		},
+		"doesnt_exist_in": [
+			"PLA"
+		],
+		"forms": [
+			{
+				"name": "Alola-Knogga",
+				"nr": "105a",
+				"text_identifier": {
+					"So": "Alola-Knogga",
+					"M": "Alola-Knogga",
+					"US": "Alola-Knogga",
+					"UM": "Alola-Knogga",
+					"LGP": "Alola-Knogga",
+					"LGE": "Alola-Knogga",
+					"SW": "Alola-Knogga",
+					"SH": "Alola-Knogga",
+					"SD": "Alola-Knogga",
+					"LP": "Alola-Knogga",
+					"PLA": "Alola-Knogga"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Smogmog",
+		"text_identifier": {
+			"SW": "Smogmog",
+			"SH": "Smogmog",
+			"SD": "Smogmog",
+			"LP": "Smogmog",
+			"PLA": "Smogmog"
+		},
+		"doesnt_exist_in": [
+			"PLA"
+		],
+		"forms": [
+			{
+				"name": "Galar-Smogmog",
+				"nr": "110a",
+				"text_identifier": {
+					"SW": "Galar-Smogmog",
+					"SH": "Galar-Smogmog",
+					"SD": "Galar-Smogmog",
+					"LP": "Galar-Smogmog",
+					"PLA": "Galar-Smogmog"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Pantimos",
+		"text_identifier": {
+			"SW": "Pantimos",
+			"SH": "Pantimos",
+			"SD": "Pantimos",
+			"LP": "Pantimos",
+			"PLA": "Pantimos"
+		},
+		"doesnt_exist_in": [],
+		"forms": [
+			{
+				"name": "Galar-Pantimos",
+				"nr": "122a",
+				"text_identifier": {
+					"SW": "Galar-Pantimos",
+					"SH": "Galar-Pantimos",
+					"SD": "Galar-Pantimos",
+					"LP": "Galar-Pantimos",
+					"PLA": "Galar-Pantimos"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Arktos",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"PLA"
+		],
+		"forms": [
+			{
+				"name": "Galar-Arktos",
+				"nr": "144a",
+				"text_identifier": {
+					"SW": "Galar-Arktos",
+					"SH": "Galar-Arktos",
+					"SD": "Galar-Arktos",
+					"LP": "Galar-Arktos",
+					"PLA": "Galar-Arktos"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Zapdos",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"PLA"
+		],
+		"forms": [
+			{
+				"name": "Galar-Zapdos",
+				"nr": "145a",
+				"text_identifier": {
+					"SW": "Galar-Zapdos",
+					"SH": "Galar-Zapdos",
+					"SD": "Galar-Zapdos",
+					"LP": "Galar-Zapdos",
+					"PLA": "Galar-Zapdos"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Lavados",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"PLA"
+		],
+		"forms": [
+			{
+				"name": "Galar-Lavados",
+				"nr": "146a",
+				"text_identifier": {
+					"SW": "Galar-Lavados",
+					"SH": "Galar-Lavados",
+					"SD": "Galar-Lavados",
+					"LP": "Galar-Lavados",
+					"PLA": "Galar-Lavados"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Laschoking",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Galar-Laschoking",
+				"nr": "199a",
+				"text_identifier": {
+					"SW": "Galar-Laschoking",
+					"SH": "Galar-Laschoking",
+					"SD": "Galar-Laschoking",
+					"LP": "Galar-Laschoking",
+					"PLA": "Galar-Laschoking"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Corasonn",
+		"text_identifier": {
+			"SW": "Corasonn",
+			"SH": "Corasonn",
+			"SD": "Corasonn",
+			"LP": "Corasonn",
+			"PLA": "Corasonn"
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Galar-Corasonn",
+				"nr": "222a",
+				"text_identifier": {
+					"SW": "Galar-Corasonn",
+					"SH": "Galar-Corasonn",
+					"SD": "Galar-Corasonn",
+					"LP": "Galar-Corasonn",
+					"PLA": "Galar-Corasonn"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Zigzachs",
+		"text_identifier": {
+			"SW": "Zigzachs",
+			"SH": "Zigzachs",
+			"SD": "Zigzachs",
+			"LP": "Zigzachs",
+			"PLA": "Zigzachs"
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Galar-Zigzachs",
+				"nr": "263a",
+				"text_identifier": {
+					"SW": "Galar-Zigzachs",
+					"SH": "Galar-Zigzachs",
+					"SD": "Galar-Zigzachs",
+					"LP": "Galar-Zigzachs",
+					"PLA": "Galar-Zigzachs"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Geradaks",
+		"text_identifier": {
+			"SW": "Geradaks",
+			"SH": "Geradaks",
+			"SD": "Geradaks",
+			"LP": "Geradaks",
+			"PLA": "Geradaks"
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Galar-Geradaks",
+				"nr": "264a",
+				"text_identifier": {
+					"SW": "Galar-Geradaks",
+					"SH": "Galar-Geradaks",
+					"SD": "Galar-Geradaks",
+					"LP": "Galar-Geradaks",
+					"PLA": "Galar-Geradaks"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Giratina",
+		"text_identifier": {
+			"D": "Wandelform",
+			"P": "Wandelform",
+			"PT": "Wandelform",
+			"HG": "Wandelform",
+			"SS": "Wandelform",
+			"Sc": "Wandelform",
+			"W": "Wandelform",
+			"S2": "Wandelform",
+			"W2": "Wandelform",
+			"X": "Wandelform",
+			"Y": "Wandelform",
+			"OR": "Wandelform",
+			"AS": "Wandelform",
+			"So": "Wandelform",
+			"M": "Wandelform",
+			"US": "Wandelform",
+			"UM": "Wandelform",
+			"LGP": "Wandelform",
+			"LGE": "Wandelform"
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE"
+		],
+		"forms": [
+			{
+				"name": "Giratina (Urform)",
+				"nr": "487a",
+				"text_identifier": {
+					"D": "Urform",
+					"P": "Urform",
+					"PT": "Urform",
+					"HG": "Urform",
+					"SS": "Urform",
+					"Sc": "Urform",
+					"W": "Urform",
+					"S2": "Urform",
+					"W2": "Urform",
+					"X": "Urform",
+					"Y": "Urform",
+					"OR": "Urform",
+					"AS": "Urform",
+					"So": "Urform",
+					"M": "Urform",
+					"US": "Urform",
+					"UM": "Urform",
+					"LGP": "Urform",
+					"LGE": "Urform"
+				},
+				"doesnt_exist_in": [
+					"LGP", "LGE"
+				]
+			}
+		]
+	},
+	{
+		"name": "Flampion",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Galar-Flampion",
+				"nr": "554a",
+				"text_identifier": {
+					"SW": "Galar-Flampion",
+					"SH": "Galar-Flampion",
+					"SD": "Galar-Flampion",
+					"LP": "Galar-Flampion",
+					"PLA": "Galar-Flampion"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Flampivian",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Galar-Flampivian",
+				"nr": "555b",
+				"text_identifier": {
+					"SW": "Galar-Flampivian",
+					"SH": "Galar-Flampivian",
+					"SD": "Galar-Flampivian",
+					"LP": "Galar-Flampivian",
+					"PLA": "Galar-Flampivian"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Makabaja",
+		"text_identifier": {
+			"SW": "Makabaja",
+			"SH": "Makabaja",
+			"SD": "Makabaja",
+			"LP": "Makabaja",
+			"PLA": "Makabaja"
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Galar-Makabaja",
+				"nr": "562a",
+				"text_identifier": {
+					"SW": "Galar-Makabaja",
+					"SH": "Galar-Makabaja",
+					"SD": "Galar-Makabaja",
+					"LP": "Galar-Makabaja",
+					"PLA": "Galar-Makabaja"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Flunschlik",
+		"text_identifier": {
+			"SW": "normale Form",
+			"SH": "normale Form",
+			"SD": "normale Form",
+			"LP": "normale Form",
+			"PLA": "normale Form"
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Galar-Flunschlik",
+				"nr": "618a",
+				"text_identifier": {
+					"SW": "Galar-Form",
+					"SH": "Galar-Form",
+					"SD": "Galar-Form",
+					"LP": "Galar-Form",
+					"PLA": "Galar-Form"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Voltolos",
+		"text_identifier": {
+			"So": "",
+			"M": "",
+			"US": "",
+			"UM": "",
+			"LGP": "",
+			"LGE": ""
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "SD", "LP"
+		],
+		"forms": [
+			{
+				"name": "Voltolos (Inkarnationsform)",
+				"nr": "642a",
+				"text_identifier": {
+					"So": "Inkarnationsform",
+					"M": "Inkarnationsform",
+					"US": "Inkarnationsform",
+					"UM": "Inkarnationsform",
+					"LGP": "Inkarnationsform",
+					"LGE": "Inkarnationsform"
+				},
+				"doesnt_exist_in": [
+					"LGP", "LGE", "SD", "LP"
+				]
+			}
+		]
+	},
+	{
+		"name": "Kyurem",
+		"text_identifier": {
+			"Sc": "Normales",
+			"W": "Normales",
+			"S2": "Normales",
+			"W2": "Normales",
+			"X": "Normales",
+			"Y": "Normales",
+			"OR": "Normales",
+			"AS": "Normales",
+			"So": "Normales",
+			"M": "Normales",
+			"US": "Normales",
+			"UM": "Normales",
+			"LGP": "Normales",
+			"LGE": "Normales",
+			"SW": "Normales",
+			"SH": "Normales",
+			"SD": "Normales",
+			"LP": "Normales",
+			"PLA": "Normales"
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Weißes Kyurem",
+				"nr": "646a",
+				"text_identifier": {
+					"Sc": "Weißes",
+					"W": "Weißes",
+					"S2": "Weißes",
+					"W2": "Weißes",
+					"X": "Weißes",
+					"Y": "Weißes",
+					"OR": "Weißes",
+					"AS": "Weißes",
+					"So": "Weißes",
+					"M": "Weißes",
+					"US": "Weißes",
+					"UM": "Weißes",
+					"LGP": "Weißes",
+					"LGE": "Weißes",
+					"SW": "Weißes",
+					"SH": "Weißes",
+					"SD": "Weißes",
+					"LP": "Weißes",
+					"PLA": "Weißes"
+				},
+				"doesnt_exist_in": [
+					"LGP", "LGE", "SD", "LP", "PLA"
+				]
+			},
+			{
+				"name": "Schwarzes Kyurem",
+				"nr": "646b",
+				"text_identifier": {
+					"Sc": "Schwarzes",
+					"W": "Schwarzes",
+					"S2": "Schwarzes",
+					"W2": "Schwarzes",
+					"X": "Schwarzes",
+					"Y": "Schwarzes",
+					"OR": "Schwarzes",
+					"AS": "Schwarzes",
+					"So": "Schwarzes",
+					"M": "Schwarzes",
+					"US": "Schwarzes",
+					"UM": "Schwarzes",
+					"LGP": "Schwarzes",
+					"LGE": "Schwarzes",
+					"SW": "Schwarzes",
+					"SH": "Schwarzes",
+					"SD": "Schwarzes",
+					"LP": "Schwarzes",
+					"PLA": "Schwarzes"
+				},
+				"doesnt_exist_in": [
+					"LGP", "LGE", "SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Psiaugon",
+		"text_identifier": {
+			"X": "männlich",
+			"Y": "männlich",
+			"OR": "männlich",
+			"AS": "männlich",
+			"So": "männlich",
+			"M": "männlich",
+			"US": "männlich",
+			"UM": "männlich",
+			"LGP": "männlich",
+			"LGE": "männlich",
+			"SW": "männlich",
+			"SH": "männlich",
+			"SD": "männlich",
+			"LP": "männlich",
+			"PLA": "männlich"
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Psiaugon (♀)",
+				"nr": "678a",
+				"text_identifier": {
+					"X": "weiblich",
+					"Y": "weiblich",
+					"OR": "weiblich",
+					"AS": "weiblich",
+					"So": "weiblich",
+					"M": "weiblich",
+					"US": "weiblich",
+					"UM": "weiblich",
+					"LGP": "weiblich",
+					"LGE": "weiblich",
+					"SW": "weiblich",
+					"SH": "weiblich",
+					"SD": "weiblich",
+					"LP": "weiblich",
+					"PLA": "weiblich"
+				},
+				"doesnt_exist_in": [
+					"LGP", "LGE", "SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Wolwerock",
+		"text_identifier": {
+			"So": "Tagform",
+			"M": "Tagform",
+			"US": "Tagform",
+			"UM": "Tagform",
+			"LGP": "Tagform",
+			"LGE": "Tagform",
+			"SW": "Tagform",
+			"SH": "Tagform",
+			"SD": "Tagform",
+			"LP": "Tagform",
+			"PLA": "Tagform"
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Wolwerock (Nachtform)",
+				"nr": "745a",
+				"text_identifier": {
+					"So": "Nachtform",
+					"M": "Nachtform",
+					"US": "Nachtform",
+					"UM": "Nachtform",
+					"LGP": "Nachtform",
+					"LGE": "Nachtform",
+					"SW": "Nachtform",
+					"SH": "Nachtform",
+					"SD": "Nachtform",
+					"LP": "Nachtform",
+					"PLA": "Nachtform"
+				},
+				"doesnt_exist_in": [
+					"LGP", "LGE", "SD", "LP", "PLA"
+				]
+			},
+			{
+				"name": "Wolwerock (Zwielichtform)",
+				"nr": "745b",
+				"text_identifier": {
+					"So": "Zwielichtform",
+					"M": "Zwielichtform",
+					"US": "Zwielichtform",
+					"UM": "Zwielichtform",
+					"LGP": "Zwielichtform",
+					"LGE": "Zwielichtform",
+					"SW": "Zwielichtform",
+					"SH": "Zwielichtform",
+					"SD": "Zwielichtform",
+					"LP": "Zwielichtform",
+					"PLA": "Zwielichtform"
+				},
+				"doesnt_exist_in": [
+					"LGP", "LGE", "SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Amigento",
+		"text_identifier": {
+			"So": "",
+			"M": "",
+			"US": "",
+			"UM": "",
+			"LGP": "",
+			"LGE": ""
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Amigento (Drachen-Disc)",
+				"nr": "773",
+				"text_identifier": {
+					"So": "Drache",
+					"M": "Drache",
+					"US": "Drache",
+					"UM": "Drache",
+					"LGP": "Drache",
+					"LGE": "Drache"
+				},
+				"doesnt_exist_in": [
+					"LGP", "LGE", "SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Necrozma",
+		"text_identifier": {
+			"So": "Normalform",
+			"M": "Normalform",
+			"US": "Normalform",
+			"UM": "Normalform",
+			"LGP": "Normalform",
+			"LGE": "Normalform",
+			"SW": "Normalform",
+			"SH": "Normalform",
+			"SD": "Normalform",
+			"LP": "Normalform",
+			"PLA": "Normalform"
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Necrozma (Abendmähne)",
+				"nr": "800a",
+				"text_identifier": {
+					"So": "Abendmähne",
+					"M": "Abendmähne",
+					"US": "Abendmähne",
+					"UM": "Abendmähne",
+					"LGP": "Abendmähne",
+					"LGE": "Abendmähne",
+					"SW": "Abendmähne",
+					"SH": "Abendmähne",
+					"SD": "Abendmähne",
+					"LP": "Abendmähne",
+					"PLA": "Abendmähne"
+				},
+				"doesnt_exist_in": [
+					"LGP", "LGE", "SD", "LP", "PLA"
+				]
+			},
+			{
+				"name": "Necrozma (Morgenschwingen)",
+				"nr": "800b",
+				"text_identifier": {
+					"So": "Morgenschwingen",
+					"M": "Morgenschwingen",
+					"US": "Morgenschwingen",
+					"UM": "Morgenschwingen",
+					"LGP": "Morgenschwingen",
+					"LGE": "Morgenschwingen",
+					"SW": "Morgenschwingen",
+					"SH": "Morgenschwingen",
+					"SD": "Morgenschwingen",
+					"LP": "Morgenschwingen",
+					"PLA": "Morgenschwingen"
+				},
+				"doesnt_exist_in": [
+					"LGP", "LGE", "SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Riffex",
+		"text_identifier": {
+			"SW": "Hoch-Form",
+			"SH": "Hoch-Form",
+			"SD": "Hoch-Form",
+			"LP": "Hoch-Form",
+			"PLA": "Hoch-Form"
+		},
+		"doesnt_exist_in": [
+			"SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Riffex (Tief-Form)",
+				"nr": "849a",
+				"text_identifier": {
+					"SW": "Tief-Form",
+					"SH": "Tief-Form",
+					"SD": "Tief-Form",
+					"LP": "Tief-Form",
+					"PLA": "Tief-Form"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Servol",
+		"text_identifier": {
+			"SW": "männlich",
+			"SH": "männlich",
+			"SD": "männlich",
+			"LP": "männlich",
+			"PLA": "männlich"
+		},
+		"doesnt_exist_in": [
+			"SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Servol (♀)",
+				"nr": "876a",
+				"text_identifier": {
+					"SW": "weiblich",
+					"SH": "weiblich",
+					"SD": "weiblich",
+					"LP": "weiblich",
+					"PLA": "weiblich"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Wulaosu",
+		"text_identifier": {
+			"SW": "Fokussierter Stil",
+			"SH": "Fokussierter Stil",
+			"SD": "Fokussierter Stil",
+			"LP": "Fokussierter Stil",
+			"PLA": "Fokussierter Stil"
+		},
+		"doesnt_exist_in": [
+			"SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Wulaosu (Fließender Stil)",
+				"nr": "892a",
+				"text_identifier": {
+					"SW": "Fließender Stil",
+					"SH": "Fließender Stil",
+					"SD": "Fließender Stil",
+					"LP": "Fließender Stil",
+					"PLA": "Fließender Stil"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Coronospa",
+		"text_identifier": {
+			"SW": "Coronospa",
+			"SH": "Coronospa",
+			"SD": "Coronospa",
+			"LP": "Coronospa",
+			"PLA": "Coronospa"
+		},
+		"doesnt_exist_in": [
+			"SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Coronospa (Schimmelreiter)",
+				"nr": "898a",
+				"text_identifier": {
+					"SW": "Schimmelreiter",
+					"SH": "Schimmelreiter",
+					"SD": "Schimmelreiter",
+					"LP": "Schimmelreiter",
+					"PLA": "Schimmelreiter"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			},
+			{
+				"name": "Coronospa (Rappenreiter)",
+				"nr": "898b",
+				"text_identifier": {
+					"SW": "Rappenreiter",
+					"SH": "Rappenreiter",
+					"SD": "Rappenreiter",
+					"LP": "Rappenreiter",
+					"PLA": "Rappenreiter"
+				},
+				"doesnt_exist_in": [
+					"SD", "LP", "PLA"
+				]
+			}
+		]
+	},
+	{
+		"name": "Fukano",
+		"text_identifier": {
+			"SW": "Fukano",
+			"SH": "Fukano",
+			"SD": "Fukano",
+			"LP": "Fukano",
+			"PLA": "Fukano"
+		},
+		"doesnt_exist_in": [
+			"PLA"
+		],
+		"forms": [
+			{
+				"name": "Hisui-Fukano",
+				"nr": "058a",
+				"text_identifier": {
+					"SW": "Hisui-Fukano",
+					"SH": "Hisui-Fukano",
+					"SD": "Hisui-Fukano",
+					"LP": "Hisui-Fukano",
+					"PLA": "Hisui-Fukano"
+				},
+				"doesnt_exist_in": []
+			}
+		]
+	},
+	{
+		"name": "Arkani",
+		"text_identifier": {
+			"SW": "Arkani",
+			"SH": "Arkani",
+			"SD": "Arkani",
+			"LP": "Arkani",
+			"PLA": "Arkani"
+		},
+		"doesnt_exist_in": [
+			"PLA"
+		],
+		"forms": [
+			{
+				"name": "Hisui-Arkani",
+				"nr": "059a",
+				"text_identifier": {
+					"SW": "Hisui-Arkani",
+					"SH": "Hisui-Arkani",
+					"SD": "Hisui-Arkani",
+					"LP": "Hisui-Arkani",
+					"PLA": "Hisui-Arkani"
+				},
+				"doesnt_exist_in": []
+			}
+		]
+	},
+	{
+		"name": "Voltobal",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"SW", "SH", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Hisui-Voltobal",
+				"nr": "100a",
+				"text_identifier": {
+					"SW": "Hisui-Voltobal",
+					"SH": "Hisui-Voltobal",
+					"SD": "Hisui-Voltobal",
+					"LP": "Hisui-Voltobal",
+					"PLA": "Hisui-Voltobal"
+				},
+				"doesnt_exist_in": []
+			}
+		]
+	},
+	{
+		"name": "Lektrobal",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"SW", "SH", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Hisui-Lektrobal",
+				"nr": "101a",
+				"text_identifier": {
+					"SW": "Hisui-Lektrobal",
+					"SH": "Hisui-Lektrobal",
+					"SD": "Hisui-Lektrobal",
+					"LP": "Hisui-Lektrobal",
+					"PLA": "Hisui-Lektrobal"
+				},
+				"doesnt_exist_in": []
+			}
+		]
+	},
+	{
+		"name": "Tornupto",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"SW", "SH", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Hisui-Tornupto",
+				"nr": "157a",
+				"text_identifier": {
+					"SW": "Hisui-Tornupto",
+					"SH": "Hisui-Tornupto",
+					"SD": "Hisui-Tornupto",
+					"LP": "Hisui-Tornupto",
+					"PLA": "Hisui-Tornupto"
+				},
+				"doesnt_exist_in": []
+			}
+		]
+	},
+	{
+		"name": "Baldorfish",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"PLA"
+		],
+		"forms": [
+			{
+				"name": "Hisui-Baldorfish",
+				"nr": "211a",
+				"text_identifier": {
+					"SW": "Hisui-Baldorfish",
+					"SH": "Hisui-Baldorfish",
+					"SD": "Hisui-Baldorfish",
+					"LP": "Hisui-Baldorfish",
+					"PLA": "Hisui-Baldorfish"
+				},
+				"doesnt_exist_in": []
+			}
+		]
+	},
+	{
+		"name": "Sniebel",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"PLA"
+		],
+		"forms": [
+			{
+				"name": "Hisui-Sniebel",
+				"nr": "215a",
+				"text_identifier": {
+					"SW": "Hisui-Sniebel",
+					"SH": "Hisui-Sniebel",
+					"SD": "Hisui-Sniebel",
+					"LP": "Hisui-Sniebel",
+					"PLA": "Hisui-Sniebel"
+				},
+				"doesnt_exist_in": []
+			}
+		]
+	},
+	{
+		"name": "Admurai",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "SW", "SH", "SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Hisui-Admurai",
+				"nr": "503a",
+				"text_identifier": {
+					"SW": "",
+					"SH": "",
+					"SD": "",
+					"LP": "",
+					"PLA": ""
+				},
+				"doesnt_exist_in": []
+			}
+		]
+	},
+	{
+		"name": "Dressella",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Hisui-Dressella",
+				"nr": "549a",
+				"text_identifier": {
+					"SW": "Hisui",
+					"SH": "Hisui",
+					"SD": "Hisui",
+					"LP": "Hisui",
+					"PLA": "Hisui"
+				},
+				"doesnt_exist_in": []
+			}
+		]
+	},
+	{
+		"name": "Zorua",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Hisui-Zorua",
+				"nr": "570a",
+				"text_identifier": {
+					"SW": "Hisui",
+					"SH": "Hisui",
+					"SD": "Hisui",
+					"LP": "Hisui",
+					"PLA": "Hisui"
+				},
+				"doesnt_exist_in": []
+			}
+		]
+	},
+	{
+		"name": "Zoroark",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Hisui-Zoroark",
+				"nr": "571a",
+				"text_identifier": {
+					"SW": "Hisui",
+					"SH": "Hisui",
+					"SD": "Hisui",
+					"LP": "Hisui",
+					"PLA": "Hisui"
+				},
+				"doesnt_exist_in": []
+			}
+		]
+	},
+	{
+		"name": "Washakwil",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Hisui-Washakwil",
+				"nr": "628a",
+				"text_identifier": {
+					"SW": "Hisui",
+					"SH": "Hisui",
+					"SD": "Hisui",
+					"LP": "Hisui",
+					"PLA": "Hisui"
+				},
+				"doesnt_exist_in": []
+			}
+		]
+	},
+	{
+		"name": "Viscargot",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Hisui-Viscargot",
+				"nr": "705a",
+				"text_identifier": {
+					"SW": "Hisui",
+					"SH": "Hisui",
+					"SD": "Hisui",
+					"LP": "Hisui",
+					"PLA": "Hisui"
+				},
+				"doesnt_exist_in": []
+			}
+		]
+	},
+	{
+		"name": "Viscogon",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Hisui-Viscogon",
+				"nr": "706a",
+				"text_identifier": {
+					"SW": "Hisui",
+					"SH": "Hisui",
+					"SD": "Hisui",
+					"LP": "Hisui",
+					"PLA": "Hisui"
+				},
+				"doesnt_exist_in": []
+			}
+		]
+	},
+	{
+		"name": "Arktilas",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Hisui-Arktilas",
+				"nr": "713a",
+				"text_identifier": {
+					"SW": "Hisui",
+					"SH": "Hisui",
+					"SD": "Hisui",
+					"LP": "Hisui",
+					"PLA": "Hisui"
+				},
+				"doesnt_exist_in": []
+			}
+		]
+	},
+	{
+		"name": "Silvarro",
+		"text_identifier": {
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"LGP", "LGE", "SD", "LP", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Hisui-Silvarro",
+				"nr": "724a",
+				"text_identifier": {
+					"SW": "Hisui",
+					"SH": "Hisui",
+					"SD": "Hisui",
+					"LP": "Hisui",
+					"PLA": "Hisui"
+				},
+				"doesnt_exist_in": []
+			}
+		]
+	},
+	{
+		"name": "Barschuft",
+		"text_identifier": {
+			"Sc": "",
+			"W": "",
+			"S2": "",
+			"W2": "",
+			"X": "",
+			"Y": "",
+			"OR": "",
+			"AS": "",
+			"So": "",
+			"M": "",
+			"US": "",
+			"UM": "",
+			"LGP": "",
+			"LGE": "",
+			"SW": "",
+			"SH": "",
+			"SD": "",
+			"LP": "",
+			"PLA": ""
+		},
+		"doesnt_exist_in": [
+			"LGE", "LGP", "LP", "SD", "PLA"
+		],
+		"forms": [
+			{
+				"name": "Barschuft (Weißlinige Form)",
+				"nr": "550b",
+				"text_identifier": {
+					"PLA": "Weißlinig"
+				},
+				"doesnt_exist_in": []
+			}
+		]
+	}
+]

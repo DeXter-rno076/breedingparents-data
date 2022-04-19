@@ -40,9 +40,21 @@ If you want a custom maximum file length of the JSON files in formatted form edi
 # todo
 * (branch evolutions of evo data creator)
 * moves that dont exist in one gen for oldGenLearnsets => first add banned moves category for bdsp
+* splitting somehow scrambles the order of pkmn (not a problem but ugly)
 
 # some notes
 I massively misestimated how this would grow. You can see everwhere signs how much this was formed later on.
 For example at first every program was completely independent and executed separately. Additionally every gen was handled individually.
 *If* I have time left later, I will definitely completely rework this, but for now this is a little mess that does what it has to do. So yeah, that will probably never happen.
 But the adjustement programs should be simple enough on themselves, just the main learnset creation files probably are a bit hard to unterstand. I hope that the specialform creation file is the only hard nut (pkmn specialforms are always a pain in the ass in programming).
+
+# todo
+extra check:
+Barschuft
+Gastrodon
+Necrozma
+Wolwerock
+maybe add "Von Vorentwicklungen" to directLearnsets
+ef-em
+Regionalformen usw.
+exists-property (esp. for PLA) is very often inaccurate: cant determine it solely by learnset tables
