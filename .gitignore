@@ -1,9 +1,7 @@
-data/output/
-data/separatedoutput/
-data/logs/
-data/backup/
+data/out/
 built/
 tests/
+uploading/
 ##########################################
 
 # Logs
