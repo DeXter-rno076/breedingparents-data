@@ -12,7 +12,7 @@ import { replaceOldMoveNames } from './pkmn-data_adjustements/replaceOldMoveName
 import { setExists } from './pkmn-data_adjustements/setExists';
 import { createAllDiffs } from './diffs_creation/main';
 import createEvoData from './pkmn-data_adjustements/createEvoData';
-import { pkmnNamesToLowerCase } from './pkmn-data_adjustements/pkmnNamesToLowerCase';
+import { namesToLowerCase } from './pkmn-data_adjustements/namesToLowerCase';
 import splitDataFiles from './file_managing/splitDataFiles';
 import createEggGroupData from './eggGroup-data/eggGroup-data';
 
@@ -36,7 +36,7 @@ async function main() {
 
     //!last adjustements
     replaceOldMoveNames();
-    pkmnNamesToLowerCase();
+    namesToLowerCase();
 
     createAllDiffs();
 
