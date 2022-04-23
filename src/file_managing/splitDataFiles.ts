@@ -22,6 +22,7 @@ export default function splitDataFiles() {
     for (let gen = OLDEST_GEN; gen <= NEWEST_GEN; gen++) {
         splitFilesForGen(gen);
     }
+	splitExtraFiles()
 
     Logger.statusLog(`finished splitting output files`);
 }
@@ -37,33 +38,60 @@ function splitFilesForGen(gen: number) {
         }
         Logger.statusLog(`splitting ${fileName}`);
         const pkmnData = JSON.parse(FileLoader.getFinalGenDatasetByFileName(gen, fileName));
-
-        let currentNewDataMap = new Map<string, PkmnGameExclusives | PkmnGenSimilarities | string>();
-        let currentLength = 0;
-        let fileIndex = 1;
-
-        const pkmnDataAttributes = Object.keys(pkmnData);
-        for (let i = 0; i < pkmnDataAttributes.length; i += PKMN_INTERVAL) {
-            const tmpMap = new Map<string, PkmnGameExclusives | PkmnGenSimilarities>();
-            addSetOfPkmnsToMap(tmpMap, i, pkmnDataAttributes, pkmnData);
-            currentLength += getMapLength(tmpMap);
-
-            //formatting json about doubles the length and mediawiki does it automatically
-            if (currentLength > MAX_FILE_LENGTH / 2) {
-                //Logger.statusLog(`saving part ${fileIndex}`);
-                currentNewDataMap.set('continue', 'dasMussHierStehen');
-                saveMap(currentNewDataMap, gen, fileName, fileIndex);
-                currentLength = 0;
-                fileIndex++;
-            }
-
-            fuseMaps(currentNewDataMap, tmpMap);
-        }
-
-        saveMap(currentNewDataMap, gen, fileName, fileIndex);
-
+		const splitMaps = splitFile(pkmnData);
+		for (let i = 0; i < splitMaps.length; i++) {
+			const map = splitMaps[i]
+			saveMap(map, gen, fileName, i);
+		}
+        
         Logger.statusLog(`finished with ${fileName}`);
     }
+}
+
+function splitExtraFiles () {
+	const files = FileLoader.getExtraFileNames();
+	for (const file of files) {
+		const fileContent = JSON.parse(FileLoader.getExtraFileByFileName(file));
+		const splitVersion = splitFile(fileContent);
+		for (let i = 0; i < splitVersion.length; i++) {
+			if (splitVersion[i] === undefined) {
+				console.log(splitVersion[i]);
+				console.log(i);
+			}
+			saveMap(splitVersion[i], 0, file, i);
+
+		}
+	}
+}
+
+function splitFile (fileData: object): Map<string, any>[] {
+	const splitMaps = [];
+
+	let currentNewDataMap = new Map<string, any>();
+	let currentLength = 0;
+	let fileIndex = 1;
+
+	const pkmnDataAttributes = Object.keys(fileData);
+	for (let i = 0; i < pkmnDataAttributes.length; i += PKMN_INTERVAL) {
+		const tmpMap = new Map<string, any>();
+		addSetOfPkmnsToMap(tmpMap, i, pkmnDataAttributes, fileData);
+		currentLength += getMapLength(tmpMap);
+
+		//formatting json about doubles the length and mediawiki does it automatically
+		if (currentLength > MAX_FILE_LENGTH / 2) {
+			//Logger.statusLog(`saving part ${fileIndex}`);
+			currentNewDataMap.set('continue', 'dasMussHierStehen');
+			splitMaps.push(currentNewDataMap);
+			currentNewDataMap = new Map<string, any>();
+			currentLength = 0;
+			fileIndex++;
+		}
+
+		fuseMaps(currentNewDataMap, tmpMap);
+	}
+	splitMaps.push(currentNewDataMap);
+
+	return splitMaps;
 }
 
 function initGenFolder(gen: number) {
@@ -83,10 +111,10 @@ function getMapLength(map: Map<string, PkmnGameExclusives | PkmnGenSimilarities>
 }
 
 function addSetOfPkmnsToMap(
-    tmpMap: Map<string, PkmnGameExclusives | PkmnGenSimilarities>,
+    tmpMap: Map<string, any>,
     start: number,
     pkmnNames: string[],
-    pkmnData: PkmnGameExclusives | PkmnGenSimilarities
+    pkmnData: any
 ) {
     /* Logger.statusLog(
         `adding pkmn objs from ${start} to ${
@@ -110,7 +138,7 @@ function fuseMaps(
 }
 
 function saveMap(
-    dataMap: Map<string, PkmnGameExclusives | PkmnGenSimilarities | string>,
+    dataMap: Map<string, any>,
     gen: number,
     fileName: string,
     fileIndex: number

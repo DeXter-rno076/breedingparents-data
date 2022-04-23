@@ -24,6 +24,7 @@ export const PLAIN_DATASET_FILES_DIR = DATA_OUT_DIR + '/plain_gen_datasets';
 export const PLAIN_DATASET_FILES_PKMN_DIR = PLAIN_DATASET_FILES_DIR + '/pkmn';
 export const FINAL_DATASETS_DIR = DATA_OUT_DIR + '/final_datasets';
 export const SPLIT_FINAL_DATASETS_DIR = DATA_OUT_DIR + '/split_final_datasets';
+export const EXTRA_FILES_FOLDER = DATA_OUT_DIR + '/extras';
 //====================================================
 
 export const OLDEST_GEN = 2;
