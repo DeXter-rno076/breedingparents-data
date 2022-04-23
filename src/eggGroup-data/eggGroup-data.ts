@@ -33,7 +33,7 @@ export default function createEggGroupData() {
 function createGameEggGroupDataset(pkmnDataset: PlainPkmnDataset): Map<string, string[]> {
     const eggGroups = new Map<string, string[]>();
     for (const [pkmnName, pkmnData] of Object.entries(pkmnDataset)) {
-        if (pkmnData.unpairable) {
+        if (pkmnData.unpairable || !pkmnData.exists) {
             continue;
         }
         const eggGroupNames = [pkmnData.eggGroup1, pkmnData.eggGroup2];
