@@ -7,7 +7,7 @@ import { Game, GameAlias, LearnsetType } from './types';
  * if you have custom max page sizes and they're enough, just set the constant to something like 9999999999999
  * 600_000 should be sufficient for default mediawiki config
  */
-export const MAX_FILE_LENGTH = 600_000;
+export const MAX_FILE_LENGTH = 550_000;
 
 //FILE PATHS =========================================
 export const DATA_DIR = 'data';
