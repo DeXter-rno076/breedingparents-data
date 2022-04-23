@@ -32,19 +32,19 @@ function setLowestEvolutions(pkmnData: AdjustedPkmnDataset) {
  */
 function findLowestEvo(pkmnName: string): string {
     if (NON_PERMANENT_PKMN_FORMS.includes(pkmnName)) {
-        return '';
+        return pkmnName;
     }
     //Logger.statusLog(`finding lowest evo for ${pkmnName}`);
     let lookedAtPkmn = evoData[pkmnName];
     if (lookedAtPkmn === undefined) {
         Logger.elog(`couldnt find evo data for ${pkmnName}`);
-        return '';
+        return pkmnName;
     }
     while (lookedAtPkmn.pre !== '') {
         lookedAtPkmn = evoData[lookedAtPkmn.pre];
         if (lookedAtPkmn === undefined) {
             Logger.elog(`couldnt find evo data for ${pkmnName}`);
-            return '';
+            return pkmnName;
         }
     }
 
