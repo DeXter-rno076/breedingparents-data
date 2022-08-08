@@ -113,11 +113,11 @@ export class GenerationDiff {
 
     private saveDifferences(differences: { [key: string]: PkmnGameExclusives }[]) {
         for (const gameDiff of differences) {
-            if (gameDiff['pikachu'] === undefined) {
-                Logger.elog('diff of gen ' + this.gen + ' has no pikachu');
+            if (gameDiff['Pikachu'] === undefined) {
+                Logger.elog('diff of gen ' + this.gen + ' has no Pikachu');
                 continue;
             }
-            const game = gameDiff['pikachu'].game;
+            const game = gameDiff['Pikachu'].game;
             FileSaver.saveFinalDatasetPkmnExclusives(game, JSON.stringify(gameDiff));
         }
     }

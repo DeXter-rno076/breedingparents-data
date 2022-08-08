@@ -1,6 +1,6 @@
 import Logger from '../Logger';
 import fs from 'fs';
-import { doToAllPkmnDataFiles } from './utils';
+import { doToAllPlainPkmnDataFiles } from './utils';
 import { AdjustedPkmnDataset } from '../types';
 import { AdjustedPkmnJSON } from './AdjustedPkmnJSON';
 import { GamesPerGenUtils } from '../external_data_utils/GamesPerGenUtils';
@@ -19,7 +19,7 @@ export default function addOldGenLearnsets() {
     Logger.initLogs('oldGenLearnsets');
     Logger.statusLog('adding old gen learnsets');
 
-    doToAllPkmnDataFiles(addLearnsetsForFile);
+    doToAllPlainPkmnDataFiles(addLearnsetsForFile);
 }
 
 function addLearnsetsForFile(pkmnDataSet: AdjustedPkmnDataset) {

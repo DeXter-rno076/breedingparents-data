@@ -7,4 +7,6 @@ export interface TunedPkmnJSON extends InitialPkmnJSON {
     lowestEvo: string;
     evolutions: string[];
     exists: boolean;
+	correctlyWrittenName: string;
+	subpageLinkName: string;
 }

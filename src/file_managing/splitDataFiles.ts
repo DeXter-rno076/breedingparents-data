@@ -1,6 +1,6 @@
 import fs from 'fs';
 import Logger from '../Logger';
-import { MAX_FILE_LENGTH, NEWEST_GEN, OLDEST_GEN } from '../constants';
+import { MAX_FILE_LENGTH, NEWEST_GEN, OLDEST_GEN, SPLIT_FINAL_DATASETS_DIR } from '../constants';
 import { PkmnGameExclusives } from '../diffs_creation/PkmnGameExclusives';
 import { PkmnGenSimilarities } from '../diffs_creation/PkmnGenSimilarities';
 import { FilePathBuilder } from './FilePathBuilder';
@@ -18,6 +18,7 @@ const PKMN_INTERVAL = 10;
 export default function splitDataFiles() {
     Logger.initLogs('splitDataFiles');
     Logger.statusLog(`splitting data output files to not reach ${MAX_FILE_LENGTH} bytes`);
+	FileSystemInitializer.createDirectoryIfNeeded(SPLIT_FINAL_DATASETS_DIR);
 
     for (let gen = OLDEST_GEN; gen <= NEWEST_GEN; gen++) {
         splitFilesForGen(gen);

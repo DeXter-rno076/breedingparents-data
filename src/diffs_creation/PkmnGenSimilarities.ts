@@ -6,4 +6,6 @@ export interface PkmnGenSimilarities {
     breedingLearnsets: string[];
     eventLearnsets: string[];
     oldGenLearnsets: string[];
+	correctlyWrittenName: string;
+	subpageLinkName: string;
 }

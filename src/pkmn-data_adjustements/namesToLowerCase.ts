@@ -1,22 +1,32 @@
-import { AdjustedPkmnDataset } from '../types';
-import { AdjustedPkmnJSON } from './AdjustedPkmnJSON';
-import { doToAllPkmnDataFiles } from './utils';
+import { PkmnGameExclusives } from '../diffs_creation/PkmnGameExclusives';
+import { PkmnGenSimilarities } from '../diffs_creation/PkmnGenSimilarities';
+import Logger from '../Logger';
+import { doToAllSplitDataFiles } from './utils';
 
 export function namesToLowerCase() {
-	doToAllPkmnDataFiles(changeAllNamesToLowerCase);
+	doToAllSplitDataFiles(changeAllNamesToLowerCaseForPkmn);
 }
 
-function changeAllNamesToLowerCase(fileContent: AdjustedPkmnDataset) {
+function changeAllNamesToLowerCaseForPkmn(fileContent: {[key: string]: PkmnGameExclusives | PkmnGenSimilarities | string}) {
     for (const [pkmnName, pkmnData] of Object.entries(fileContent)) {
+		if (typeof pkmnData === 'string') {
+			continue;
+		}
         const lowerCaseName = pkmnName.toLowerCase();
         fileContent[lowerCaseName] = changeAllPkmnNamesToLowerCaseForPkmn(pkmnData);
-		fileContent[lowerCaseName] = changeAllMoveNamesToLowerCaseForPkmn(fileContent[lowerCaseName]);
+		const t = fileContent[lowerCaseName];
+		if (typeof t === 'string') {
+			Logger.elog('data of key ' + lowerCaseName + ' somehow got type string');
+			continue;
+		}
+		fileContent[lowerCaseName] = changeAllMoveNamesToLowerCaseForPkmn(t);
         delete fileContent[pkmnName];
     }
 }
 
-function changeAllPkmnNamesToLowerCaseForPkmn(pkmn: AdjustedPkmnJSON): AdjustedPkmnJSON {
-    //lowestEvo, evolutions
+//todo parameter typ any is unclean af
+function changeAllPkmnNamesToLowerCaseForPkmn(pkmn: any): PkmnGameExclusives | PkmnGenSimilarities {
+	//lowestEvo, evolutions
     if (pkmn.lowestEvo !== undefined) {
         pkmn.lowestEvo = pkmn.lowestEvo.toLowerCase();
     }
@@ -29,7 +39,7 @@ function changeAllPkmnNamesToLowerCaseForPkmn(pkmn: AdjustedPkmnJSON): AdjustedP
     return pkmn;
 }
 
-function changeAllMoveNamesToLowerCaseForPkmn(pkmn: AdjustedPkmnJSON): AdjustedPkmnJSON {
+function changeAllMoveNamesToLowerCaseForPkmn(pkmn: PkmnGameExclusives | PkmnGenSimilarities): PkmnGameExclusives | PkmnGenSimilarities {
 	pkmn.directLearnsets = learnsetToLowerCase(pkmn.directLearnsets);
 	pkmn.breedingLearnsets = learnsetToLowerCase(pkmn.breedingLearnsets);
 	pkmn.eventLearnsets = learnsetToLowerCase(pkmn.eventLearnsets);

@@ -2,7 +2,7 @@ import fs from 'fs';
 import { NON_PERMANENT_PKMN_FORMS } from '../constants';
 import Logger from '../Logger';
 import { PkmnEvolutionLink, AdjustedPkmnDataset } from '../types';
-import { doToAllPkmnDataFiles } from './utils';
+import { doToAllPlainPkmnDataFiles } from './utils';
 
 //todo
 const evoData = JSON.parse(fs.readFileSync('data/in/evos.json', { encoding: 'utf-8' })) as {
@@ -13,7 +13,7 @@ export default function addLowestEvolution() {
     Logger.initLogs('addLowestEvolution');
     Logger.statusLog('adding lowest evolution to every pkmn');
 
-    doToAllPkmnDataFiles(setLowestEvolutions);
+    doToAllPlainPkmnDataFiles(setLowestEvolutions);
 
     Logger.statusLog('finished adding lowest evos');
 }

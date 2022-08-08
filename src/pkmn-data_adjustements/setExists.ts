@@ -1,9 +1,9 @@
 import { AdjustedPkmnDataset } from '../types';
-import { doToAllPkmnDataFiles } from './utils';
+import { doToAllPlainPkmnDataFiles } from './utils';
 import { AdjustedPkmnJSON } from './AdjustedPkmnJSON';
 
 export function setExists() {
-    doToAllPkmnDataFiles(replaceOldMoveNamesOfDataset);
+    doToAllPlainPkmnDataFiles(replaceOldMoveNamesOfDataset);
 }
 
 function replaceOldMoveNamesOfDataset(fileContent: AdjustedPkmnDataset) {

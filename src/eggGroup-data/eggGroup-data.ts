@@ -16,12 +16,13 @@ export default function createEggGroupData() {
 
         for (const pkmnDatasetFileName of pkmnDatasetFileNames) {
             const pkmnDataset = JSON.parse(FileLoader.getPlainGenPkmnDataSetByFileName(pkmnDatasetFileName, gen));
-            const eggGroups = createGameEggGroupDataset(pkmnDataset);
-            if (pkmnDataset['pikachu'] === undefined) {
+            let eggGroups = createGameEggGroupDataset(pkmnDataset);
+            if (pkmnDataset['Pikachu'] === undefined) {
                 Logger.elog('createEggGroupData: pikachu is not set in gen ' + gen + ' file ' + pkmnDatasetFileName);
                 continue;
             }
-            const game = pkmnDataset['pikachu'].game;
+            const game = pkmnDataset['Pikachu'].game;
+			eggGroups = pkmnNamesToLowerCase(eggGroups);
             const eggGroupsObj = GeneralUtils.mapToObject(eggGroups);
             const eggGroupsText = JSON.stringify(eggGroupsObj);
             FileSaver.saveEggGroupDataset(game, eggGroupsText);
@@ -72,4 +73,11 @@ function insertSorted(eggGroupArr: string[], newEggGroupMember: TunedPkmnJSON, p
         `adding ${newEggGroupMember} to egg group array at position ${targetIndex}`
     ); */
     eggGroupArr.splice(targetIndex, 0, newEggGroupMember.name);
+}
+
+function pkmnNamesToLowerCase (eggGroups: Map<string, string[]>): Map<string, string[]> {
+	for (const [k, v] of eggGroups.entries()) {
+		eggGroups.set(k, v.map(item => item.toLowerCase()));
+	}
+	return eggGroups;
 }

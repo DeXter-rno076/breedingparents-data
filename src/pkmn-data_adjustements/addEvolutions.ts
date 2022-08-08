@@ -1,7 +1,7 @@
 import Logger from '../Logger';
 import { AdjustedPkmnDataset, PkmnEvolutionLink } from '../types';
 import fs from 'fs';
-import { doToAllPkmnDataFiles } from './utils';
+import { doToAllPlainPkmnDataFiles } from './utils';
 import { FluidFormsUtils } from '../external_data_utils/FluidFormsUtils';
 
 const evoData = JSON.parse(fs.readFileSync('data/in/evos.json', { encoding: 'utf-8' })) as {
@@ -16,7 +16,7 @@ export function addEvolutions() {
 
     initPkmnEvolutionsMap();
 
-    doToAllPkmnDataFiles(addEvosToFilePkmn);
+    doToAllPlainPkmnDataFiles(addEvosToFilePkmn);
 
     Logger.statusLog('finished adding evolutions lists to pkmn');
 }

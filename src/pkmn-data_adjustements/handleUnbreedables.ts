@@ -2,7 +2,7 @@ import fs from 'fs';
 import { PkmnEvolutionLink, AdjustedPkmnDataset } from '../types';
 import Logger from '../Logger';
 import { NON_PERMANENT_PKMN_FORMS } from '../constants';
-import { doToAllPkmnDataFiles } from './utils';
+import { doToAllPlainPkmnDataFiles } from './utils';
 import { AdjustedPkmnJSON } from './AdjustedPkmnJSON';
 
 //todo
@@ -24,7 +24,7 @@ export default function handleUnbreedables() {
     Logger.initLogs('handleUnbreedables');
     Logger.statusLog(`findind and marking unbreedables and adjusting some data of them`);
 
-    doToAllPkmnDataFiles(handleEvosAndOtherUnbreedables);
+    doToAllPlainPkmnDataFiles(handleEvosAndOtherUnbreedables);
 
     Logger.statusLog(`finished working on unbreedables`);
 }

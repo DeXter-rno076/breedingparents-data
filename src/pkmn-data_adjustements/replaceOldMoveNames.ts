@@ -1,7 +1,7 @@
 import fs from 'fs';
 import Logger from '../Logger';
 import { MoveRenamingInfo, AdjustedPkmnDataset } from '../types';
-import { doToAllPkmnDataFiles } from './utils';
+import { doToAllPlainPkmnDataFiles } from './utils';
 import { AdjustedPkmnJSON } from './AdjustedPkmnJSON';
 
 //todo
@@ -16,7 +16,7 @@ export function replaceOldMoveNames() {
 
     initOldMoveNames();
 
-    doToAllPkmnDataFiles(replaceOldMoveNamesOfDataset);
+    doToAllPlainPkmnDataFiles(replaceOldMoveNamesOfDataset);
 }
 
 function replaceOldMoveNamesOfDataset(fileContent: AdjustedPkmnDataset) {

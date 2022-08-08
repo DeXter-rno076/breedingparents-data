@@ -1,7 +1,7 @@
 import fs from 'fs';
 import { PkmnEvolutionLink, AdjustedPkmnDataset } from '../types';
 import Logger from '../Logger';
-import { doToAllPkmnDataFiles } from './utils';
+import { doToAllPlainPkmnDataFiles } from './utils';
 import { AdjustedPkmnJSON } from './AdjustedPkmnJSON';
 
 //todo
@@ -23,7 +23,7 @@ export default function handleUnpairables() {
     Logger.initLogs('handleUnpairables');
     Logger.statusLog(`finding and marking unpairable pkmn + adjusting some of their data`);
 
-    doToAllPkmnDataFiles(doShit);
+    doToAllPlainPkmnDataFiles(doShit);
 
     Logger.statusLog(`finished adjusting unpairables`);
 }

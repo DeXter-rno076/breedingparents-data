@@ -23,7 +23,7 @@ function main () {
 	}
 
 	const objPendant = GeneralUtils.mapToObject(map);
-	fs.writeFileSync('data/out/extras/moveSuggestions.json', JSON.stringify(objPendant));
+	fs.writeFileSync('data/out/extras/move_suggestions.json', JSON.stringify(objPendant));
 }
 
 function addLearnsetsForGame (game: Game) {

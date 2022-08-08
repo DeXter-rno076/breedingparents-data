@@ -38,4 +38,9 @@ export abstract class FileSaver {
         const filePath = FilePathBuilder.buildEggGroupDatasetPath(game);
         FileSaver.saveFileSync(filePath, newContent);
     }
+
+	public static saveSplitFinalDatasetByFileName(gen: number, fileName: string, newContent: string) {
+		const filePath = FilePathBuilder.buildSplitFinalDatasetPathByFileName(gen, fileName);
+		FileSaver.saveFileSync(filePath, newContent);
+	}
 }

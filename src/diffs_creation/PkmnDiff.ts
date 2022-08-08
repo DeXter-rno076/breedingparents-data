@@ -38,6 +38,8 @@ export class PkmnDiff {
             gen: this.getGen(),
             name: this.pkmnName,
             id: firstExistantPkmnDataset.id,
+			correctlyWrittenName: firstExistantPkmnDataset.correctlyWrittenName,
+			subpageLinkName: firstExistantPkmnDataset.subpageLinkName,
             directLearnsets: firstExistantPkmnDataset.directLearnsets,
             breedingLearnsets: firstExistantPkmnDataset.breedingLearnsets,
             eventLearnsets: firstExistantPkmnDataset.eventLearnsets,

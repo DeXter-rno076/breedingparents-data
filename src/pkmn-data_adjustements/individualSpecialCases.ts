@@ -1,6 +1,7 @@
+import { GamesPerGenUtils } from '../external_data_utils/GamesPerGenUtils';
 import Logger from '../Logger';
 import { AdjustedPkmnDataset } from '../types';
-import { doToAllPkmnDataFiles } from './utils';
+import { doToAllPlainPkmnDataFiles } from './utils';
 
 export function handleIndividualSpecialCases() {
     Logger.initLogs('individualSpecialCases');
@@ -14,25 +15,39 @@ function farbeagle() {
     => to reduce text only breeding learnsets are collectet 
     and fused into farbeagle's direct learnsets*/
 
-    doToAllPkmnDataFiles(doshit);
+    doToAllPlainPkmnDataFiles(doshit);
 }
 
 function doshit(jsonData: AdjustedPkmnDataset) {
     const allMoves = new Set<string>();
 
     for (const pkmn of Object.values(jsonData)) {
-        addLearnsetToMovesSet(allMoves, pkmn.breedingLearnsets);
-        //todo all learnsets
-        //only breeding learnsets because only these are needed
+		const gen = GamesPerGenUtils.gameToGenNumber(pkmn.game);
+        addLearnsetToMovesSet(allMoves, pkmn.breedingLearnsets, gen);
+		addLearnsetToMovesSet(allMoves, pkmn.directLearnsets, gen);
+		addLearnsetToMovesSet(allMoves, pkmn.eventLearnsets, gen);
+		addLearnsetToMovesSet(allMoves, pkmn.oldGenLearnsets, gen);
     }
     addAllMovesToFarbeagle(allMoves, jsonData);
     allMoves.clear();
 }
 
-function addLearnsetToMovesSet(movesSet: Set<string>, learnset: string[]) {
-    for (const move of learnset) {
-        movesSet.add(move);
+function addLearnsetToMovesSet(movesSet: Set<string>, learnset: string[], gen: number) {
+    const BLOCKED_MOVES = getMovesBlockedByNachahmerList(gen);
+	for (const move of learnset) {
+		if (!BLOCKED_MOVES.includes(move)) {
+			movesSet.add(move);
+		}
     }
+}
+
+function getMovesBlockedByNachahmerList (gen: number): string[] {
+	switch (gen) {
+		case 2:
+			return ['Explosion', 'Finale', 'Metronom', 'Verzweifler', 'Wandler', 'Nachahmer'];
+		default:
+			return ['Geschwätz', 'Verzweifler'];
+	}
 }
 
 function addAllMovesToFarbeagle(allMoves: Set<string>, jsonData: AdjustedPkmnDataset) {
