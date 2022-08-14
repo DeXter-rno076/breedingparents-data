@@ -35,7 +35,9 @@ export class PkmnFactory {
             eggGroup2: this.getEggGroup2(pkmnInfobox),
         };
 
-        return new Pkmn(pkmnInitializer);
+        const adjustedInitializer = this.correctFirstEggGroupDoesntExistEdgeCase(pkmnInitializer);
+
+        return new Pkmn(adjustedInitializer);
     }
 
     /**
@@ -254,5 +256,14 @@ export class PkmnFactory {
         }
 
         return '';
+    }
+
+    private correctFirstEggGroupDoesntExistEdgeCase (pkmnInitializer: PkmnInitializer): PkmnInitializer {
+        if (pkmnInitializer.eggGroup1 === '') {
+            pkmnInitializer.eggGroup1 = pkmnInitializer.eggGroup2;
+            pkmnInitializer.eggGroup2 = '';
+        }
+
+        return pkmnInitializer;
     }
 }
