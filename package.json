@@ -6,13 +6,14 @@
   "scripts": {
     "test": "mocha",
     "build": "tsc",
-    "create_datasets": "node built/src/setupFilestructure.js; node built/src/main_plain.js; node built/src/main_pkmn_adjustements.js; node built/src/main_diffs.js; node built/src/main_egggroups.js; node built/src/main_split; node built/src/main_split_adjustements.js",
+    "create_datasets": "node built/src/setupFilestructure.js; node built/src/main_plain.js; node built/src/main_pkmn_adjustements.js; node built/src/main_diffs.js; node built/src/main_egggroups.js; node built/src/extras/createMoveSuggestionsJSON.js; node built/src/main_split; node built/src/main_split_adjustements.js;",
 	"plain_datasets": "node built/src/main_plain.js",
 	"adjustements": "node built/src/main_pkmn_adjustements.js",
 	"diffs": "node built/src/main_diffs.js",
 	"egg-groups": "node built/src/main_egggroups.js",
 	"split": "node built/src/main_split.js",
-	"split_adjustements": "node built/src/main_split_adjustements.js"
+	"split_adjustements": "node built/src/main_split_adjustements.js",
+  "create_extras": "node built/src/extras/createMoveSuggestionsJSON.js"
 },
   "author": "DeXter",
   "license": "MIT",
