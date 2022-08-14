@@ -45,6 +45,10 @@ function initMapEntryForPkmn (pkmnName: string) {
 
 function selectPkmnData (pkmnName: string, pkmnDataset: PlainPkmnDataset): TunedPkmnJSON {
 	const pkmnData = pkmnDataset[pkmnName];
+	if (!pkmnData.exists) {
+		return pkmnData;
+	}
+
 	let targetPkmn = '';
 	if (pkmnData.unbreedable) {
 		targetPkmn = pkmnData.lowestEvo;
